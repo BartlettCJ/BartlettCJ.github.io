@@ -57,7 +57,7 @@ CONTACT_TEXT = [
     "Anyone is welcome to freely contact me about my work, though I may not always be able to answer "
     "immediately. Let me know if you need an urgent reply.",
     "I also consult independently as a futurist, and as an AI specialist in particular. If you think I "
-    "can help you or your business, please contact me. There is of course no fee for the initial contact.",
+    "can help you or your business, please contact me. There is no fee for the initial consultation, of course.",
 ]
 
 # Optional settings kept on this computer only (not in the repository).
@@ -412,8 +412,14 @@ def build():
         "sameAs": [u for _n, u in SITE["links"]],
     }
     latest = "\n".join(work_card(w) for w in WORKS)
+    # The introduction, with a small ORCID box beside it on wide screens (owner, 2026-10-09).
+    id_box = (
+        f'<aside class="id-box"><p class="kind">ORCID</p>'
+        f'<p><a href="https://orcid.org/{SITE["orcid"]}">{SITE["orcid"]}</a></p></aside>'
+    )
     body = (
-        '<section class="intro">' + "".join(f"<p>{E(p)}</p>" for p in INTRO) + "</section>\n"
+        '<div class="intro-row">\n<section class="intro">' + "".join(f"<p>{E(p)}</p>" for p in INTRO)
+        + f"</section>\n{id_box}\n</div>\n"
         f'<section><h2>Recent work</h2>\n<div class="cards">\n{latest}\n</div>\n</section>'
     )
     (ROOT / "index.html").write_text(

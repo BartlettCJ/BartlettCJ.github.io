@@ -110,6 +110,20 @@ h3 a:hover { text-decoration: underline; }
 }
 .card p { margin: 0.4rem 0; }
 
+/* Home page: the introduction, with the ORCID box at the right on wide screens (below it on phones). */
+.intro-row { display: grid; gap: 1.25rem 3rem; align-items: start; }
+@media (min-width: 52rem) {
+  .intro-row { grid-template-columns: minmax(0, var(--text-measure)) 1fr; }
+  .id-box { justify-self: end; margin-top: 0.35rem; }
+}
+.id-box {
+  justify-self: start;
+  background: var(--card); border: 1px solid var(--rule); border-radius: 6px;
+  padding: 0.7rem 1.1rem;
+}
+.id-box p { margin: 0.15rem 0; }
+.id-box a { font-weight: 600; white-space: nowrap; }
+
 /* Cards side by side when there is room; a lone card takes the full width. */
 .cards {
   display: grid;
