@@ -50,6 +50,10 @@ INTRO = [
     "health and medical magazine.",
     "Raised in the UK near Oxford, I graduated in Biology and Psychology from Oxford Brookes University "
     "and now live permanently in Japan.",
+]
+
+# Contact page text: the owner's own wording, moved here from the home page (2026-10-09).
+CONTACT_TEXT = [
     "Anyone is welcome to freely contact me about my work, though I may not always be able to answer "
     "immediately. Let me know if you need an urgent reply.",
     "I also consult independently as a futurist, and as an AI specialist in particular. If you think I "
@@ -70,6 +74,9 @@ SECTIONS = [
     ("science", "Science & Medicine", "science.html", "Reviews and evidence synthesis in biology and medicine."),
     ("other", "Other", "other.html", "Other projects and interests."),
 ]
+
+# Tabs along the top of every page: the sections, then Contact.
+NAV = [(label, fname) for _sid, label, fname, _blurb in SECTIONS] + [("Contact", "contact.html")]
 
 # Extra lines under a section's description (HTML).
 SECTION_EXTRA = {
@@ -110,9 +117,9 @@ WORKS = [
             "pdf_src": Path(r"C:\ASIHopeium\data_in_motion\published\Bartlett_2024_Humanity_data_in_motion_published_2026-09-20.pdf"),
             "pdf_name": "humanity-data-in-motion.pdf",
             "date": "2024-05-13",
-            "date_line": "First published on ASI Hopeium, 13 May 2024. Repository edition, 20 September 2026.",
+            "date_line": "First published on ASI Hopeium, 13\u00a0May\u00a02024. Repository edition, 20\u00a0September\u00a02026.",
             "date_line_html": 'First published on <a href="https://substack.com/@asihopeium">ASI Hopeium</a>, '
-                              "13 May 2024. Repository edition, 20 September 2026.",
+                              "13\u00a0May\u00a02024. Repository edition, 20\u00a0September\u00a02026.",
             "licence": ("CC BY-NC-ND 4.0", "https://creativecommons.org/licenses/by-nc-nd/4.0/"),
             "cite": "Bartlett C. Humanity represents unique and priceless data in motion. ASI Hopeium, "
                     "13 May 2024. Repository edition, Zenodo, 20 September 2026.",
@@ -130,7 +137,7 @@ WORKS = [
                 "lang": lang, "key": key, "dir": sub, "pdf_src": src,
                 "pdf_name": "prom1-retinal-degeneration" + ("" if lang == "en" else "-" + sub) + ".pdf",
                 "date": "2026-09-21",
-                "date_line": "Working paper, version 1.90, 21 September 2026.",
+                "date_line": "Working paper, version 1.90, 21\u00a0September\u00a02026.",
                 "licence": ("CC BY-NC 4.0", "https://creativecommons.org/licenses/by-nc/4.0/"),
                 "cite": None,  # built from the edition's own title below
             }
@@ -193,9 +200,7 @@ def rel(depth):
 
 
 def page(title, body, depth, lang="en", head_extra="", description="", canonical=""):
-    nav = "".join(
-        f'<a href="{rel(depth)}{f}">{E(label)}</a>' for _sid, label, f, _b in SECTIONS
-    )
+    nav = "".join(f'<a href="{rel(depth)}{f}">{E(label)}</a>' for label, f in NAV)
     links = " · ".join(f'<a href="{u}" rel="me">{E(n)}</a>' for n, u in SITE["links"])
     canon = f'<link rel="canonical" href="{E(canonical)}">' if canonical else ""
     desc = f'<meta name="description" content="{E(description)}">' if description else ""
@@ -306,21 +311,31 @@ def build_edition_page(work, ed):
     note = f'<p class="note" lang="en">{E(work["note"])}</p>' if work.get("note") else ""
     cite = edition_cite(work, ed, m)
     doi_link = f'<a href="https://doi.org/{m["doi"]}">https://doi.org/{m["doi"]}</a>'
+    # Two columns on wide screens: the text on the left, the buttons, licence and languages on the
+    # right. On a phone the right column comes first, so the PDF button is at the top.
     body = f"""<article class="paper">
+<header class="paper-head">
 <p class="kind" lang="en">{E(work['kind'])}</p>
 <h1>{gene_italic(m['title'])}</h1>
 {f'<p class="subtitle">{gene_italic(m["subtitle"])}</p>' if m['subtitle'] else ''}
 {eng_title}
 <p class="byline" lang="en">Chris Bartlett · <a href="https://orcid.org/{SITE['orcid']}">ORCID {SITE['orcid']}</a></p>
 <p class="dateline" lang="en">{ed.get('date_line_html') or E(ed['date_line'])}</p>
-<p class="actions" lang="en"><a class="button" href="{E(ed['pdf_name'])}">Read the PDF</a> <a class="button secondary" href="https://doi.org/{m['doi']}">Zenodo record</a></p>
+</header>
+<div class="paper-body">
+<div class="paper-main">
 {note}
 <h2 lang="en">Abstract</h2>
 <p class="abstract">{E(m['abstract'])}</p>
 <h2 lang="en">How to cite</h2>
 <p class="cite">{gene_italic(cite)} {doi_link}</p>
-<p class="licence" lang="en">Licence: <a href="{ed['licence'][1]}">{E(ed['licence'][0])}</a></p>
+</div>
+<aside class="paper-side" lang="en">
+<p class="actions"><a class="button" href="{E(ed['pdf_name'])}">Read the PDF</a> <a class="button secondary" href="https://doi.org/{m['doi']}">Zenodo record</a></p>
+<p class="licence">Licence: <a href="{ed['licence'][1]}">{E(ed['licence'][0])}</a></p>
 {others}
+</aside>
+</div>
 </article>"""
     title = f"{m['title']} | {SITE['name']}"
     (out_dir / "index.html").write_text(
@@ -382,7 +397,8 @@ def build():
         cards = [work_card(w) for w in WORKS if w["section"] == sid]
         cards += [book_card(b) for b in BOOKS if b["section"] == sid]
         extra = f'<p class="lede">{SECTION_EXTRA[sid]}</p>\n' if sid in SECTION_EXTRA else ""
-        body = f'<h1>{E(label)}</h1>\n<p class="lede">{E(blurb)}</p>\n{extra}' + "\n".join(cards)
+        body = (f'<h1>{E(label)}</h1>\n<p class="lede">{E(blurb)}</p>\n{extra}'
+                f'<div class="cards">\n' + "\n".join(cards) + "\n</div>")
         (ROOT / fname).write_text(
             page(f"{label} | {SITE['name']}", body, 0, description=blurb,
                  canonical=f"{SITE['url']}/{fname}"),
@@ -395,26 +411,10 @@ def build():
         "alternateName": "C.J. Bartlett", "url": SITE["url"] + "/",
         "sameAs": [u for _n, u in SITE["links"]],
     }
-    sections = "".join(
-        f'<li><a href="{f}">{E(label)}</a><span>{E(blurb)}</span></li>' for _s, label, f, blurb in SECTIONS
-    )
     latest = "\n".join(work_card(w) for w in WORKS)
-    contact = ""
-    if CONTACT:
-        v = ",".join(str(ord(c) + 7) for c in CONTACT)
-        contact = (
-            f'<p id="contact"><button type="button" class="button secondary reveal" data-v="{v}">'
-            "Show my email address</button></p>\n"
-            "<script>document.querySelectorAll('.reveal').forEach(function (b) {"
-            "b.addEventListener('click', function () {"
-            "var s = String.fromCharCode.apply(null, b.dataset.v.split(',').map(function (n) { return n - 7; }));"
-            "var a = document.createElement('a'); a.href = 'mail' + 'to:' + s; a.textContent = s;"
-            "b.replaceWith(a); a.focus(); });});</script>"
-        )
     body = (
-        '<section class="intro">' + "".join(f"<p>{E(p)}</p>" for p in INTRO) + contact + "</section>\n"
-        f'<section><h2>Sections</h2><ul class="sections">{sections}</ul></section>\n'
-        f"<section><h2>Recent work</h2>\n{latest}\n</section>"
+        '<section class="intro">' + "".join(f"<p>{E(p)}</p>" for p in INTRO) + "</section>\n"
+        f'<section><h2>Recent work</h2>\n<div class="cards">\n{latest}\n</div>\n</section>'
     )
     (ROOT / "index.html").write_text(
         page(SITE["name"], body, 0,
@@ -424,6 +424,27 @@ def build():
         encoding="utf-8",
     )
     built.insert(0, SITE["url"] + "/")
+
+    # Contact page: the owner's text, then the email button at the bottom right.
+    button = ""
+    if CONTACT:
+        v = ",".join(str(ord(c) + 7) for c in CONTACT)
+        button = (
+            f'<p class="contact-button"><button type="button" class="button secondary reveal" data-v="{v}">'
+            "Show my email address</button></p>\n"
+            "<script>document.querySelectorAll('.reveal').forEach(function (b) {"
+            "b.addEventListener('click', function () {"
+            "var s = String.fromCharCode.apply(null, b.dataset.v.split(',').map(function (n) { return n - 7; }));"
+            "var a = document.createElement('a'); a.href = 'mail' + 'to:' + s; a.textContent = s;"
+            "b.replaceWith(a); a.focus(); });});</script>"
+        )
+    body = '<h1>Contact</h1>\n<section class="contact-text">' + "".join(f"<p>{E(p)}</p>" for p in CONTACT_TEXT) + "</section>\n" + button
+    (ROOT / "contact.html").write_text(
+        page(f"Contact | {SITE['name']}", body, 0, description=CONTACT_TEXT[0],
+             canonical=f"{SITE['url']}/contact.html"),
+        encoding="utf-8",
+    )
+    built.append(f"{SITE['url']}/contact.html")
 
     (ROOT / "404.html").write_text(
         page(f"Page not found | {SITE['name']}", '<h1>Page not found</h1><p><a href="/">Go to the home page</a>.</p>', 0),

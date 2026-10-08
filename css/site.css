@@ -11,7 +11,10 @@
   --accent: #0072b2;
   --button-text: #ffffff;
   --card: #ffffff;
-  --measure: 44rem;
+  /* The page frame is wide (owner, 2026-10-09: the site looked narrow); running text keeps a readable
+     line length inside it, and the spare width goes to card grids and the paper pages' side column. */
+  --frame: 62rem;
+  --text-measure: 46rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,10 +55,13 @@ a:focus-visible, .button:focus-visible { outline: 3px solid var(--accent); outli
 .skip:focus { left: 1rem; }
 
 header.site, main, footer.site {
-  max-width: var(--measure);
+  max-width: var(--frame);
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
 }
+
+/* Running text never wider than a comfortable reading line. */
+main h1, main p, main li, .subtitle { max-width: var(--text-measure); }
 
 header.site {
   display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
@@ -68,6 +74,10 @@ header.site {
 header.site nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; }
 header.site nav a { text-decoration: none; font-weight: 600; }
 header.site nav a:hover { text-decoration: underline; }
+@media (max-width: 30rem) {
+  /* Keep all four tabs on one line on a phone. */
+  header.site nav { gap: 0.25rem 0.8rem; font-size: 0.92rem; }
+}
 
 main { padding-top: 1.5rem; padding-bottom: 3rem; }
 
@@ -100,10 +110,32 @@ h3 a:hover { text-decoration: underline; }
 }
 .card p { margin: 0.4rem 0; }
 
-ul.sections { list-style: none; padding: 0; margin: 0; }
-ul.sections li { padding: 0.6rem 0; border-bottom: 1px solid var(--rule); }
-ul.sections li a { font-weight: 700; margin-right: 0.75rem; }
-ul.sections li span { color: var(--muted); }
+/* Cards side by side when there is room; a lone card takes the full width. */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0;
+}
+.cards .card { margin: 0; }
+
+/* Paper pages: text on the left, buttons / licence / languages in a column on the right.
+   On narrow screens the right column moves to the top, so the PDF button comes first. */
+.paper-body { display: grid; gap: 0 3rem; }
+@media (min-width: 52rem) {
+  .paper-body { grid-template-columns: minmax(0, 1fr) 15rem; }
+  .paper-side { align-self: start; position: sticky; top: 1.5rem; padding-top: 1rem; }
+  .paper-side .actions { flex-direction: column; align-items: stretch; margin-top: 0; }
+  .paper-side .button { text-align: center; }
+  .paper-side ul.langs { flex-direction: column; gap: 0.25rem; }
+}
+@media (max-width: 51.99rem) {
+  .paper-side { order: -1; }
+}
+.paper-side h2 { font-size: 1rem; margin-top: 1.5rem; }
+
+/* Contact page: the email button sits at the bottom right. */
+main p.contact-button { max-width: none; display: flex; justify-content: flex-end; margin-top: 2.5rem; }
 
 ul.books { padding-left: 1.1rem; margin: 0.5rem 0; }
 ul.books li { margin: 0.3rem 0; }
