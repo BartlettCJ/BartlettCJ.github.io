@@ -412,6 +412,8 @@ def build():
         )
         built.append(f"{SITE['url']}/{fname}")
 
+    # Google Search Console ownership tag (owner, 2026-10-09). Home page only; keep it.
+    google_tag = '<meta name="google-site-verification" content="ygZ8V8BO74A-b_LHlyHhZnahsXH_fZKxxJRDIE5_980">'
     person = {
         "@context": "https://schema.org", "@type": "Person", "name": "Chris Bartlett",
         "alternateName": "C.J. Bartlett", "url": SITE["url"] + "/",
@@ -434,7 +436,7 @@ def build():
     )
     (ROOT / "index.html").write_text(
         page(SITE["name"], body, 0,
-             head_extra=f'<script type="application/ld+json">{json.dumps(person, ensure_ascii=False)}</script>',
+             head_extra=google_tag + f'\n<script type="application/ld+json">{json.dumps(person, ensure_ascii=False)}</script>',
              description=HOME_DESCRIPTION,
              canonical=SITE["url"] + "/"),
         encoding="utf-8",
