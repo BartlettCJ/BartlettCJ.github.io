@@ -146,6 +146,9 @@ WORKS = [
     },
 ]
 
+# Order of the cards under "Recent work" on the home page (owner, 2026-10-09: PROM1 first).
+RECENT_ORDER = ["prom1", "data-in-motion"]
+
 # Books: listed on their section page only (no PDF hosted here; the books are on sale).
 BOOKS = [
     {
@@ -408,7 +411,8 @@ def build():
         "alternateName": "C.J. Bartlett", "url": SITE["url"] + "/",
         "sameAs": [u for _n, u in SITE["links"]],
     }
-    latest = "\n".join(work_card(w) for w in WORKS)
+    by_id = {w["id"]: w for w in WORKS}
+    latest = "\n".join(work_card(by_id[i]) for i in RECENT_ORDER)
     # The introduction, with a small ORCID box beside it on wide screens (owner, 2026-10-09).
     id_box = (
         f'<aside class="id-box"><p class="kind">ORCID</p>'
