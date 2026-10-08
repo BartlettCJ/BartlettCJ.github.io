@@ -20,3 +20,5 @@
    Facts about the papers come from the records, never from memory.
 7. **Local settings.** `_build/local_settings.json` exists only on the owner's computer and is never
    committed. If it is missing, the build still works and leaves out what it supplies.
+8. **Keep `google4b557c5777779b29.html`** in the site root. It proves ownership to Google Search
+   Console; deleting it loses the verification.
