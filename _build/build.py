@@ -8,7 +8,7 @@ What it does
 - Copies each paper's PDF from its local source into the site under a STABLE file name. Stable
   names matter: Google Scholar remembers the PDF address, and a name that changes with every version
   breaks it. Replace the bytes, keep the name.
-- Writes every page: home, the three section pages (AI, Science & Medicine, Other), one page per
+- Writes every page: home, the three section pages (AI, Science, Other), the Contact page, one page per
   paper edition (with the hidden citation_* tags Google Scholar reads), sitemap.xml, robots.txt
   and 404.html.
 
@@ -74,8 +74,9 @@ HOME_DESCRIPTION = ("Chris Bartlett: applied AI specialist, developer, independe
 
 SECTIONS = [
     ("ai", "AI", "ai.html", "Essays and papers on artificial intelligence."),
-    # No description line (owner, 2026-10-09: it implied he will only do reviews; next comes the ZWS paper).
-    ("science", "Science & Medicine", "science.html", ""),
+    # Renamed from "Science & Medicine" and no description line (owner, 2026-10-09: the next paper is
+    # ZWS, which is not medicine). The file name stays science.html so the address never changes.
+    ("science", "Science", "science.html", ""),
     ("other", "Other", "other.html", "Other projects and interests."),
 ]
 
