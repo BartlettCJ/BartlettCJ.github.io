@@ -90,6 +90,7 @@ h3 a:hover { text-decoration: underline; }
 .lede { color: var(--muted); font-size: 1.05rem; margin-top: 0; }
 
 .intro p:first-child { font-size: 1.1rem; }
+.intro p.site-note { color: var(--muted); font-size: 0.95rem; margin-top: 1.25rem; }
 
 .kind {
   margin: 0;

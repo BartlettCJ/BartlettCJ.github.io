@@ -52,6 +52,9 @@ INTRO = [
     "and now live permanently in Japan.",
 ]
 
+# A short note after the introduction, in smaller muted type (owner, 2026-10-09). Remove when stale.
+HOME_NOTE = "This site is newly constructed as of October 2026, with more coming soon."
+
 # Contact page text: the owner's own wording, moved here from the home page (2026-10-09).
 CONTACT_TEXT = [
     "Anyone is welcome to freely contact me about my work, though I may not always be able to answer "
@@ -424,6 +427,7 @@ def build():
     )
     body = (
         '<div class="intro-row">\n<section class="intro">' + "".join(f"<p>{E(p)}</p>" for p in INTRO)
+        + (f'<p class="site-note">{E(HOME_NOTE)}</p>' if HOME_NOTE else "")
         + f"</section>\n{id_box}\n</div>\n"
         f'<section><h2>Recent work</h2>\n<div class="cards">\n{latest}\n</div>\n</section>'
     )
