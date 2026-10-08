@@ -436,7 +436,21 @@ def build():
         encoding="utf-8",
     )
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE['url']}/sitemap.xml\n", encoding="utf-8")
+    check_no_plain_emails()
     print(f"built {len(built)} pages into {ROOT}")
+
+
+def check_no_plain_emails():
+    """Owner's rule (2026-10-09): no email address in plain text on any page. The PDFs may carry one."""
+    import re
+    pattern = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
+    hits = []
+    for path in ROOT.rglob("*"):
+        if path.suffix.lower() in (".html", ".xml", ".txt", ".css", ".js") and "_build" not in path.parts:
+            for m in pattern.finditer(path.read_text(encoding="utf-8", errors="replace")):
+                hits.append(f"{path.relative_to(ROOT)}: {m.group(0)}")
+    if hits:
+        raise SystemExit("Plain-text email address on the site, refusing to finish:\n  " + "\n  ".join(hits))
 
 
 if __name__ == "__main__":
