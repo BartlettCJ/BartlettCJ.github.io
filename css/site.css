@@ -122,6 +122,7 @@ h3 a:hover { text-decoration: underline; }
   padding: 0.7rem 1.1rem;
 }
 .id-box p { margin: 0.15rem 0; }
+.id-box p.kind + p + p.kind { margin-top: 0.7rem; }
 .id-box a { font-weight: 600; white-space: nowrap; }
 
 /* Cards side by side when there is room; a lone card takes the full width. */
@@ -152,7 +153,7 @@ h3 a:hover { text-decoration: underline; }
 main p.contact-button { max-width: none; display: flex; justify-content: flex-end; margin-top: 2.5rem; }
 
 ul.books { padding-left: 1.1rem; margin: 0.5rem 0; }
-ul.books li { margin: 0.3rem 0; }
+ul.books li { margin: 0.3rem 0; max-width: none; }
 
 .actions { margin: 1.25rem 0; display: flex; flex-wrap: wrap; gap: 0.75rem; }
 .button {

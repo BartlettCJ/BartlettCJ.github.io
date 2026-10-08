@@ -86,7 +86,7 @@ SECTION_EXTRA = {
 LANG_NAMES = {
     "en": "English", "ja": "日本語", "zh-Hans": "简体中文", "zh-Hant": "繁體中文", "ko": "한국어",
     "es": "Español", "ru": "Русский", "it": "Italiano", "pt-BR": "Português (Brasil)",
-    "pt-PT": "Português (Portugal)", "fr": "Français", "de": "Deutsch",
+    "pt-PT": "Português (Portugal)", "fr": "Français", "de": "Deutsch", "ca": "Català",
 }
 
 PROM1_SRC = Path(r"C:\PROM1\manuscript\2026-09-18-v0.6\publication\zenodo")
@@ -159,13 +159,14 @@ BOOKS = [
             "edited by C.J. Bartlett, with all 185 of Paris's notes and, in the paperback, the original "
             "French on facing pages."
         ),
+        # Paperbacks only (owner, 2026-10-09). Each checked on Amazon.com that day by its ISBN.
         "editions": [
-            ("en", "Courtly Love: Lancelot of the Lake – The Tale of the Cart", "979-8-1748-3268-8", True, "cl-en"),
-            ("ja", "宮廷風恋愛: 湖のランスロ 荷車の物語", "979-8-1752-8571-1", True, "cl-ja"),
-            ("es", "Amor cortés: Lanzarote del Lago – El cuento de la carreta", "979-8-1768-1106-3", True, "cl-es"),
-            ("de", "Höfische Liebe: Lancelot vom See – Die Erzählung vom Karren", "979-8-1786-1175-3", True, "cl-de"),
-            ("it", "Amore cortese: Lancillotto del Lago – Il racconto della carretta", "979-8-1786-1789-2", True, "cl-it"),
-            ("zh-Hant", "宮廷愛情: 湖上騎士朗斯洛 馬車的故事", None, True, "cl-zh-hant"),
+            ("en", "Courtly Love: Lancelot of the Lake – The Tale of the Cart", "979-8-1748-3268-8"),
+            ("ja", "宮廷風恋愛: 湖のランスロ 荷車の物語", "979-8-1752-8571-1"),
+            ("es", "Amor cortés: Lanzarote del Lago – El cuento de la carreta", "979-8-1768-1106-3"),
+            ("ca", "Amor cortès: Lancelot del Llac – El conte de la carreta", "979-8-1768-0995-4"),
+            ("de", "Höfische Liebe: Lancelot vom See – Die Erzählung vom Karren", "979-8-1786-1175-3"),
+            ("it", "Amore cortese: Lancillotto del Lago – Il racconto della carretta", "979-8-1786-1789-2"),
         ],
     },
 ]
@@ -368,15 +369,11 @@ def work_card(work, depth=0):
 
 def book_card(book):
     rows = []
-    for lang, title, isbn, kindle, key in book["editions"]:
-        formats = []
-        if isbn:
-            formats.append(f'paperback, ISBN <a class="nowrap" href="https://www.amazon.com/s?k={isbn.replace("-", "")}">{isbn}</a>')
-        if kindle:
-            formats.append("Kindle e-book")
+    for lang, title, isbn in book["editions"]:
         rows.append(
             f'<li><span lang="{lang}">{E(title)}</span> <span class="meta">({E(LANG_NAMES[lang])}: '
-            f'{", ".join(formats)})</span></li>'
+            f'paperback, ISBN <a class="nowrap" href="https://www.amazon.com/s?k={isbn.replace("-", "")}">'
+            f"{isbn}</a>)</span></li>"
         )
     return f"""<article class="card">
 <p class="kind">Book</p>
@@ -415,7 +412,9 @@ def build():
     # The introduction, with a small ORCID box beside it on wide screens (owner, 2026-10-09).
     id_box = (
         f'<aside class="id-box"><p class="kind">ORCID</p>'
-        f'<p><a href="https://orcid.org/{SITE["orcid"]}">{SITE["orcid"]}</a></p></aside>'
+        f'<p><a href="https://orcid.org/{SITE["orcid"]}">{SITE["orcid"]}</a></p>'
+        f'<p class="kind">Substack</p>'
+        f'<p><a href="{SITE["substack"]}">ASI Hopeium</a></p></aside>'
     )
     body = (
         '<div class="intro-row">\n<section class="intro">' + "".join(f"<p>{E(p)}</p>" for p in INTRO)
