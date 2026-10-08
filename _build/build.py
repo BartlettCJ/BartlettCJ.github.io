@@ -71,7 +71,8 @@ HOME_DESCRIPTION = ("Chris Bartlett: applied AI specialist, developer, independe
 
 SECTIONS = [
     ("ai", "AI", "ai.html", "Essays and papers on artificial intelligence."),
-    ("science", "Science & Medicine", "science.html", "Reviews and evidence synthesis in biology and medicine."),
+    # No description line (owner, 2026-10-09: it implied he will only do reviews; next comes the ZWS paper).
+    ("science", "Science & Medicine", "science.html", ""),
     ("other", "Other", "other.html", "Other projects and interests."),
 ]
 
@@ -397,7 +398,8 @@ def build():
         cards = [work_card(w) for w in WORKS if w["section"] == sid]
         cards += [book_card(b) for b in BOOKS if b["section"] == sid]
         extra = f'<p class="lede">{SECTION_EXTRA[sid]}</p>\n' if sid in SECTION_EXTRA else ""
-        body = (f'<h1>{E(label)}</h1>\n<p class="lede">{E(blurb)}</p>\n{extra}'
+        lede = f'<p class="lede">{E(blurb)}</p>\n' if blurb else ""
+        body = (f'<h1>{E(label)}</h1>\n{lede}{extra}'
                 f'<div class="cards">\n' + "\n".join(cards) + "\n</div>")
         (ROOT / fname).write_text(
             page(f"{label} | {SITE['name']}", body, 0, description=blurb,
