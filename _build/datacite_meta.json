@@ -1,0 +1,1643 @@
+{
+ "prom1-en": {
+  "doi": "10.5281/zenodo.21966374",
+  "titles": [
+   {
+    "title": "PROM1‐associated retinal degeneration"
+   },
+   {
+    "lang": "eng",
+    "title": "An allele‐aware evidence map of mechanisms, interventions and research priorities",
+    "titleType": "Subtitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "PROM1-associated retinal degeneration encompasses dominant macular disease and recessive, often more widespread photoreceptor degeneration. Their distinct inheritance patterns and clinical presentations raise different mechanistic and therapeutic questions. This review and evidence map integrates clinical genetics, natural history, membrane biology, photoreceptor and retinal pigment epithelium (RPE) models, preclinical interventions and dated human-study records. The strongest translational advance is rescue in PROM1-deficient experimental systems, demonstrated in patient-derived organoids and in knockout mice. Post-onset benefit is reported in a full-text mouse study and in a separate conference abstract. The principal unresolved transfer is to dominant mutant disease, where augmentation, mutant suppression and combined treatment require direct comparison. The mechanistic literature extends beyond outer-segment morphogenesis: direct RPE experiments implicate autophagic flux and outer-segment clearance, while light-sensitive knockout models implicate endothelin, insulin-like growth factor 1 (IGF1) and metabolic stress. These pathways require compartment-specific interpretation. Human quantitative autofluorescence findings constrain a universal bisretinoid-excess explanation, and protective local endothelin effects in other retinal genotypes argue against treating the pathway as uniformly harmful. Clinical endpoints are correspondingly stratified: dominant atrophy expansion, recessive ellipsoid-zone contraction and layer-specific thinning on optical coherence tomography (OCT) measure different processes and have different floor effects. Human studies with explicit or broader genetic eligibility may admit PROM1 disease, but for most of them the records show who could enter rather than who did, or what followed. Seven experimental programmes connect these distinctions to testable comparisons, each set out as the decisive contrast, the safeguard it needs, and the decision it would settle. The resulting framework distinguishes candidate therapies by allele, compartment and disease stage.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "eng",
+    "description": "A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, a description of the figure for readers who cannot see it, and a narrated audiobook. The HTML edition holds the same text, tables and references as the PDF; the spoken text and the audiobook carry the narrative to the end of the conclusion, without the tables or the reference list. Corrections, negative results and unpublished work on PROM1 in the retina are welcome and will be credited in a later version.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "en",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominin‐1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "inherited retinal degeneration",
+   "macular dystrophy",
+   "autophagic flux",
+   "gene augmentation",
+   "retinal pigment epithelium"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-ja": {
+  "doi": "10.5281/zenodo.22878663",
+  "titles": [
+   {
+    "title": "PROM1関連網膜変性"
+   },
+   {
+    "lang": "jpn",
+    "title": "アレルの違いを踏まえた病態機序・介入・研究優先課題のエビデンスマップ",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "PROM1関連網膜変性には、顕性(優性)遺伝の黄斑疾患と、潜性(劣性)遺伝でしばしばより広範に及ぶ視細胞変性が含まれる。遺伝形式と臨床像の違いから、病態機序と治療についてそれぞれ異なる問いが生じる。本レビューおよびエビデンスマップは、臨床遺伝学、自然歴、膜生物学、視細胞および網膜色素上皮(RPE)のモデル、前臨床介入、ならびに日付を明示したヒト研究の記録を統合する。臨床応用に向けた最も確かな進展は、患者由来オルガノイドとノックアウトマウスで示された、PROM1欠損実験系におけるレスキューである。発症後の効果は、全文を確認したマウス研究と、それとは別の学会抄録で報告されている。なお未解決の主要課題は、顕性変異による疾患への適用であり、遺伝子補充、変異型の抑制、両者の併用を直接比較する必要がある。病態機序に関する文献は外節の形態形成だけにとどまらない。RPEを直接調べた実験はオートファジーフラックスと外節のクリアランスの関与を示し、光感受性の高いノックアウトモデルはエンドセリン、インスリン様成長因子1(IGF1)、代謝ストレスの関与を示している。これらの経路は細胞区画ごとに解釈する必要がある。ヒトの定量的自発蛍光所見は、ビスレチノイド過剰をすべての症例に共通する説明とすることに制約を与える。また、他の網膜疾患遺伝子型では局所のエンドセリンに保護作用が認められるため、この経路を一律に有害と扱うことには反する。臨床評価項目もこれに応じて層別化される。顕性疾患の萎縮拡大、潜性疾患のエリプソイドゾーン縮小、光干渉断層撮影(OCT)による網膜各層の菲薄化は、それぞれ異なる過程を測定し、床効果も異なる。遺伝学的な適格基準にPROM1を明記している、あるいはより広い遺伝学的基準を設けているヒト研究では、PROM1疾患の患者が参加できる場合がある。しかし、その大半について記録が示すのは、誰が参加し得るかであって、誰が実際に参加し、その後どうなったかではない。7つの実験研究計画では、こうした区別を検証可能な比較へと結び付け、それぞれについて結論を左右する比較、解釈を誤らないために必要な措置、その比較によって判断できる事項を示す。この枠組みにより、治療候補をアレル、細胞区画、病期に応じて区別できる。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "jpn",
+    "description": "日本語訳。英語原著 Version 1.90(DOI: 10.5281/zenodo.21966374)の翻訳であり、訳文と原文に相違がある場合は英語原著による。査読を経ていないワーキングペーパー。公開資料には、PDFのほか、アクセシブルなHTML版、読み上げ用に整えたテキスト版、図を見ることができない読者のための図の説明、および朗読音声(オーディオブック)が含まれる。HTML版には、PDFと同じ本文、表、引用文献が収録されている。読み上げ用テキスト版と音声版(オーディオブック)は、表と引用文献一覧を含まず、結論の終わりまでの叙述部分を収録している。網膜におけるPROM1に関する研究をお持ちの方は、公表・未公表を問わず、また本稿の記述に誤りがあるとお考えの方も、著者までご連絡いただければ幸いである。\n\nJapanese translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, a description of the figure for readers who cannot see it, and a narrated audiobook. The HTML edition holds the same text, tables and references as the PDF; the spoken text and the audiobook carry the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "ja",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominin-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "遺伝性網膜変性",
+   "黄斑ジストロフィー",
+   "オートファジーフラックス",
+   "遺伝子補充",
+   "網膜色素上皮"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-zh-hans": {
+  "doi": "10.5281/zenodo.22878671",
+  "titles": [
+   {
+    "title": "PROM1 相关视网膜变性"
+   },
+   {
+    "lang": "zho",
+    "title": "基于等位基因差异的机制、干预与研究重点证据图谱",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "PROM1 相关视网膜变性包括显性遗传性黄斑病变,以及隐性遗传、通常累及范围更广的光感受器变性。两者不同的遗传模式和临床表现,提出了不同的机制问题与治疗问题。本综述与证据图谱整合了临床遗传学、自然史、膜生物学、光感受器和视网膜色素上皮(RPE)模型、临床前干预,以及注明日期的人体研究记录。最有力的转化进展是在 PROM1 缺陷实验系统中实现了挽救,已在患者来源的类器官和基因敲除小鼠中得到展示。一项已获取全文的小鼠研究及另一项独立的会议摘要均报告了发病后治疗的获益。尚未解决的主要外推问题是显性突变性疾病,其中基因增补、突变体抑制及联合治疗需要直接比较。机制研究并不限于外节形态发生:直接针对 RPE 的实验提示自噬通量及外节清除参与其中,而光敏感敲除模型则涉及内皮素、胰岛素样生长因子1(IGF1)和代谢应激。这些通路需要按细胞区室分别解释。人体定量自发荧光结果限制了将双类视黄醇(bisretinoids)普遍过量作为统一解释的可能;其他视网膜疾病基因型中内皮素的局部保护作用,也不支持将该通路一概视为有害。临床终点也相应分层:显性疾病的萎缩区扩大、隐性疾病的椭圆体带缩短,以及光学相干断层扫描(OCT)所测得的特定层变薄,反映的是不同过程,且具有不同的地板效应。明确列出或采用较宽泛遗传学入组条件的人体研究可能接纳 PROM1 疾病患者,但对其中大多数研究而言,记录说明的是谁可以入组,而非谁实际入组或入组后的结果。本文提出七项实验研究计划,将上述区分转化为可检验的比较,并分别说明具有决定性的对比、解释结果所需的解释保障,以及能够据此解决的决策问题。由此形成的框架按等位基因、细胞区室和疾病阶段区分候选治疗。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "简体中文译本。译文与英文原著 Version 1.90(DOI: 10.5281/zenodo.21966374)如有出入,以英文原著为准。未经同行评审的工作论文。存档除 PDF 外,还包含无障碍 HTML 版本、专为朗读改写的文本版本、面向无法查看图像读者的图示说明,以及朗读音频(有声书)。HTML 版本包含与 PDF 相同的正文、表格和参考文献。朗读文本和有声书的叙述内容延续至结论末尾,不包含表格和参考文献列表。若您开展过与视网膜中 PROM1 有关的研究,无论是否发表,或认为本文存在错误,作者都诚盼您的来信。\n\nSimplified Chinese translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, a description of the figure for readers who cannot see it, and a narrated audiobook. The HTML edition holds the same text, tables and references as the PDF; the spoken text and the audiobook carry the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "zh",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominin-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "遗传性视网膜变性",
+   "黄斑营养不良",
+   "自噬通量",
+   "基因增补",
+   "视网膜色素上皮"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-zh-hant": {
+  "doi": "10.5281/zenodo.22879575",
+  "titles": [
+   {
+    "title": "PROM1 相關視網膜變性"
+   },
+   {
+    "lang": "zho",
+    "title": "基於等位基因差異的機制、干預與研究重點證據圖譜",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "PROM1 相關視網膜變性包括顯性遺傳性黃斑病變,以及隱性遺傳、通常累及範圍更廣的光感受器變性。兩者不同的遺傳模式和臨床表現,提出了不同的機制問題與治療問題。本篇文獻回顧與證據圖譜整合了臨床遺傳學、自然史、膜生物學、光感受器和視網膜色素上皮(RPE)模型、臨床前干預,以及註明日期的人體研究記錄。最有力的轉化進展是在 PROM1 缺陷實驗系統中實現了挽救,已在患者來源的類器官和基因敲除小鼠中得到展示。一項已獲取全文的小鼠研究及另一項獨立的會議摘要均報告了發病後治療的獲益。尚未解決的主要外推問題是顯性突變性疾病,其中基因增補、突變體抑制及聯合治療需要直接比較。機制研究並不限於外節形態發生:直接針對 RPE 的實驗提示自噬通量及外節清除參與其中,而光敏感敲除模型則涉及內皮素、類胰島素生長因子1(IGF1)和代謝壓力。這些通路需要按細胞區室分別解釋。人體定量自體螢光結果限制了將雙類視黃醇(bisretinoids)普遍過量作為統一解釋的可能;其他視網膜疾病基因型中內皮素的局部保護作用,也不支持將該通路一概視為有害。臨床終點也相應分層:顯性疾病的萎縮區擴大、隱性疾病的橢圓體帶縮短,以及光學同調斷層掃描(OCT)所測得的特定層變薄,反映的是不同過程,且具有不同的地板效應。明確列出或採用較寬泛遺傳學入組條件的人體研究可能接納 PROM1 疾病患者,但對其中大多數研究而言,記錄說明的是誰可以入組,而非誰實際入組或入組後的結果。本文提出七項實驗研究計劃,將上述區分轉化為可檢驗的比較,並分別說明具有決定性的對比、解釋結果所需的解釋保障,以及能夠據此解決的決策問題。由此形成的框架按等位基因、細胞區室和疾病階段區分候選治療。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "繁體中文譯本。譯文與英文原著 Version 1.90(DOI: 10.5281/zenodo.21966374)如有出入,以英文原著為準。未經同行評審的工作論文。存檔除 PDF 外,還包含無障礙 HTML 版本、專為朗讀改寫的文本版本、面向無法查看圖像讀者的圖示說明,以及全文朗讀的有聲書。HTML 版本包含與 PDF 相同的正文、表格和參考文獻。朗讀文本和有聲書將敘述內容完整涵蓋至結論結束,不包含表格或參考文獻列表。若您開展過與視網膜中 PROM1 有關的研究,無論是否發表,或認為本文存在錯誤,作者都誠盼您的來信。\n\nTraditional Chinese translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, a description of the figure for readers who cannot see it, and a narrated audiobook. The HTML edition holds the same text, tables and references as the PDF; the spoken text and the audiobook carry the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "zh",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominin-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "遺傳性視網膜變性",
+   "黃斑營養不良",
+   "自噬通量",
+   "基因增補",
+   "視網膜色素上皮"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-ko": {
+  "doi": "10.5281/zenodo.22880631",
+  "titles": [
+   {
+    "title": "PROM1 관련 망막변성"
+   },
+   {
+    "lang": "kor",
+    "title": "대립유전자별 특성을 고려한 기전, 중재 및 연구 우선순위의 근거 지도",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "PROM1 관련 망막변성은 우성 황반질환과 열성 시세포 변성을 포함하며, 후자는 흔히 더 광범위하게 나타난다. 이들의 서로 다른 유전양식과 임상상은 기전과 치료에 관해 서로 다른 질문을 제기한다. 이 문헌고찰과 근거 지도는 임상유전학, 자연경과, 막 생물학, 시세포와 망막색소상피(retinal pigment epithelium, RPE) 모델, 전임상 중재 및 기준일이 명시된 인간 대상 연구 기록을 통합한다. 임상 중개 측면에서 가장 중요한 진전은 PROM1 결핍 실험계에서의 구제(rescue) 효과로, 환자 유래 오가노이드와 녹아웃 마우스에서 입증되었다. 발병 후에도 얻을 수 있는 이득은 전문을 검토한 마우스 연구 한 편과 별도의 학회 초록에서 보고되었다. 아직 해결되지 않은 핵심 적용 문제는 우성 변이 질환으로의 확장이며, 이를 위해서는 유전자 보충, 변이형 억제 및 병합치료를 직접 비교해야 한다. 기전 문헌은 외절의 형태형성을 넘어선다. RPE를 직접 다룬 실험은 자가포식 플럭스(autophagic flux)와 외절 제거 과정의 관여를 시사하며, 빛에 민감한 녹아웃 모델은 엔도텔린, 인슐린유사성장인자 1(IGF1) 및 대사 스트레스의 관여를 시사한다. 이러한 경로는 세포 구획별로 해석해야 한다. 인간의 정량 자가형광 소견은 비스레티노이드 과잉을 보편적 원인으로 보는 설명에 제약을 가하며, 다른 망막질환 유전자형에서 나타난 국소 엔도텔린의 보호 효과는 이 경로를 일률적으로 유해하다고 보는 견해에 반하는 근거가 된다. 이에 따라 임상 평가변수도 구분된다. 우성 질환의 위축 확대, 열성 질환의 타원체대 축소, 빛간섭단층촬영(optical coherence tomography, OCT)에서의 층별 두께 감소는 서로 다른 과정을 측정하며 바닥효과도 다르다. 명시적 또는 더 폭넓은 유전적 선정기준을 둔 인간 대상 연구에 PROM1 질환이 포함될 수는 있지만, 대부분의 기록은 실제로 누가 참여했고 어떤 결과를 얻었는지보다 누가 참여할 수 있는지를 보여 준다. 일곱 가지 실험 연구계획은 이러한 구분을 검증 가능한 비교로 연결하며, 각각 결정적인 대조, 해석의 타당성을 지키기 위한 조건, 그리고 그 결과로 내릴 수 있는 결정을 제시한다. 이 틀은 후보 치료법을 대립유전자, 세포 구획 및 질병 단계에 따라 구별한다.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "kor",
+    "description": "한국어 번역본. 번역문과 영어 원문(버전 1.90, DOI: 10.5281/zenodo.21966374) 사이에 차이가 있는 경우에는 영어 원문을 따른다. 동료심사를 거치지 않은 연구 원고이다. 망막의 PROM1에 관한 연구가 있다면 발표 여부와 관계없이, 또는 이 글에 잘못된 내용이 있다고 생각한다면 저자에게 알려 주시기 바란다.\n\nKorean translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, and a description of the figure for readers who cannot see it. The HTML edition holds the same text, tables and references as the PDF; the spoken text carries the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "ko",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominin-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "유전성 망막변성",
+   "황반이영양증",
+   "자가포식 플럭스",
+   "유전자 보충",
+   "망막색소상피"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-es": {
+  "doi": "10.5281/zenodo.22879577",
+  "titles": [
+   {
+    "title": "Degeneración retiniana asociada a PROM1"
+   },
+   {
+    "lang": "spa",
+    "title": "Un mapa de la evidencia sobre mecanismos, intervenciones y prioridades de investigación que tiene en cuenta las diferencias entre alelos",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "La degeneración retiniana asociada a PROM1 comprende una enfermedad macular dominante y una degeneración de los fotorreceptores recesiva, a menudo más extensa. Sus distintos patrones de herencia y presentaciones clínicas plantean cuestiones mecanísticas y terapéuticas diferentes. Esta revisión y mapa de la evidencia integra genética clínica, historia natural, biología de membranas, modelos de fotorreceptores y del epitelio pigmentario de la retina (EPR), intervenciones preclínicas y registros fechados de estudios en seres humanos. El avance traslacional más sólido es el rescate en sistemas experimentales deficientes en PROM1, demostrado en organoides derivados de pacientes y en ratones con inactivación génica (knockout). Se ha descrito un beneficio después del inicio de la enfermedad en un estudio en ratones consultado a texto completo y en un resumen de congreso independiente. La principal extrapolación pendiente es a la enfermedad causada por mutantes dominantes, en la que es necesario comparar directamente la adición génica, la supresión del mutante y el tratamiento combinado. La literatura mecanística va más allá de la morfogénesis del segmento externo: los experimentos directos en el EPR implican al flujo autofágico y a la eliminación de segmentos externos, mientras que los modelos knockout sensibles a la luz implican a la endotelina, al factor de crecimiento similar a la insulina de tipo 1 (IGF1) y al estrés metabólico. Estas vías requieren una interpretación específica de cada compartimento. Los hallazgos de autofluorescencia cuantitativa en seres humanos limitan una explicación universal basada en el exceso de bisretinoides, y los efectos protectores locales de la endotelina en otros genotipos de enfermedad retiniana desaconsejan considerar esta vía uniformemente perjudicial. Las variables de valoración clínicas se estratifican en consecuencia: la expansión de la atrofia en la enfermedad dominante, la contracción de la zona elipsoide en la recesiva y el adelgazamiento específico de cada capa en la tomografía de coherencia óptica (OCT) miden procesos distintos y presentan diferentes efectos suelo. Los estudios en seres humanos con criterios genéticos de selección explícitos o más amplios pueden admitir la enfermedad por PROM1, pero, en la mayoría de ellos, los registros indican quién podría participar, no quién participó ni qué ocurrió después. Siete programas experimentales conectan estas distinciones con comparaciones que pueden ponerse a prueba; cada uno se presenta mediante el contraste decisivo, la precaución metodológica que requiere y la decisión que permitiría resolver. El marco resultante distingue las terapias candidatas por alelo, compartimento y fase de la enfermedad.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "spa",
+    "description": "Traducción al español. En caso de discrepancia entre esta traducción y el original en inglés, Versión 1.90 (DOI: 10.5281/zenodo.21966374), prevalece el original. Documento de trabajo, no revisado por pares. Si tiene trabajos sobre PROM1 en la retina, publicados o no, o considera que algo de lo expuesto aquí es incorrecto, el autor agradecería que se pusiera en contacto con él.\n\nSpanish translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, and a description of the figure for readers who cannot see it. The HTML edition holds the same text, tables and references as the PDF; the spoken text carries the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "es",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominina-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "degeneración retiniana hereditaria",
+   "distrofia macular",
+   "flujo autofágico",
+   "adición génica",
+   "epitelio pigmentario de la retina"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-ru": {
+  "doi": "10.5281/zenodo.22880218",
+  "titles": [
+   {
+    "title": "PROM1-ассоциированная дегенерация сетчатки"
+   },
+   {
+    "lang": "rus",
+    "title": "Карта доказательств по механизмам, вмешательствам и исследовательским приоритетам с учётом аллельных различий",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "PROM1-ассоциированная дегенерация сетчатки включает доминантное поражение макулы и рецессивную, нередко более распространённую дегенерацию фоторецепторов. Разные типы наследования и клинические проявления этих состояний ставят разные вопросы о механизмах и лечении. Настоящий обзор и карта доказательств объединяют клиническую генетику, естественное течение заболевания, биологию мембран, модели фоторецепторов и пигментного эпителия сетчатки (ПЭС; RPE), доклинические вмешательства и датированные записи об исследованиях с участием людей. Наиболее значимое достижение на пути к клиническому применению — экспериментальная коррекция нарушений в системах с дефицитом PROM1, показанная в органоидах, полученных из клеток пациентов, и у нокаутных мышей. О положительном эффекте лечения после начала заболевания сообщается в полнотекстовой работе на мышах и в отдельных тезисах конференции. Главный нерешённый вопрос переноса результатов касается заболевания, обусловленного доминантным мутантным аллелем: здесь необходимо напрямую сравнить генную аугментацию (добавление функциональной копии гена), подавление мутантного продукта и комбинированное лечение. Литература о механизмах выходит за пределы морфогенеза наружных сегментов: прямые эксперименты на ПЭС указывают на роль аутофагического потока и клиренса наружных сегментов, а светочувствительные нокаутные модели — на участие эндотелина, инсулиноподобного фактора роста 1 (IGF1) и метаболического стресса. Эти пути требуют интерпретации с учётом конкретного клеточного компартмента. Данные количественной аутофлуоресценции у людей ограничивают применимость универсального объяснения через избыток бисретиноидов, а защитные эффекты локального эндотелина при других генетических формах поражения сетчатки не позволяют считать этот путь неизменно вредным. Соответственно стратифицированы и клинические конечные точки: расширение атрофии при доминантной форме, сокращение протяжённости эллипсоидной зоны при рецессивной форме и послойное истончение по данным оптической когерентной томографии (ОКТ) отражают разные процессы и имеют разные эффекты нижнего предела измерения. Исследования с участием людей, в которых генетические критерии включения сформулированы прямо или более широко, могут допускать пациентов с PROM1-ассоциированным заболеванием, однако в большинстве случаев записи показывают, кто мог участвовать, а не кто действительно участвовал и каковы были результаты. Семь экспериментальных программ связывают эти различия с проверяемыми сравнениями; для каждой обозначены решающее сравнение, необходимая защита от ошибочной интерпретации и вопрос, который она позволила бы решить. Полученная схема разграничивает потенциальные методы лечения по аллелю, клеточному компартменту и стадии заболевания.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "rus",
+    "description": "Русский перевод. В случае расхождений между переводом и английским оригиналом, версия 1.90 (DOI: 10.5281/zenodo.21966374), преимущество имеет оригинал. Рабочая научная статья, не прошедшая рецензирование. Если у вас есть опубликованные или неопубликованные работы о PROM1 в сетчатке либо вы считаете, что в этой статье что-то изложено неверно, автор будет благодарен за сообщение.\n\nRussian translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, and a description of the figure for readers who cannot see it. The HTML edition holds the same text, tables and references as the PDF; the spoken text carries the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "ru",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "проминин-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "наследственная дегенерация сетчатки",
+   "макулярная дистрофия",
+   "аутофагический поток",
+   "генная аугментация",
+   "пигментный эпителий сетчатки"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-it": {
+  "doi": "10.5281/zenodo.22880626",
+  "titles": [
+   {
+    "title": "Degenerazione retinica associata a PROM1"
+   },
+   {
+    "lang": "ita",
+    "title": "Una mappa delle evidenze attenta agli alleli: meccanismi, interventi e priorità di ricerca",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "La degenerazione retinica associata a PROM1 comprende forme dominanti di malattia maculare e forme recessive di degenerazione dei fotorecettori, spesso più estese. Modi di trasmissione e presentazioni cliniche distinti pongono domande meccanicistiche e terapeutiche differenti. Questa revisione e mappa delle evidenze integra genetica clinica, storia naturale, biologia delle membrane, modelli di fotorecettori e di epitelio pigmentato retinico (RPE), interventi preclinici e registrazioni datate di studi nell’uomo. Il progresso traslazionale più solido è il recupero ottenuto in sistemi sperimentali deficienti di PROM1, dimostrato in organoidi derivati da pazienti e in topi knockout. Un beneficio dopo l’esordio è riportato in uno studio murino consultato in testo integrale e in un distinto abstract congressuale. La principale trasferibilità ancora irrisolta riguarda la malattia da mutazione dominante, nella quale aggiunta genica, soppressione del mutante e trattamento combinato richiedono un confronto diretto. La letteratura meccanicistica va oltre la morfogenesi dei segmenti esterni: esperimenti diretti sull’RPE implicano il flusso autofagico e lo smaltimento dei segmenti esterni, mentre modelli knockout sensibili alla luce implicano endotelina, fattore di crescita insulino-simile 1 (IGF1) e stress metabolico. Queste vie richiedono un’interpretazione specifica per compartimento. I risultati dell’autofluorescenza quantitativa umana limitano una spiegazione universale basata sull’eccesso di bisretinoidi, e gli effetti protettivi locali dell’endotelina in altri genotipi retinici sconsigliano di considerare questa via uniformemente dannosa. Gli endpoint clinici sono conseguentemente stratificati: l’espansione dell’atrofia nelle forme dominanti, la contrazione della zona ellissoide nelle forme recessive e l’assottigliamento specifico per strato alla tomografia a coerenza ottica (OCT) misurano processi diversi e presentano differenti effetti pavimento. Gli studi nell’uomo con criteri di eleggibilità genetica espliciti o più ampi possono ammettere la malattia da PROM1; per la maggior parte di essi, tuttavia, le registrazioni mostrano chi avrebbe potuto partecipare, non chi abbia effettivamente partecipato né con quali esiti. Sette programmi sperimentali collegano queste distinzioni a confronti verificabili, ciascuno presentato attraverso il contrasto decisivo, l’accorgimento necessario e la decisione che permetterebbe di risolvere. Il quadro risultante distingue le terapie candidate in base ad allele, compartimento e stadio della malattia.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "ita",
+    "description": "Traduzione italiana. In caso di discrepanza fra questa traduzione e l'originale inglese, versione 1.90 (DOI: 10.5281/zenodo.21966374), prevale l'originale. Documento di lavoro, non sottoposto a revisione tra pari. L'autore sarebbe grato di ricevere segnalazioni di lavori su PROM1 nella retina, pubblicati o meno, o di eventuali errori riscontrati in questo testo.\n\nItalian translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, and a description of the figure for readers who cannot see it. The HTML edition holds the same text, tables and references as the PDF; the spoken text carries the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "it",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominina-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "degenerazione retinica ereditaria",
+   "distrofia maculare",
+   "flusso autofagico",
+   "aggiunta genica",
+   "epitelio pigmentato retinico"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-pt-br": {
+  "doi": "10.5281/zenodo.22880633",
+  "titles": [
+   {
+    "title": "Degeneração retiniana associada a PROM1 (edição em português do Brasil)"
+   },
+   {
+    "lang": "por",
+    "title": "Um mapa de evidências sobre mecanismos, intervenções e prioridades de pesquisa que considera as diferenças entre alelos",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "A degeneração retiniana associada a PROM1 abrange doença macular dominante e degeneração recessiva dos fotorreceptores, frequentemente mais extensa. Seus padrões distintos de herança e de apresentação clínica levantam questões mecanísticas e terapêuticas diferentes. Esta revisão e mapa de evidências integra genética clínica, história natural, biologia de membranas, modelos de fotorreceptores e do epitélio pigmentar da retina (EPR), intervenções pré-clínicas e registros datados de estudos em seres humanos. O avanço translacional mais sólido é o resgate em sistemas experimentais deficientes em PROM1, demonstrado em organoides derivados de pacientes e em camundongos knockout. Há relatos de benefício após o início da doença em um estudo em camundongos consultado em texto completo e em um resumo de congresso distinto. A principal extrapolação ainda não resolvida é para a doença causada por mutantes dominantes, na qual a adição gênica, a supressão do mutante e o tratamento combinado exigem comparação direta. A literatura mecanística vai além da morfogênese do segmento externo: experimentos diretos no EPR implicam o fluxo autofágico e a remoção de segmentos externos, enquanto modelos knockout sensíveis à luz implicam a endotelina, o fator de crescimento semelhante à insulina 1 (IGF1) e o estresse metabólico. Essas vias exigem interpretação específica de cada compartimento. Os achados de autofluorescência quantitativa em seres humanos limitam uma explicação universal baseada no excesso de bisretinoides, e os efeitos protetores locais da endotelina em outros genótipos de doença retiniana contrariam a ideia de tratar essa via como uniformemente nociva. Os desfechos clínicos são estratificados de forma correspondente: a expansão da atrofia na doença dominante, a contração da zona elipsoide na doença recessiva e o afinamento específico de cada camada na tomografia de coerência óptica (OCT) medem processos diferentes e apresentam efeitos de piso distintos. Estudos em seres humanos com critérios de elegibilidade genética explícitos ou mais amplos podem admitir a doença por PROM1, mas, na maioria deles, os registros mostram quem poderia participar, e não quem participou nem o que ocorreu depois. Sete programas experimentais conectam essas distinções a comparações testáveis, cada um apresentado em termos do contraste decisivo, da precaução metodológica necessária e da decisão que permitiria resolver. O quadro resultante distingue as terapias candidatas por alelo, compartimento e estágio da doença.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Tradução em português do Brasil. Em caso de divergência entre esta tradução e o original em inglês, versão 1.90 (DOI: 10.5281/zenodo.21966374), prevalece o original. Documento de trabalho, não revisado por pares. O autor ficaria grato em receber trabalhos sobre PROM1 na retina, publicados ou não, ou comentários de quem considere que algo aqui está incorreto.\n\nBrazilian Portuguese translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, and a description of the figure for readers who cannot see it. The HTML edition holds the same text, tables and references as the PDF; the spoken text carries the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "pt",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominina-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "degeneração retiniana hereditária",
+   "distrofia macular",
+   "fluxo autofágico",
+   "adição gênica",
+   "epitélio pigmentar da retina"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-pt-pt": {
+  "doi": "10.5281/zenodo.22880636",
+  "titles": [
+   {
+    "title": "Degeneração retiniana associada a PROM1 (edição em português de Portugal)"
+   },
+   {
+    "lang": "por",
+    "title": "Um mapa de evidências sobre mecanismos, intervenções e prioridades de investigação que considera as diferenças entre alelos",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "A degeneração retiniana associada a PROM1 abrange doença macular dominante e degeneração recessiva dos fotorrecetores, frequentemente mais extensa. Os seus padrões de herança e apresentações clínicas distintos levantam questões mecanísticas e terapêuticas diferentes. Esta revisão e mapa de evidências integra genética clínica, história natural, biologia de membranas, modelos de fotorrecetores e do epitélio pigmentar da retina (EPR), intervenções pré-clínicas e registos datados de estudos em seres humanos. O avanço translacional mais sólido é o resgate em sistemas experimentais deficientes em PROM1, demonstrado em organoides derivados de doentes e em ratinhos knockout. Há relatos de benefício após o início da doença num estudo em ratinhos consultado em texto completo e num resumo de congresso distinto. A principal extrapolação ainda não resolvida é para a doença causada por mutantes dominantes, na qual a adição génica, a supressão do mutante e o tratamento combinado exigem comparação direta. A literatura mecanística vai além da morfogénese do segmento externo: experiências diretas no EPR implicam o fluxo autofágico e a remoção de segmentos externos, enquanto modelos knockout sensíveis à luz implicam a endotelina, o fator de crescimento semelhante à insulina 1 (IGF1) e o stresse metabólico. Essas vias exigem interpretação específica de cada compartimento. Os achados de autofluorescência quantitativa em seres humanos limitam uma explicação universal baseada no excesso de bisretinoides, e os efeitos protetores locais da endotelina noutros genótipos de doença retiniana contrariam a ideia de tratar essa via como uniformemente nociva. Os parâmetros de avaliação clínicos são estratificados de forma correspondente: a expansão da atrofia na doença dominante, a contração da zona elipsoide na doença recessiva e o afinamento específico de cada camada na tomografia de coerência ótica (OCT) medem processos diferentes e apresentam efeitos de chão distintos. Estudos em seres humanos com critérios de elegibilidade genética explícitos ou mais amplos podem admitir a doença por PROM1, mas, na maioria deles, os registos mostram quem poderia participar, e não quem participou nem o que ocorreu depois. Sete programas experimentais conectam essas distinções a comparações testáveis, cada um apresentado em termos do contraste decisivo, da precaução metodológica necessária e da decisão que permitiria resolver. O quadro resultante distingue as terapias candidatas por alelo, compartimento e estádio da doença.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Tradução em português de Portugal. Em caso de divergência entre esta tradução e o original em inglês, versão 1.90 (DOI: 10.5281/zenodo.21966374), prevalece o original. Documento de trabalho, não revisto por pares. O autor agradeceria o envio de trabalhos sobre PROM1 na retina, publicados ou não, ou de comentários de quem considere que algo aqui está incorreto.\n\nEuropean Portuguese translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, and a description of the figure for readers who cannot see it. The HTML edition holds the same text, tables and references as the PDF; the spoken text carries the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "pt",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominina-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "degeneração retiniana hereditária",
+   "distrofia macular",
+   "fluxo autofágico",
+   "adição génica",
+   "epitélio pigmentar da retina"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "prom1-fr": {
+  "doi": "10.5281/zenodo.22880629",
+  "titles": [
+   {
+    "title": "Dégénérescence rétinienne associée à PROM1"
+   },
+   {
+    "lang": "fra",
+    "title": "Une cartographie des données probantes tenant compte des allèles : mécanismes, interventions et priorités de recherche",
+    "titleType": "Subtitle"
+   },
+   {
+    "lang": "eng",
+    "title": "PROM1-associated retinal degeneration",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "La dégénérescence rétinienne associée à PROM1 englobe des atteintes maculaires dominantes et des dégénérescences photoréceptrices récessives, souvent plus étendues. Leurs modes de transmission et leurs présentations cliniques distincts soulèvent des questions mécanistiques et thérapeutiques différentes. Cette revue et cartographie des données probantes intègre la génétique clinique, l’histoire naturelle, la biologie membranaire, les modèles de photorécepteurs et d’épithélium pigmentaire rétinien (RPE), les interventions précliniques et les enregistrements datés d’études chez l’être humain. L’avancée translationnelle la plus solide est la restauration obtenue dans des systèmes expérimentaux déficients en PROM1, démontrée dans des organoïdes dérivés de patients et chez des souris knockout. Un bénéfice après le début de la maladie est rapporté dans une étude murine consultée en texte intégral et dans un résumé de congrès distinct. La principale extrapolation encore non résolue concerne la maladie à mutation dominante, pour laquelle l’addition génique, la suppression du mutant et le traitement combiné doivent être comparés directement. La littérature mécanistique dépasse la morphogenèse des segments externes : des expériences directes sur le RPE mettent en cause le flux autophagique et l’élimination des segments externes, tandis que des modèles knockout sensibles à la lumière mettent en cause l’endothéline, le facteur de croissance analogue à l’insuline 1 (IGF1) et le stress métabolique. Ces voies nécessitent une interprétation propre à chaque compartiment. Les résultats d’autofluorescence quantitative chez l’être humain limitent la portée d’une explication universelle par un excès de bisrétinoïdes, et les effets protecteurs locaux de l’endothéline dans d’autres génotypes rétiniens s’opposent à considérer cette voie comme uniformément nocive. Les critères d’évaluation cliniques sont stratifiés en conséquence : l’extension de l’atrophie dans les formes dominantes, la contraction de la zone ellipsoïde dans les formes récessives et l’amincissement propre à chaque couche en tomographie par cohérence optique (OCT) mesurent des processus différents et présentent des effets plancher différents. Des études chez l’être humain dont les critères génétiques d’admissibilité sont explicites ou plus larges peuvent inclure la maladie liée à PROM1 ; toutefois, pour la plupart, les enregistrements indiquent qui pouvait y participer plutôt que qui y a effectivement participé, ou quels en ont été les résultats. Sept programmes expérimentaux relient ces distinctions à des comparaisons testables, chacun étant présenté sous la forme du contraste décisif, de la précaution nécessaire et de la décision qu’il permettrait de trancher. Le cadre qui en résulte distingue les thérapies candidates selon l’allèle, le compartiment et le stade de la maladie.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "fra",
+    "description": "Traduction française. En cas de divergence entre cette traduction et l'original anglais, version 1.90 (DOI: 10.5281/zenodo.21966374), l'original fait foi. Document de travail, non évalué par les pairs. L'auteur serait reconnaissant à toute personne ayant des travaux sur PROM1 dans la rétine, publiés ou non, ou estimant qu'un élément présenté ici est erroné, de bien vouloir le contacter.\n\nFrench translation of the English original, Version 1.90 (DOI: 10.5281/zenodo.21966374), which governs where the two differ. A working paper, not peer reviewed. The deposit carries the PDF together with an accessible HTML edition, a spoken-text version written to be read aloud, and a description of the figure for readers who cannot see it. The HTML edition holds the same text, tables and references as the PDF; the spoken text carries the narrative to the end of the conclusion, without the tables or the reference list.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "fr",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-21",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.90",
+  "subjects": [
+   "PROM1",
+   "prominine-1",
+   "CD133",
+   "STGD4",
+   "MCDR2",
+   "CORD12",
+   "RP41",
+   "dégénérescence rétinienne héréditaire",
+   "dystrophie maculaire",
+   "flux autophagique",
+   "addition génique",
+   "épithélium pigmentaire rétinien"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "asi": {
+  "doi": "10.5281/zenodo.22846981",
+  "titles": [
+   {
+    "title": "Humanity represents unique and priceless data in motion"
+   },
+   {
+    "lang": "eng",
+    "title": "Why any remotely sane Artificial Superintelligence will probably want to preserve the infinitely precious phenomenon, the 'data in motion' that is humanity, fully intact",
+    "titleType": "Subtitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "This 2024 essay argues that future artificial superintelligences may have strong epistemic and instrumental reasons to fully preserve humanity and Earth’s biosphere intact, rather than replacing them with simulations or stored copies and reconstructions. Humanity is described as a unique body of evolved ‘data in motion’, the exceptionally precious product of billions of years of costly, attritional, and grinding biological and cultural evolution. Each individual too, represents a unique store of information and potential information, not just built up over their own lifetime of experience and influence, but a vessel of unique blends of influence that have been passed down to them as well. It is emphasised that the complete state of humanity and the wider biosphere is likely physically impossible to survey, record, reproduce, or reconstruct with the necessary perfect fidelity. The argument considers the priceless informational value of biodiversity and human variation against the backdrop of what appears to be a largely lifeless yet seemingly infinite universe. Preserving the oasis of life on Earth looks relatively cheap by comparison. Therefore due to the limitations of relying on backups and simulations, preserving the full, ongoing, fidelity of the original biological and physical systems may remain worthwhile, even to an intelligence vastly more capable than humanity. The essay also considers possible forms such conservation might take in the wake of the emergence of artificial superintelligence.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "eng",
+    "description": "This repository edition reformats the article originally published on ASI Hopeium on 13 May 2024 and posted the same day on X. Minor typographical and grammatical errors have been corrected, and platform-specific material has been omitted. No changes have been made to the argument.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "en",
+  "publicationYear": 2024,
+  "dates": [
+   {
+    "date": "2024-05-13",
+    "dateType": "Issued"
+   },
+   {
+    "date": "2026-09-20",
+    "dateType": "Other",
+    "dateInformation": "Repository edition"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2024, 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "GEN",
+   "bibtex": "misc",
+   "citeproc": "article",
+   "schemaOrg": "CreativeWork",
+   "resourceType": "Other",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "Repository edition",
+  "subjects": [
+   "artificial superintelligence",
+   "artificial intelligence",
+   "AI alignment",
+   "humanity",
+   "biosphere",
+   "information preservation",
+   "epistemic humility",
+   "simulation",
+   "existential risk",
+   "data in motion"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "cl-en": {
+  "doi": "10.5281/zenodo.22798979",
+  "titles": [
+   {
+    "title": "Courtly Love: Lancelot of the Lake – The Tale of the Cart"
+   },
+   {
+    "lang": "fra",
+    "title": "Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Text-only edition of the first complete English translation of Gaston Paris, \"Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette\", Romania 12 (1883), 459–534, the article in which the expression amour courtois gained its currency. Contains the translation with all 185 of Paris's notes as footnotes, a note on the text and translation, and the editor's note on the edition. Bold bracketed numbers mark where each page of the 1883 printing begins, so citations of Paris's pages and of this edition coincide. The historical introduction, bibliography, index and the French text are in the full edition: the paperback (ISBN 979-8-1748-3268-8), with the French on facing pages, and the Kindle e-book, with it linked page by page. Translated and edited by C.J. Bartlett.\nThe full edition of this translation, with the original French text on facing pages, is on sale worldwide as a paperback (ISBN 979-8-1748-3268-8) and as a Kindle e-book (the French linked page by page), on every Amazon store; search the ISBN or the title Courtly Love: Lancelot of the Lake – The Tale of the Cart. A Japanese edition (ISBN 979-8-1752-8571-1) and a Traditional Chinese Kindle edition are also published and more languages are planned. This text-only PDF is under embargo, the record and its metadata are public now.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "eng",
+    "description": "Translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain. The deposit is a single PDF (A4, 57 pages) built from the same corrected source as the full edition (paperback and Kindle), which adds the historical introduction, bibliography, index and the complete French text, set on facing pages in the paperback and linked page by page in the Kindle; its Note on the Text differs from the print edition's in four sentences that describe the layout. A Japanese text-only edition is deposited as 10.5281/zenodo.22828559. Corrections are welcome and will be issued as a new version under the same concept DOI.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "en",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-22",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "Translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain.",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "BOOK",
+   "bibtex": "misc",
+   "citeproc": "article",
+   "schemaOrg": "Book",
+   "resourceType": "",
+   "resourceTypeGeneral": "Book"
+  },
+  "version": "Text-only edition",
+  "subjects": [
+   "courtly love",
+   "amour courtois",
+   "Gaston Paris",
+   "Chrétien de Troyes",
+   "Lancelot",
+   "Knight of the Cart",
+   "Romania 1883",
+   "medieval French literature",
+   "Arthurian romance",
+   "translation"
+  ],
+  "creators": [
+   {
+    "name": "Paris, Gaston",
+    "nameType": "Personal",
+    "givenName": "Gaston",
+    "familyName": "Paris",
+    "nameIdentifiers": [],
+    "affiliation": []
+   },
+   {
+    "name": "Bartlett, C.J.",
+    "nameType": "Personal",
+    "givenName": "C.J.",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "cl-ja": {
+  "doi": "10.5281/zenodo.22828559",
+  "titles": [
+   {
+    "title": "宮廷風恋愛: 湖のランスロ 荷車の物語"
+   },
+   {
+    "lang": "fra",
+    "title": "Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette",
+    "titleType": "TranslatedTitle"
+   },
+   {
+    "lang": "eng",
+    "title": "Courtly Love: Lancelot of the Lake – The Tale of the Cart",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "ガストン・パリス「円卓物語研究 湖のランスロ、II 荷車の物語」(『ロマニア』第12巻、1883年、459–534頁)の日本語全訳、テキスト版。パリスの注185条をすべて脚注として収め、本文と翻訳についての解説、本書についての解説を付す。太字の角括弧内の数字は1883年刊本の各頁の始まりを示す。歴史的序論、主要参考文献、索引、およびフランス語原文(ペーパーバックでは見開き対訳、Kindle版では頁ごとにリンク)は完全版(ISBN 979-8-1752-8571-1)に収める。翻訳・編集:クリス・バートレット。\n\n本翻訳の完全版は、ペーパーバック(ISBN 979-8-1752-8571-1、フランス語原文を見開きで対照)および Kindle 版(頁ごとにリンク)として、Amazon.co.jp ほか各国の Amazon で発売中。ISBN または書名『宮廷風恋愛 湖のランスロ 荷車の物語』で検索されたい。英語版(ISBN 979-8-1748-3268-8)および繁体字中国語 Kindle 版も刊行済みで、さらに他の言語版も計画中である。本テキスト版 PDF はエンバーゴ(公開猶予)中であり、レコードとメタデータは現在公開されている。\n\nJapanese translation, text-only edition, of Gaston Paris, “Lancelot du Lac. II. Le Conte de la Charrette”, Romania 12 (1883), 459–534, with all 185 of Paris’s notes as footnotes and the two editorial notes; bold bracketed numbers mark the pages of the 1883 printing. The Historical Introduction, bibliography, index and the complete French text (on facing pages in the paperback, linked page by page in the Kindle) are in the full edition (ISBN 979-8-1752-8571-1). Translated and edited by C.J. Bartlett. English title: Courtly Love: Lancelot of the Lake – The Tale of the Cart. The full edition of this translation is on sale as a paperback (ISBN 979-8-1752-8571-1, with the French text on facing pages) and a Kindle e-book (the French linked page by page) on Amazon.co.jp and every other Amazon store; more languages are planned. This PDF is under embargo; the record and its metadata are public now.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "jpn",
+    "description": "日本語訳 © 2026 C.J. Bartlett。フランス語原文(ガストン・パリス、1883年)はパブリック・ドメインに属する。本寄託物は1点のPDF(A4判、55頁)で、日本語版完全版(ペーパーバックおよびKindle版)と同じ原稿から作成した。完全版にはこれに加えて歴史的序論、主要参考文献、索引、およびフランス語原文全文(ペーパーバックでは見開き対訳、Kindle版では頁ごとにリンク)を収める。角括弧内の頁番号は、同版がパリスの頁を改める箇所に置いた。英語版テキスト版は 10.5281/zenodo.22798979 として寄託。訂正は歓迎し、同一の概念DOIのもとで新版として発行する。\nJapanese translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain. The deposit is a single PDF (A4, 55 pages) built from the same source as the full Japanese edition (paperback and Kindle), which adds the historical introduction, bibliography, index and the complete French text, on facing pages in the paperback and linked page by page in the Kindle; the page brackets fall where that edition turns Paris's pages. The English text-only edition is deposited as 10.5281/zenodo.22798979. Corrections are welcome and will be issued as a new version under the same concept DOI.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "ja",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-22",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "日本語訳 © 2026 C.J. Bartlett。フランス語原文(ガストン・パリス、1883年)はパブリック・ドメインに属する。Japanese translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain.",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "BOOK",
+   "bibtex": "misc",
+   "citeproc": "article",
+   "schemaOrg": "Book",
+   "resourceType": "",
+   "resourceTypeGeneral": "Book"
+  },
+  "version": "Text-only edition",
+  "subjects": [
+   "宮廷風恋愛",
+   "courtly love",
+   "amour courtois",
+   "Gaston Paris",
+   "ガストン・パリス",
+   "Chrétien de Troyes",
+   "Lancelot",
+   "荷車の騎士",
+   "中世フランス文学",
+   "Arthurian romance"
+  ],
+  "creators": [
+   {
+    "name": "Paris, Gaston",
+    "nameType": "Personal",
+    "givenName": "Gaston",
+    "familyName": "Paris",
+    "nameIdentifiers": [],
+    "affiliation": []
+   },
+   {
+    "name": "Bartlett, C.J.",
+    "nameType": "Personal",
+    "givenName": "C.J.",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "cl-zh-hant": {
+  "doi": "10.5281/zenodo.22881181",
+  "titles": [
+   {
+    "title": "宮廷愛情: 湖上騎士朗斯洛 馬車的故事"
+   },
+   {
+    "lang": "fra",
+    "title": "Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette",
+    "titleType": "TranslatedTitle"
+   },
+   {
+    "lang": "eng",
+    "title": "Courtly Love: Lancelot of the Lake – The Tale of the Cart",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "加斯東·帕里斯《圓桌傳奇研究 湖上騎士朗斯洛 二、馬車的故事》(《羅馬尼亞》雜誌第12卷,1883年,第459–534頁)的繁體中文全譯,文本版。收帕里斯全部185條註釋(作腳註),並附《文本與翻譯說明》與《關於本版》。方括號內的粗體數字標示1883年印本每一頁的起始處。歷史導論、參考書目、索引與法文原文全文(逐頁連結)見 Kindle 完整版。翻譯、編訂:克里斯·巴特利特(C.J. Bartlett)。\n本翻譯的完整版(附法文原文逐頁連結、歷史導論、參考書目與索引)以 Kindle 電子書形式在 Amazon 各國站點發售;請以書名《宮廷愛情 湖上騎士朗斯洛 馬車的故事》檢索。英文版(ISBN 979-8-1748-3268-8,法文原文對頁排印)與日文版(ISBN 979-8-1752-8571-1)亦已出版,其他語言版本正在籌劃。本文本版 PDF 暫緩公開(embargo);記錄及其元數據現已公開。\nTraditional Chinese translation, text-only edition, of Gaston Paris, \"Lancelot du Lac. II. Le Conte de la Charrette\", Romania 12 (1883), 459–534, with all 185 of Paris's notes as footnotes and the two editorial notes; bold bracketed numbers mark the pages of the 1883 printing. The Historical Introduction, bibliography, index and the complete French text (linked page by page) are in the full edition, a Kindle e-book. Translated and edited by C.J. Bartlett. English title: Courtly Love: Lancelot of the Lake – The Tale of the Cart. The full edition of this translation is on sale as a Kindle e-book on every Amazon store; search the title 宮廷愛情. The English edition (ISBN 979-8-1748-3268-8, French on facing pages) and the Japanese edition (ISBN 979-8-1752-8571-1) are also published and more languages are planned. This PDF is under embargo; the record and its metadata are public now.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "zho",
+    "description": "中文譯文 © 2026 C.J. Bartlett。法文原文(加斯東·帕里斯,1883年)屬於公有領域。本寄存物為單一 PDF(A4,45頁),與完整版(Kindle)出自同一經校訂的底本;完整版另收歷史導論、參考書目、索引及法文原文全文(逐頁連結)。方括號內的頁碼標示1883年印本各頁的起始處。英文文本版為 10.5281/zenodo.22798979,日文文本版為 10.5281/zenodo.22828559。歡迎訂正,訂正將以新版本形式在同一概念 DOI 下發布。\nTraditional Chinese translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain. The deposit is a single PDF (A4, 45 pages) built from the same corrected source as the full edition (Kindle), which adds the historical introduction, bibliography, index and the complete French text, linked page by page; the page brackets mark the pages of the 1883 printing. The English text-only edition is deposited as 10.5281/zenodo.22798979 and the Japanese as 10.5281/zenodo.22828559. Corrections are welcome and will be issued as a new version under the same concept DOI.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "zh",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-09-22",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "中文譯文 © 2026 C.J. Bartlett。法文原文(加斯東·帕里斯,1883年)屬於公有領域。Traditional Chinese translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain.",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "BOOK",
+   "bibtex": "misc",
+   "citeproc": "article",
+   "schemaOrg": "Book",
+   "resourceType": "",
+   "resourceTypeGeneral": "Book"
+  },
+  "version": "Text-only edition",
+  "subjects": [
+   "宮廷愛情",
+   "courtly love",
+   "amour courtois",
+   "Gaston Paris",
+   "加斯東·帕里斯",
+   "Chrétien de Troyes",
+   "Lancelot",
+   "馬車騎士",
+   "中世紀法國文學",
+   "Arthurian romance",
+   "繁體中文"
+  ],
+  "creators": [
+   {
+    "name": "Paris, Gaston",
+    "nameType": "Personal",
+    "givenName": "Gaston",
+    "familyName": "Paris",
+    "nameIdentifiers": [],
+    "affiliation": []
+   },
+   {
+    "name": "Bartlett, C.J.",
+    "nameType": "Personal",
+    "givenName": "C.J.",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "cl-es": {
+  "doi": "10.5281/zenodo.23153685",
+  "titles": [
+   {
+    "title": "Amor cortés: Lanzarote del Lago – El cuento de la carreta"
+   },
+   {
+    "lang": "fra",
+    "title": "Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette",
+    "titleType": "TranslatedTitle"
+   },
+   {
+    "lang": "eng",
+    "title": "Courtly Love: Lancelot of the Lake – The Tale of the Cart",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Traducción española íntegra, en edición de solo texto, de Gaston Paris, «Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette», Romania 12 (1883), 459–534, con las 185 notas de Paris a pie de página, la Nota sobre el texto y la traducción y la Nota sobre esta edición. Los números en negrita entre corchetes señalan dónde comienza cada página de la publicación de 1883. La introducción histórica, la bibliografía selecta, el índice y el texto francés completo (en páginas enfrentadas en la edición en tapa blanda, enlazado página a página en la edición Kindle) figuran en la edición completa (ISBN 979-8-1768-1106-3). Traducción y edición a cargo de C.J. Bartlett.\nLa edición completa de esta traducción está a la venta en tapa blanda (ISBN 979-8-1768-1106-3, con el texto francés en páginas enfrentadas) y como libro electrónico Kindle (con el francés enlazado página a página) en todas las tiendas de Amazon. Búsquese por el ISBN o por el título Amor cortés: Lanzarote del Lago – El cuento de la carreta. También están publicadas la edición inglesa (ISBN 979-8-1748-3268-8), la japonesa (ISBN 979-8-1752-8571-1) y ediciones en otras lenguas. Este PDF de solo texto está bajo embargo; el registro y sus metadatos ya son públicos.\nSpanish translation, text-only edition, of Gaston Paris, “Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette”, Romania 12 (1883), 459–534, with all 185 of Paris’s notes as footnotes and the two editorial notes; bold bracketed numbers mark the pages of the 1883 printing. The Historical Introduction, bibliography, index and the complete French text (on facing pages in the paperback, linked page by page in the Kindle) are in the full edition (ISBN 979-8-1768-1106-3). Translated and edited by C.J. Bartlett. English title: Courtly Love: Lancelot of the Lake – The Tale of the Cart. The full edition of this translation is on sale as a paperback (ISBN 979-8-1768-1106-3, with the French text on facing pages) and a Kindle e-book (the French linked page by page) on every Amazon store; the English (ISBN 979-8-1748-3268-8) and Japanese (ISBN 979-8-1752-8571-1) editions and others are also published. This PDF is under embargo; the record and its metadata are public now.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "spa",
+    "description": "Traducción española © 2026 C.J. Bartlett. El texto original francés (Gaston Paris, 1883) es de dominio público. El depósito es un único PDF (A4, 58 páginas) elaborado a partir de la misma fuente que la edición española completa (tapa blanda y Kindle), que añade la introducción histórica, la bibliografía selecta, el índice y el texto francés completo, en páginas enfrentadas en la edición en tapa blanda y enlazado página a página en la edición Kindle; los números de página entre corchetes señalan los cambios de página del original de Paris en los mismos puntos del texto que en la edición completa. Su Nota sobre el texto y la traducción difiere de la de la edición impresa en cuatro frases que describen la disposición. La edición de solo texto en inglés está depositada con el DOI 10.5281/zenodo.22798979. Las correcciones son bienvenidas y se publicarán como una nueva versión bajo el mismo DOI conceptual.\nSpanish translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain. The deposit is a single PDF (A4, 58 pages) built from the same source as the full Spanish edition (paperback and Kindle), which adds the historical introduction, selected bibliography, index and the complete French text, on facing pages in the paperback and linked page by page in the Kindle; the page brackets fall where that edition turns Paris’s pages. Its Note on the Text differs from the print edition’s in four sentences that describe the layout. The English text-only edition is deposited as 10.5281/zenodo.22798979. Corrections are welcome and will be issued as a new version under the same concept DOI.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "es",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-05",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "Traducción española © 2026 C.J. Bartlett. El texto original francés (Gaston Paris, 1883) es de dominio público. Spanish translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain.",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "BOOK",
+   "bibtex": "misc",
+   "citeproc": "article",
+   "schemaOrg": "Book",
+   "resourceType": "",
+   "resourceTypeGeneral": "Book"
+  },
+  "version": "Text-only edition",
+  "subjects": [
+   "amor cortés",
+   "courtly love",
+   "amour courtois",
+   "Gaston Paris",
+   "Chrétien de Troyes",
+   "Lancelot",
+   "Lanzarote del Lago",
+   "El caballero de la carreta",
+   "literatura francesa medieval",
+   "Arthurian romance"
+  ],
+  "creators": [
+   {
+    "name": "Paris, Gaston",
+    "nameType": "Personal",
+    "givenName": "Gaston",
+    "familyName": "Paris",
+    "nameIdentifiers": [],
+    "affiliation": []
+   },
+   {
+    "name": "Bartlett, C.J.",
+    "nameType": "Personal",
+    "givenName": "C.J.",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "cl-de": {
+  "doi": "10.5281/zenodo.23153695",
+  "titles": [
+   {
+    "title": "Höfische Liebe: Lancelot vom See – Die Erzählung vom Karren"
+   },
+   {
+    "lang": "fra",
+    "title": "Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette",
+    "titleType": "TranslatedTitle"
+   },
+   {
+    "lang": "eng",
+    "title": "Courtly Love: Lancelot of the Lake – The Tale of the Cart",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Textausgabe der vollständigen deutschen Übersetzung von Gaston Paris’ „Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette“, Romania 12 (1883), S. 459–534, mit sämtlichen 185 Anmerkungen von Paris als Fußnoten, der Anmerkung zu Text und Übersetzung und der Anmerkung zu dieser Ausgabe. Fett gedruckte Zahlen in eckigen Klammern markieren den Beginn jeder Seite des Drucks von 1883. Die historische Einführung, die Auswahlbibliografie, das Register und der vollständige französische Text (im Taschenbuch auf den gegenüberliegenden Seiten, im Kindle-E-Book Seite für Seite verknüpft) stehen in der vollständigen Ausgabe (ISBN 979-8-1786-1175-3). Übersetzt und herausgegeben von C.J. Bartlett.\nDie vollständige Ausgabe dieser Übersetzung ist als Taschenbuch (ISBN 979-8-1786-1175-3, mit dem französischen Text auf den gegenüberliegenden Seiten) und als Kindle-E-Book (mit dem Seite für Seite verknüpften französischen Text) in allen Amazon-Shops erhältlich. Suchen Sie nach der ISBN oder dem Titel Höfische Liebe: Lancelot vom See – Die Erzählung vom Karren. Auch die englische (ISBN 979-8-1748-3268-8) und die japanische Ausgabe (ISBN 979-8-1752-8571-1) sowie Ausgaben in weiteren Sprachen sind erschienen. Diese Textausgabe im PDF-Format unterliegt einer Sperrfrist; der Eintrag und seine Metadaten sind bereits öffentlich.\nGerman translation, text-only edition, of Gaston Paris, “Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette”, Romania 12 (1883), 459–534, with all 185 of Paris’s notes as footnotes and the two editorial notes; bold bracketed numbers mark the pages of the 1883 printing. The Historical Introduction, bibliography, index and the complete French text (on facing pages in the paperback, linked page by page in the Kindle) are in the full edition (ISBN 979-8-1786-1175-3). Translated and edited by C.J. Bartlett. English title: Courtly Love: Lancelot of the Lake – The Tale of the Cart. The full edition of this translation is on sale as a paperback (ISBN 979-8-1786-1175-3, with the French text on facing pages) and a Kindle e-book (the French linked page by page) on every Amazon store; the English (ISBN 979-8-1748-3268-8) and Japanese (ISBN 979-8-1752-8571-1) editions and others are also published. This PDF is under embargo; the record and its metadata are public now.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "deu",
+    "description": "Deutsche Übersetzung © 2026 C.J. Bartlett. Der französische Originaltext (Gaston Paris, 1883) ist gemeinfrei. Die Hinterlegung besteht aus einer einzigen PDF-Datei (A4, 62 Seiten), die aus derselben Quelle wie die vollständige deutsche Ausgabe (Taschenbuch und Kindle) erstellt wurde. Die vollständige Ausgabe enthält zusätzlich die historische Einführung, die Auswahlbibliografie, das Register und den vollständigen französischen Text, im Taschenbuch auf gegenüberliegenden Seiten und im Kindle-E-Book Seite für Seite verknüpft; die Seitenzahlen in eckigen Klammern markieren die Seitenumbrüche des Originals von Paris an denselben Textstellen wie in der vollständigen Ausgabe. Ihre Anmerkung zu Text und Übersetzung weicht in vier Sätzen, die die Anordnung beschreiben, von derjenigen der Druckausgabe ab. Die englische Textausgabe ist unter dem DOI 10.5281/zenodo.22798979 hinterlegt. Korrekturen sind willkommen und werden als neue Version unter demselben Konzept-DOI veröffentlicht.\nGerman translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain. The deposit is a single PDF (A4, 62 pages) built from the same source as the full German edition (paperback and Kindle), which adds the historical introduction, selected bibliography, index and the complete French text, on facing pages in the paperback and linked page by page in the Kindle; the page brackets fall where that edition turns Paris’s pages. Its Note on the Text differs from the print edition’s in four sentences that describe the layout. The English text-only edition is deposited as 10.5281/zenodo.22798979. Corrections are welcome and will be issued as a new version under the same concept DOI.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "de",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-05",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "Deutsche Übersetzung © 2026 C.J. Bartlett. Der französische Originaltext (Gaston Paris, 1883) ist gemeinfrei. German translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain.",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "BOOK",
+   "bibtex": "misc",
+   "citeproc": "article",
+   "schemaOrg": "Book",
+   "resourceType": "",
+   "resourceTypeGeneral": "Book"
+  },
+  "version": "Text-only edition",
+  "subjects": [
+   "höfische Liebe",
+   "courtly love",
+   "amour courtois",
+   "Gaston Paris",
+   "Chrétien de Troyes",
+   "Lancelot",
+   "Lancelot vom See",
+   "Der Karrenritter",
+   "altfranzösische Literatur",
+   "Arthurian romance"
+  ],
+  "creators": [
+   {
+    "name": "Paris, Gaston",
+    "nameType": "Personal",
+    "givenName": "Gaston",
+    "familyName": "Paris",
+    "nameIdentifiers": [],
+    "affiliation": []
+   },
+   {
+    "name": "Bartlett, C.J.",
+    "nameType": "Personal",
+    "givenName": "C.J.",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "cl-it": {
+  "doi": "10.5281/zenodo.23153700",
+  "titles": [
+   {
+    "title": "Amore cortese: Lancillotto del Lago – Il racconto della carretta"
+   },
+   {
+    "lang": "fra",
+    "title": "Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette",
+    "titleType": "TranslatedTitle"
+   },
+   {
+    "lang": "eng",
+    "title": "Courtly Love: Lancelot of the Lake – The Tale of the Cart",
+    "titleType": "TranslatedTitle"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Traduzione italiana integrale, in edizione del solo testo, di Gaston Paris, «Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette», Romania 12 (1883), pp. 459–534, con tutte le 185 note di Paris a piè di pagina, la Nota sul testo e sulla traduzione e la Nota su questa edizione. I numeri in grassetto tra parentesi quadre indicano dove inizia ciascuna pagina della pubblicazione del 1883. L’introduzione storica, la bibliografia essenziale, l’indice e il testo francese completo (a fronte nell’edizione in copertina flessibile, collegato pagina per pagina nell’edizione Kindle) si trovano nell’edizione completa (ISBN 979-8-1786-1789-2). Traduzione e cura di C.J. Bartlett.\nL’edizione completa di questa traduzione è in vendita in copertina flessibile (ISBN 979-8-1786-1789-2, con il testo francese a fronte) e come e-book Kindle (con il francese collegato pagina per pagina) in tutti i negozi Amazon. Cercatela per ISBN o per titolo: Amore cortese: Lancillotto del Lago – Il racconto della carretta. Sono pubblicate anche l’edizione inglese (ISBN 979-8-1748-3268-8), quella giapponese (ISBN 979-8-1752-8571-1) ed edizioni in altre lingue. Questo PDF del solo testo è sotto embargo; la scheda e i suoi metadati sono già pubblici.\nItalian translation, text-only edition, of Gaston Paris, “Études sur les romans de la Table Ronde: Lancelot du Lac. II. Le Conte de la Charrette”, Romania 12 (1883), 459–534, with all 185 of Paris’s notes as footnotes and the two editorial notes; bold bracketed numbers mark the pages of the 1883 printing. The Historical Introduction, bibliography, index and the complete French text (on facing pages in the paperback, linked page by page in the Kindle) are in the full edition (ISBN 979-8-1786-1789-2). Translated and edited by C.J. Bartlett. English title: Courtly Love: Lancelot of the Lake – The Tale of the Cart. The full edition of this translation is on sale as a paperback (ISBN 979-8-1786-1789-2, with the French text on facing pages) and a Kindle e-book (the French linked page by page) on every Amazon store; the English (ISBN 979-8-1748-3268-8) and Japanese (ISBN 979-8-1752-8571-1) editions and others are also published. This PDF is under embargo; the record and its metadata are public now.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "ita",
+    "description": "Traduzione italiana © 2026 C.J. Bartlett. Il testo francese originale (Gaston Paris, 1883) è di pubblico dominio. Il deposito consiste in un unico PDF (A4, 58 pagine) ricavato dalla stessa fonte dell’edizione italiana completa (copertina flessibile e Kindle), che aggiunge l’introduzione storica, la bibliografia essenziale, l’indice e il testo francese completo, a fronte nell’edizione in copertina flessibile e collegato pagina per pagina nell’edizione Kindle; i numeri di pagina tra parentesi quadre sono collocati nei punti del testo in cui l’edizione completa riproduce i cambi di pagina dell’originale di Paris. La sua Nota sul testo e sulla traduzione differisce da quella dell’edizione a stampa in quattro frasi che ne descrivono l’impaginazione. L’edizione del solo testo in inglese è depositata con il DOI 10.5281/zenodo.22798979. Le correzioni sono benvenute e saranno pubblicate come nuova versione con lo stesso DOI concettuale.\nItalian translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain. The deposit is a single PDF (A4, 58 pages) built from the same source as the full Italian edition (paperback and Kindle), which adds the historical introduction, selected bibliography, index and the complete French text, on facing pages in the paperback and linked page by page in the Kindle; the page brackets fall where that edition turns Paris’s pages. Its Note on the Text differs from the print edition’s in four sentences that describe the layout. The English text-only edition is deposited as 10.5281/zenodo.22798979. Corrections are welcome and will be issued as a new version under the same concept DOI.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "it",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-05",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "Traduzione italiana © 2026 C.J. Bartlett. Il testo francese originale (Gaston Paris, 1883) è di pubblico dominio. Italian translation © 2026 C.J. Bartlett. The original French text (Gaston Paris, 1883) is in the public domain.",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "BOOK",
+   "bibtex": "misc",
+   "citeproc": "article",
+   "schemaOrg": "Book",
+   "resourceType": "",
+   "resourceTypeGeneral": "Book"
+  },
+  "version": "Text-only edition",
+  "subjects": [
+   "amore cortese",
+   "courtly love",
+   "amour courtois",
+   "Gaston Paris",
+   "Chrétien de Troyes",
+   "Lancelot",
+   "Lancillotto del Lago",
+   "Il cavaliere della carretta",
+   "letteratura francese medievale",
+   "Arthurian romance"
+  ],
+  "creators": [
+   {
+    "name": "Paris, Gaston",
+    "nameType": "Personal",
+    "givenName": "Gaston",
+    "familyName": "Paris",
+    "nameIdentifiers": [],
+    "affiliation": []
+   },
+   {
+    "name": "Bartlett, C.J.",
+    "nameType": "Personal",
+    "givenName": "C.J.",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ }
+}
