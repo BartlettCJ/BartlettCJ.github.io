@@ -74,9 +74,9 @@ HOME_DESCRIPTION = ("Chris Bartlett: applied AI specialist, developer, independe
 
 SECTIONS = [
     ("ai", "AI", "ai.html", "Essays and papers on artificial intelligence."),
-    # Renamed from "Science & Medicine" and no description line (owner, 2026-10-09: the next paper is
-    # ZWS, which is not medicine). The file name stays science.html so the address never changes.
-    ("science", "Science", "science.html", ""),
+    # Renamed from "Science & Medicine" (owner, 2026-10-09: the next paper is ZWS, which is not
+    # medicine); its line matches the AI tab's. The file name stays science.html so the address never changes.
+    ("science", "Science", "science.html", "Scientific papers and essays."),
     ("other", "Other", "other.html", "Other projects and interests."),
 ]
 
