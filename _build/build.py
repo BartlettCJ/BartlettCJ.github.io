@@ -63,6 +63,11 @@ CONTACT_TEXT = [
     "can help you or your business, please contact me. There is no fee for the initial consultation, of course.",
 ]
 
+# Visitor counter (GoatCounter: no cookies, no personal data). Owner signed up 2026-10-11.
+# Every page loads it; "Read the PDF" and "Zenodo record" buttons are counted as clicks.
+# Empty string = no counter. Local previews are not counted (the script skips localhost).
+GOATCOUNTER = "https://lczfxkzcq3qcjifb.goatcounter.com/count"
+
 # Optional settings kept on this computer only (not in the repository).
 _LOCAL = Path(__file__).parent / "local_settings.json"
 LOCAL_SETTINGS = json.loads(_LOCAL.read_text(encoding="utf-8")) if _LOCAL.exists() else {}
@@ -236,6 +241,7 @@ def page(title, body, depth, lang="en", head_extra="", description="", canonical
 <footer class="site" lang="en">
   <p>{links}</p>
 </footer>
+{f'<script data-goatcounter="{GOATCOUNTER}" async src="https://gc.zgo.at/count.js"></script>' if GOATCOUNTER else ''}
 </body>
 </html>
 """
@@ -340,7 +346,7 @@ def build_edition_page(work, ed):
 <p class="cite">{gene_italic(cite)} {doi_link}</p>
 </div>
 <aside class="paper-side" lang="en">
-<p class="actions"><a class="button" href="{E(ed['pdf_name'])}">Read the PDF</a> <a class="button secondary" href="https://doi.org/{m['doi']}">Zenodo record</a></p>
+<p class="actions"><a class="button" href="{E(ed['pdf_name'])}" data-goatcounter-click="pdf-{work['id']}-{ed['lang']}" data-goatcounter-title="PDF: {E(m['title'])} ({ed['lang']})">Read the PDF</a> <a class="button secondary" href="https://doi.org/{m['doi']}" data-goatcounter-click="zenodo-{work['id']}-{ed['lang']}" data-goatcounter-title="Zenodo: {E(m['title'])} ({ed['lang']})">Zenodo record</a></p>
 <p class="licence">Licence: <a href="{ed['licence'][1]}">{E(ed['licence'][0])}</a></p>
 {others}
 </aside>
