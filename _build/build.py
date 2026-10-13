@@ -161,6 +161,9 @@ WORKS = [
         "section": "science",
         "kind": "Working paper",
         "path": "papers/occurrence-theory/",
+        # The card's line, written for the site (owner, 2026-10-14: "sell it a bit harder" than the abstract's opening).
+        "teaser": "Why is there something rather than nothing, and why is anything actually happening now? Occurrence "
+                  "theory proposes an answer to both, from one starting point: something is happening.",
         "note_html": 'Its computational companion is <a href="../zero-without-stasis/"><i>Zero Without Stasis</i></a>.',
         "editions": [{
             "lang": "en", "key": "occurrence-theory", "dir": "",
@@ -408,7 +411,7 @@ def build_edition_page(work, ed):
 def work_card(work, depth=0):
     en = work["editions"][0]
     m = meta_for(en["key"])
-    teaser = m["abstract"].split(". ")[0].rstrip(".") + "."
+    teaser = work.get("teaser") or m["abstract"].split(". ")[0].rstrip(".") + "."
     langs = ""
     if len(work["editions"]) > 1:
         langs = '<p class="langs-inline">Also in ' + ", ".join(
