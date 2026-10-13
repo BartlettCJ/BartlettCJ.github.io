@@ -161,9 +161,10 @@ WORKS = [
         "section": "science",
         "kind": "Working paper",
         "path": "papers/occurrence-theory/",
-        # The card's line, written for the site (owner, 2026-10-14: "sell it a bit harder" than the abstract's opening).
-        "teaser": "Why is there something rather than nothing, and why is anything actually happening now? Occurrence "
-                  "theory proposes an answer to both, from one starting point: something is happening.",
+        # The card's line, written for the site (owner, 2026-10-14: "sell it a bit harder" than the abstract's opening; his wording, chosen that day).
+        "teaser": "Why is there something rather than nothing, and why are we conscious of anything actually happening "
+                  "now? Occurrence theory is a new theory of reality that proposes an answer to both, from one "
+                  "starting point: something is happening.",
         "note_html": 'Its computational companion is <a href="../zero-without-stasis/"><i>Zero Without Stasis</i></a>.',
         "editions": [{
             "lang": "en", "key": "occurrence-theory", "dir": "",
