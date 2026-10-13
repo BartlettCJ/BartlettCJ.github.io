@@ -161,6 +161,9 @@ WORKS = [
         "section": "science",
         "kind": "Working paper",
         "path": "papers/occurrence-theory/",
+        # Shown as title and subtitle, split at the record title's first ". ", as on the PDF's title page (owner,
+        # 2026-10-14: "yes split the title"). The tab title and the citation tags keep the record's full title.
+        "split_title": True,
         # The card's line, written for the site (owner, 2026-10-14: "sell it a bit harder" than the abstract's opening; his wording, chosen that day).
         "teaser": "Why is there something rather than nothing, and why are we conscious of anything actually happening "
                   "now? Occurrence theory is a new theory of reality that proposes an answer to both, from one "
@@ -246,6 +249,14 @@ def meta_for(key):
         "abstract": abstract,
         "keywords": rec.get("subjects") or [],
     }
+
+
+def shown_titles(work, m):
+    """The title and subtitle as shown on the page and card (display only; the record's title stays in the tags)."""
+    if work.get("split_title") and not m["subtitle"] and ". " in m["title"]:
+        title, sub = m["title"].split(". ", 1)
+        return title, sub
+    return m["title"], m["subtitle"]
 
 
 def gene_italic(text):
@@ -373,14 +384,15 @@ def build_edition_page(work, ed):
     # An abstract's line breaks are its paragraphs (2026-10-14: the occurrence-theory record has five).
     abstract_html = "\n".join(f'<p class="abstract">{E(p)}</p>' for p in m["abstract"].split("\n") if p.strip())
     cite = edition_cite(work, ed, m)
+    shown_title, shown_sub = shown_titles(work, m)
     doi_link = f'<a href="https://doi.org/{m["doi"]}">https://doi.org/{m["doi"]}</a>'
     # Two columns on wide screens: the text on the left, the buttons, licence and languages on the
     # right. On a phone the right column comes first, so the PDF button is at the top.
     body = f"""<article class="paper">
 <header class="paper-head">
 <p class="kind" lang="en">{E(work['kind'])}</p>
-<h1>{gene_italic(m['title'])}</h1>
-{f'<p class="subtitle">{gene_italic(m["subtitle"])}</p>' if m['subtitle'] else ''}
+<h1>{gene_italic(shown_title)}</h1>
+{f'<p class="subtitle">{gene_italic(shown_sub)}</p>' if shown_sub else ''}
 {eng_title}
 <p class="byline" lang="en">Chris Bartlett · <a href="https://orcid.org/{SITE['orcid']}">ORCID {SITE['orcid']}</a></p>
 <p class="dateline" lang="en">{ed.get('date_line_html') or E(ed['date_line'])}</p>
@@ -413,6 +425,7 @@ def work_card(work, depth=0):
     en = work["editions"][0]
     m = meta_for(en["key"])
     teaser = work.get("teaser") or m["abstract"].split(". ")[0].rstrip(".") + "."
+    shown_title, shown_sub = shown_titles(work, m)
     langs = ""
     if len(work["editions"]) > 1:
         langs = '<p class="langs-inline">Also in ' + ", ".join(
@@ -421,8 +434,8 @@ def work_card(work, depth=0):
         ) + "</p>"
     return f"""<article class="card">
 <p class="kind">{E(work['kind'])}</p>
-<h3><a href="{rel(depth)}{work['path']}">{gene_italic(m['title'])}</a></h3>
-{f'<p class="subtitle">{gene_italic(m["subtitle"])}</p>' if m['subtitle'] else ''}
+<h3><a href="{rel(depth)}{work['path']}">{gene_italic(shown_title)}</a></h3>
+{f'<p class="subtitle">{gene_italic(shown_sub)}</p>' if shown_sub else ''}
 <p class="dateline">{en.get('date_line_html') or E(en['date_line'])}</p>
 <p>{E(teaser)}</p>
 {langs}
