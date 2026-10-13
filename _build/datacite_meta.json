@@ -1639,5 +1639,160 @@
     ]
    }
   ]
+ },
+ "occurrence-theory": {
+  "doi": "10.5281/zenodo.22875288",
+  "titles": [
+   {
+    "title": "Something is happening: Occurrence Theory. Finitary Occurrent Actualism, Mathematical Intrinsic Occurrence, Evolutionary Cosmogenesis, and Conscious Actuality"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "This paper asks what it might mean for reality to be actually happening. Any complete conscious experience raises two questions. How did its structure, including the information in a brain and body, come to be there? And what makes that structure actual, undergone now, not merely described somewhere as being undergone?\nOccurrence theory, proposed in this paper, offers an answer to each, from one starting point: something is actually happening.\nFinitary Occurrent Actualism, its core, takes as an axiom that at least one base process simply occurs, without beginning or end. If everything that exists is mathematical, the base is a mathematical structure (a finite rule and its states), and its happening is that structure running forever, needing no driving force and meeting no resistance. Assuming nothing infinite ever exists as a finished whole, the base's existence is not a separate fact from its happening; the paper calls this aspect of the core Mathematical Intrinsic Occurrence. The base has a \"now\" but no clock: procedural change is endlessly taking place. A related but independent mathematical result, structured nullity, shows that something can add up to exactly zero without being empty. It is suggested that this may go some way towards explaining why there is anything at all.\nRicher structure is proposed to emerge from this occurring process. Reality is proposed to be a stack of increasingly complex levels beginning with a simple base layer, each carried by the activity below it; our universe would be one world among many at one of those higher levels. A base in endless occurrence could supply quasi-infinite abundance and change that never stops: enough random variation for selection to build structures for copying, memory and repair. What selection builds would then ultimately go on to make new worlds, blindly or by design, which the paper calls evolutionary cosmogenesis.\nFinally, it is proposed that the same occurring makes things actual, giving us our deepest sense that there really is a now. Finite happenings, our lives included, are organised parts of that occurring base. Structure fixes what an experience is like, but being part of the base's occurring is what makes it actually undergone, which this paper names conscious actuality.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "eng",
+    "description": "Working paper. Computational companion: Zero Without Stasis: Organisational Emergence in an Exactly Reversible Signed-Charge-Conserving Block Cellular Automaton (DOI 10.5281/zenodo.22270456).",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "en",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-13",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "2.365",
+  "subjects": [
+   "occurrence theory",
+   "finitary occurrent actualism",
+   "mathematical intrinsic occurrence",
+   "evolutionary cosmogenesis",
+   "conscious actuality",
+   "strict potentialism",
+   "occurrence",
+   "mathematical structure",
+   "cellular automata",
+   "evolution",
+   "process measure",
+   "block universe",
+   "consciousness",
+   "structured nullity",
+   "nothingness"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "zws": {
+  "doi": "10.5281/zenodo.22270456",
+  "titles": [
+   {
+    "title": "Zero Without Stasis: Organisational Emergence in an Exactly Reversible Signed-Charge-Conserving Block Cellular Automaton"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "We found a simple artificial world in which random material reorganises into large, irregular regions, some rich in material and some nearly empty, while the net signed charge stays exactly zero and every microscopic step can be undone. The result shows how substantial organisation can develop without breaking the global balance or discarding microscopic information; in this model, the timing of that organisation depends strongly on initial occupancy and its form depends on the local reactions.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "lang": "eng",
+    "description": "Computational companion to Something is happening: Occurrence Theory (DOI 10.5281/zenodo.22875288). Working paper.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "en",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-13",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.49",
+  "subjects": [
+   "reversible cellular automata",
+   "Margolus block automata",
+   "signed charge conservation",
+   "coarsening",
+   "first passage",
+   "intervention diagnostics"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
  }
 }

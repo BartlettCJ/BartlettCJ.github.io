@@ -154,10 +154,50 @@ WORKS = [
             for lang, key, sub, src in PROM1_EDITIONS
         ],
     },
+    # Published on Zenodo by the owner on 14 October 2026, 07:37 JST (dated 13 October 2026). The PDFs come from the
+    # frozen copies in C:\MathUniPapers\repo\published\, checked against the records' checksums.
+    {
+        "id": "occurrence-theory",
+        "section": "science",
+        "kind": "Working paper",
+        "path": "papers/occurrence-theory/",
+        "note_html": 'Its computational companion is <a href="../zero-without-stasis/"><i>Zero Without Stasis</i></a>.',
+        "editions": [{
+            "lang": "en", "key": "occurrence-theory", "dir": "",
+            "pdf_src": Path(r"C:\MathUniPapers\repo\published\Something_is_happening_Occurrence_Theory_v2.365_published_2026-10-13.pdf"),
+            "pdf_name": "something-is-happening-occurrence-theory.pdf",
+            "date": "2026-10-13",
+            "date_line": "Working paper, version 2.365, 13\u00a0October\u00a02026.",
+            "licence": ("CC BY-NC-ND 4.0", "https://creativecommons.org/licenses/by-nc-nd/4.0/"),
+            "cite": "Bartlett C. Something is happening: Occurrence Theory. Finitary Occurrent Actualism, Mathematical "
+                    "Intrinsic Occurrence, Evolutionary Cosmogenesis, and Conscious Actuality. Version 2.365. Zenodo, "
+                    "13 October 2026.",
+        }],
+    },
+    {
+        "id": "zero-without-stasis",
+        "section": "science",
+        "kind": "Working paper",
+        "path": "papers/zero-without-stasis/",
+        "note_html": 'The computational companion to <a href="../occurrence-theory/"><i>Something is happening: Occurrence '
+                     'Theory</i></a>. The Zenodo record also holds the supplement and the code; the code is also on '
+                     '<a href="https://github.com/BartlettCJ/zws-reversible-coarsening">GitHub</a>.',
+        "editions": [{
+            "lang": "en", "key": "zws", "dir": "",
+            "pdf_src": Path(r"C:\MathUniPapers\repo\published\Zero_Without_Stasis_companion_v1.49_manuscript_published_2026-10-13.pdf"),
+            "pdf_name": "zero-without-stasis.pdf",
+            "date": "2026-10-13",
+            "date_line": "Working paper, version 1.49, 13\u00a0October\u00a02026.",
+            "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+            "cite": "Bartlett C. Zero Without Stasis: Organisational Emergence in an Exactly Reversible "
+                    "Signed-Charge-Conserving Block Cellular Automaton. Version 1.49. Zenodo, 13 October 2026.",
+        }],
+    },
 ]
 
-# Order of the cards under "Recent work" on the home page (owner, 2026-10-09: PROM1 first).
-RECENT_ORDER = ["prom1", "data-in-motion"]
+# Order of the cards under "Recent work" on the home page (owner, 2026-10-09: PROM1 first; 2026-10-14: the two papers
+# published that day go first, newest work first, for him to confirm).
+RECENT_ORDER = ["occurrence-theory", "zero-without-stasis", "prom1", "data-in-motion"]
 
 # Books: listed on their section page only (no PDF hosted here; the books are on sale).
 BOOKS = [
@@ -324,6 +364,10 @@ def build_edition_page(work, ed):
     if ed["lang"] != "en" and m["translated"]:
         eng_title = f'<p class="engtitle" lang="en">English title: {gene_italic(m["translated"])}</p>'
     note = f'<p class="note" lang="en">{E(work["note"])}</p>' if work.get("note") else ""
+    if work.get("note_html"):  # written by hand, so HTML is allowed (2026-10-14)
+        note = f'<p class="note" lang="en">{work["note_html"]}</p>'
+    # An abstract's line breaks are its paragraphs (2026-10-14: the occurrence-theory record has five).
+    abstract_html = "\n".join(f'<p class="abstract">{E(p)}</p>' for p in m["abstract"].split("\n") if p.strip())
     cite = edition_cite(work, ed, m)
     doi_link = f'<a href="https://doi.org/{m["doi"]}">https://doi.org/{m["doi"]}</a>'
     # Two columns on wide screens: the text on the left, the buttons, licence and languages on the
@@ -341,7 +385,7 @@ def build_edition_page(work, ed):
 <div class="paper-main">
 {note}
 <h2 lang="en">Abstract</h2>
-<p class="abstract">{E(m['abstract'])}</p>
+{abstract_html}
 <h2 lang="en">How to cite</h2>
 <p class="cite">{gene_italic(cite)} {doi_link}</p>
 </div>
@@ -355,7 +399,7 @@ def build_edition_page(work, ed):
     title = f"{m['title']} | {SITE['name']}"
     (out_dir / "index.html").write_text(
         page(title, body, depth, lang=ed["lang"], head_extra=head,
-             description=m["abstract"][:300], canonical=url),
+             description=" ".join(m["abstract"].split())[:300], canonical=url),
         encoding="utf-8",
     )
     return url
