@@ -168,18 +168,34 @@ WORKS = [
         "teaser": "Why is there something rather than nothing, and why are we conscious of anything actually happening "
                   "now? Occurrence theory is a new theory of reality that proposes an answer to both, from one "
                   "starting point: something is happening.",
-        "note_html": 'Its computational companion is <a href="../zero-without-stasis/"><i>Zero Without Stasis</i></a>.',
+        # Root-relative, because the translation pages sit one folder deeper than the English page.
+        "note_html": 'Its computational companion is <a href="/papers/zero-without-stasis/"><i>Zero Without Stasis</i></a>.',
+        # Version 2.367 replaced the PDF on the same record (same DOI) on 15 October 2026; the record stays dated 13 October.
         "editions": [{
             "lang": "en", "key": "occurrence-theory", "dir": "",
-            "pdf_src": Path(r"C:\MathUniPapers\repo\published\Something_is_happening_Occurrence_Theory_v2.365_published_2026-10-13.pdf"),
+            "pdf_src": Path(r"C:\MathUniPapers\repo\published\Something_is_happening_Occurrence_Theory_v2.367_published_2026-10-15.pdf"),
             "pdf_name": "something-is-happening-occurrence-theory.pdf",
             "date": "2026-10-13",
-            "date_line": "Working paper, version 2.365, 13\u00a0October\u00a02026.",
+            "date_line": "Working paper, version 2.367, 13\u00a0October\u00a02026.",
             "licence": ("CC BY-NC-ND 4.0", "https://creativecommons.org/licenses/by-nc-nd/4.0/"),
             "cite": "Bartlett C. Something is happening: Occurrence Theory. Finitary Occurrent Actualism, Mathematical "
-                    "Intrinsic Occurrence, Evolutionary Cosmogenesis, and Conscious Actuality. Version 2.365. Zenodo, "
+                    "Intrinsic Occurrence, Evolutionary Cosmogenesis, and Conscious Actuality. Version 2.367. Zenodo, "
                     "13 October 2026.",
-        }],
+        }] + [
+            # The four translations of version 2.367, published by the owner on 15 October 2026, each its own record.
+            # The PDFs are the frozen copies in C:\MathUniPapers\repo\published\, checked against the records.
+            {
+                "lang": lang, "key": "occurrence-theory-" + sub, "dir": sub,
+                "pdf_src": Path(r"C:\MathUniPapers\repo\published")
+                           / f"Something_is_happening_Occurrence_Theory_v2.367_{lang}_published_2026-10-15.pdf",
+                "pdf_name": "something-is-happening-occurrence-theory-" + sub + ".pdf",
+                "date": "2026-10-15",
+                "date_line": "Working paper, version 2.367. Translation published 15\u00a0October\u00a02026.",
+                "licence": ("CC BY-NC-ND 4.0", "https://creativecommons.org/licenses/by-nc-nd/4.0/"),
+                "cite": None, "version": "2.367", "cite_date": "15 October 2026",
+            }
+            for lang, sub in (("ja", "ja"), ("zh-Hans", "zh-hans"), ("ru", "ru"), ("es", "es"))
+        ],
     },
     {
         "id": "zero-without-stasis",
@@ -256,6 +272,11 @@ def shown_titles(work, m):
     if work.get("split_title") and not m["subtitle"] and ". " in m["title"]:
         title, sub = m["title"].split(". ", 1)
         return title, sub
+    if work.get("split_title") and not m["subtitle"] and " : " in m["title"]:
+        # Chinese and Japanese records: Zenodo stores the full-width colon as " : ". Split at the last one, as the
+        # English splits at its full stop, and show the colon full-width again.
+        title, sub = m["title"].rsplit(" : ", 1)
+        return title.replace(" : ", "："), sub
     return m["title"], m["subtitle"]
 
 
@@ -313,7 +334,8 @@ def edition_cite(work, ed, m):
     if m["subtitle"]:
         sep = "：" if ed["lang"] in ("ja", "zh-Hans", "zh-Hant") else ": "
         title = f"{title}{sep}{m['subtitle'][0].lower() + m['subtitle'][1:] if ed['lang'] == 'en' else m['subtitle']}"
-    return f"Bartlett C. {title}. Version 1.90. Zenodo, 21 September 2026."
+    # PROM1's editions give no version or date of their own; later works do (2026-10-15).
+    return f"Bartlett C. {title}. Version {ed.get('version', '1.90')}. Zenodo, {ed.get('cite_date', '21 September 2026')}."
 
 
 def build_edition_page(work, ed):
@@ -376,8 +398,12 @@ def build_edition_page(work, ed):
         others = f'<section class="editions" lang="en"><h2>Read in</h2><ul class="langs">{items}</ul></section>'
 
     eng_title = ""
-    if ed["lang"] != "en" and m["translated"]:
-        eng_title = f'<p class="engtitle" lang="en">English title: {gene_italic(m["translated"])}</p>'
+    translated = m["translated"]
+    if ed["lang"] != "en" and not translated and len(work["editions"]) > 1:
+        # A record without a translated title (Occurrence theory's translations): use the English record's title.
+        translated = meta_for(work["editions"][0]["key"])["title"]
+    if ed["lang"] != "en" and translated:
+        eng_title = f'<p class="engtitle" lang="en">English title: {gene_italic(translated)}</p>'
     note = f'<p class="note" lang="en">{E(work["note"])}</p>' if work.get("note") else ""
     if work.get("note_html"):  # written by hand, so HTML is allowed (2026-10-14)
         note = f'<p class="note" lang="en">{work["note_html"]}</p>'
