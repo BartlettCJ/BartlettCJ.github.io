@@ -2122,5 +2122,497 @@
     ]
    }
   ]
+ },
+ "occurrence-theory-de": {
+  "doi": "10.5281/zenodo.23464161",
+  "titles": [
+   {
+    "title": "Es passiert etwas: Theorie des Geschehens. Finitärer Aktualismus des Geschehens, intrinsisches mathematisches Geschehen, evolutionäre Kosmogenese und Bewusstseinsaktualität"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Diese Arbeit fragt, was es bedeuten könnte, dass die Realität tatsächlich passiert. Jedes vollständige bewusste Erlebnis wirft zwei Fragen auf. Wie kam es dazu, dass seine Struktur, einschließlich der Information in einem Gehirn und Körper, da ist? Und was macht diese Struktur aktual, sodass sie jetzt erlebt und nicht lediglich irgendwo als erlebt beschrieben wird?\nDie Theorie des Geschehens, die in dieser Arbeit vorgeschlagen wird, bietet auf jede der beiden Fragen eine Antwort, ausgehend von einem einzigen Ausgangspunkt: Etwas passiert tatsächlich.\nDer finitäre Aktualismus des Geschehens, ihr Kern, nimmt als Axiom an, dass mindestens ein Basisprozess einfach stattfindet, ohne Anfang oder Ende. Wenn alles, was existiert, mathematisch ist, ist die Basis eine mathematische Struktur (eine endliche Regel und ihre Zustände), und dass sie passiert, bedeutet, dass diese Struktur für immer läuft, ohne eine treibende Kraft zu benötigen oder auf Widerstand zu stoßen. Unter der Annahme, dass nichts Unendliches jemals als fertiges Ganzes existiert, ist die Existenz der Basis keine eigene Tatsache neben der Tatsache, dass sie passiert; die Arbeit nennt diesen Aspekt des Kerns intrinsisches mathematisches Geschehen. Die Basis hat ein \"Jetzt\", aber keine Uhr: Prozedurale Veränderung findet endlos statt. Ein verwandtes, aber unabhängiges mathematisches Ergebnis, die strukturierte Nullität, zeigt, dass sich etwas zu genau null summieren kann, ohne leer zu sein. Es wird vorgeschlagen, dass dies ein Stück weit zur Erklärung beitragen könnte, warum es überhaupt etwas gibt.\nDem Vorschlag zufolge geht reichere Struktur aus diesem stattfindenden Prozess hervor. Die Realität ist dem Vorschlag zufolge ein Schichtenaufbau zunehmend komplexer Ebenen, der mit einer einfachen Basisschicht beginnt, wobei jede Ebene von der Aktivität unter ihr getragen wird; unser Universum wäre eine Welt unter vielen auf einer dieser höheren Ebenen. Eine Basis in endlosem Geschehen könnte quasiunendliche Fülle und Veränderung bieten, die niemals aufhört: genug zufällige Variation, damit Selektion Strukturen für Kopieren, Gedächtnis und Reparatur aufbauen kann. Was die Selektion aufbaut, würde dann schließlich neue Welten erzeugen, blind oder nach Plan, was die Arbeit evolutionäre Kosmogenese nennt.\nSchließlich wird vorgeschlagen, dass dasselbe Geschehen Dinge aktual macht und uns unser tiefstes Gefühl dafür gibt, dass es wirklich ein Jetzt gibt. Endliche Geschehnisse, unsere Leben eingeschlossen, sind organisierte Teile dieses stattfindenden Basisprozesses. Die Struktur legt fest, wie ein Erlebnis ist, aber dadurch, dass es Teil des Basisgeschehens ist, wird es tatsächlich erlebt, was diese Arbeit Bewusstseinsaktualität nennt.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "German translation of the English working paper, version 2.367 (DOI 10.5281/zenodo.22875288), made by AI systems under the author's direction. The English is authoritative where the two differ.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "de",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-19",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "2.367",
+  "subjects": [
+   "Theorie des Geschehens",
+   "finitärer Aktualismus des Geschehens",
+   "intrinsisches mathematisches Geschehen",
+   "evolutionäre Kosmogenese",
+   "Bewusstseinsaktualität",
+   "strenger Potentialismus",
+   "Geschehen",
+   "mathematische Struktur",
+   "zelluläre Automaten",
+   "Evolution",
+   "Prozessmaß",
+   "Blockuniversum",
+   "Bewusstsein",
+   "strukturierte Nullität",
+   "das Nichts"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "occurrence-theory-fr": {
+  "doi": "10.5281/zenodo.23464163",
+  "titles": [
+   {
+    "title": "Il se passe quelque chose : Théorie de l'occurrence. Actualisme occurrent finitaire, occurrence mathématique intrinsèque, cosmogenèse évolutive et effectivité consciente"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Cet article s'interroge sur ce que pourrait signifier le fait que la réalité soit effectivement en train de se produire. Toute expérience consciente complète soulève deux questions. Comment sa structure, y compris l'information contenue dans un cerveau et un corps, en est-elle venue à être là ? Et qu'est-ce qui rend cette structure effective, vécue maintenant, et non simplement décrite quelque part comme étant vécue ?\nLa théorie de l'occurrence, proposée dans cet article, offre une réponse à chacune, à partir d'un seul point de départ : il se passe effectivement quelque chose.\nL'actualisme occurrent finitaire, son noyau, pose comme axiome qu'au moins un processus de base se produit tout simplement, sans début ni fin. Si tout ce qui existe est mathématique, la base est une structure mathématique (une règle finie et ses états), et le fait qu'elle se produit, c'est cette structure qui s'exécute sans fin, sans avoir besoin d'une force motrice ni rencontrer de résistance. Si l'on suppose que rien d'infini n'existe jamais comme un tout achevé, l'existence de la base n'est pas un fait distinct du fait qu'elle se produit ; l'article appelle cet aspect du noyau l'occurrence mathématique intrinsèque. La base a un « maintenant » mais pas d'horloge : le changement procédural se produit sans fin. Un résultat mathématique connexe mais indépendant, la nullité structurée, montre que quelque chose peut donner un total exactement égal à zéro sans être vide. Il est suggéré que cela pourrait contribuer à expliquer pourquoi il y a quoi que ce soit.\nIl est proposé qu'une structure plus riche émerge de ce processus qui se produit. Il est proposé que la réalité soit un empilement de niveaux de plus en plus complexes, commençant par une couche de base simple, chaque niveau étant porté par l'activité en dessous de lui ; notre univers serait un monde parmi beaucoup d'autres à l'un de ces niveaux supérieurs. Une base dont l'occurrence est sans fin pourrait fournir une abondance quasi-infinie et un changement qui ne s'arrête jamais : assez de variation aléatoire pour que la sélection développe des structures pour la copie, la mémoire et la réparation. Ce que la sélection construit finirait alors par produire de nouveaux mondes, à l'aveugle ou de façon délibérée, ce que l'article appelle la cosmogenèse évolutive.\nEnfin, il est proposé que cette même occurrence rende les choses effectives, nous donnant le sentiment le plus profond qu'il y a vraiment un maintenant. Les événements finis, y compris nos vies, sont des parties organisées de cette base qui se produit. La structure fixe ce qu'est une expérience pour celui qui la vit, mais c'est parce qu'elle fait partie de l'occurrence de la base qu'elle est effectivement vécue, ce que cet article nomme l'effectivité consciente.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "French translation of the English working paper, version 2.367 (DOI 10.5281/zenodo.22875288), made by AI systems under the author's direction. The English is authoritative where the two differ.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "fr",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-19",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "2.367",
+  "subjects": [
+   "théorie de l'occurrence",
+   "actualisme occurrent finitaire",
+   "occurrence mathématique intrinsèque",
+   "cosmogenèse évolutive",
+   "effectivité consciente",
+   "potentialisme strict",
+   "occurrence",
+   "structure mathématique",
+   "automates cellulaires",
+   "évolution",
+   "mesure des processus",
+   "univers-bloc",
+   "conscience",
+   "nullité structurée",
+   "néant"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "occurrence-theory-zh-hant": {
+  "doi": "10.5281/zenodo.23464165",
+  "titles": [
+   {
+    "title": "有事正在發生 : 發生理論 : 有限式發生現實論、數學內在發生、演化宇宙生成與意識現實性"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "本文探問,實在確實正在發生可能意味著什麼。任何完整的意識體驗都會提出兩個問題。它的結構,包括大腦和身體中的資訊,是怎樣出現在那裡的?又是什麼使這一結構成為現實的,使它在現在被親歷,而不只是在某處被描述為正在被親歷?\n本文提出的發生理論從同一個出發點為這兩個問題各提供一個答案:有事確實正在發生。\n其核心有限式發生現實論以這樣一條公理為出發點:至少有一個基底過程就在發生,無始無終。如果一切存在之物都是數學的,那麼基底就是一個數學結構(一條有限規則及其狀態),而基底的發生,就是該結構永遠運行下去,既不需要驅動力,也不遇到阻力。在假定任何無限之物都不會作為一個已完成的整體而存在的前提下,基底的存在並不是獨立於其發生的另一個事實;本文將核心理論的這一面向稱為數學內在發生。基底有一個「現在」,卻沒有時鐘:程序性變化無休止地發生。一項相關但獨立的數學結果,即有結構的零值性,表明某個東西的總和可以恰好為零,而它本身並不為空。本文提出,這或許能在一定程度上解釋究竟為什麼會有任何事物。\n本文提出,更豐富的結構從這個正在發生的過程中湧現。本文還提出,實在是一個從簡單基底層開始、各層複雜性逐漸增加的堆疊,每一層都由其下方的活動承載;我們的宇宙會是其中某個較高層級上眾多世界之一。一個無休止地發生的基底可能提供準無限的豐裕度和永不停止的變化:足夠的隨機變異,讓選擇得以建構用於複製、記憶和修復的結構。選擇所建構的東西隨後最終會繼續造出新的世界,或盲目地,或依照設計;本文將這一過程稱為演化宇宙生成。\n最後,本文提出,正是同一個發生使事物具有現實性,賦予我們最深切的感覺:確實有一個現在。包括我們各自的生命歷程在內的有限發生過程,都是這個正在發生的基底中有組織的部分。結構確定一段體驗是什麼樣的,但使它確實被親歷的,是它本身就是基底發生的一部分,本文將這一點稱為意識現實性。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Traditional Chinese translation of the English working paper, version 2.367 (DOI 10.5281/zenodo.22875288), made by AI systems under the author's direction. The English is authoritative where the two differ.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "zh",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-19",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "2.367",
+  "subjects": [
+   "發生理論",
+   "有限式發生現實論",
+   "數學內在發生",
+   "演化宇宙生成",
+   "意識現實性",
+   "嚴格潛無限論",
+   "發生",
+   "數學結構",
+   "細胞自動機",
+   "演化",
+   "過程測度",
+   "塊狀宇宙",
+   "意識",
+   "有結構的零值性",
+   "虛無"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "occurrence-theory-ko": {
+  "doi": "10.5281/zenodo.23464167",
+  "titles": [
+   {
+    "title": "무언가 일어나고 있다: 일어남 이론. 유한적 일어남 실제주의, 수학적 내재 일어남, 진화적 우주 생성, 의식의 실제성"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "이 논문은 실재가 실제로 일어나고 있다는 것이 무엇을 뜻할 수 있는지 묻는다. 어떤 온전한 의식 경험이든 두 가지 물음을 제기한다. 뇌와 몸 안의 정보를 포함한 그 구조는 어떻게 생겨났는가? 그리고 그 구조가 단지 어딘가에 겪어지는 것으로 기술되어 있는 데 그치지 않고 지금 실제로 겪어지게 하는 것은 무엇인가?\n이 논문에서 제안하는 일어남 이론은 하나의 출발점에서 각 물음에 답을 제시한다: 무언가 실제로 일어나고 있다.\n그 핵심인 유한적 일어남 실제주의는 적어도 하나의 기저 과정이 시작도 끝도 없이 그저 일어난다는 것을 공리로 삼는다. 존재하는 모든 것이 수학적이라면, 기저는 수학적 구조(유한한 규칙과 그 상태들)이며, 기저의 일어남은 그 구조가 아무런 구동력도 필요로 하지 않고 아무런 저항도 받지 않으면서 영원히 실행되는 것이다. 무한한 것은 어떤 것도 완성된 전체로 존재하지 않는다고 가정하면, 기저의 존재는 기저의 일어남과 별개의 사실이 아니다; 이 논문은 핵심의 이 측면을 수학적 내재 일어남이라 부른다. 기저에는 \"지금\"이 있지만 시계는 없다: 절차적 변화가 끝없이 일어나고 있다. 이와 관련되지만 독립적인 수학적 결과인 구조를 지닌 영값은 어떤 것이 비어 있지 않으면서도 합계가 정확히 영일 수 있음을 보여 준다. 이것이 왜 무언가가 존재하는지를 설명하는 데 어느 정도 도움이 될 수 있다고 제안된다.\n일어나고 있는 이 과정에서 더 풍부한 구조가 창발한다고 제안된다. 실재는 단순한 기저 층위에서 시작해 점점 더 복잡해지는 층위들이 쌓인 구조이며, 각 층위는 그 아래의 활동에 의해 담지된다고 제안된다; 우리 우주는 그 위쪽 층위들 중 하나에 있는 많은 세계 가운데 하나일 것이다. 끝없이 일어나는 기저는 준무한한 풍부함과 결코 멈추지 않는 변화, 곧 선택이 복사, 기억, 복구를 위한 구조를 구축하기에 충분한 무작위 변이를 공급할 수 있다. 그러면 선택이 구축한 것은 결국 맹목적으로 또는 설계에 따라 새로운 세계를 만들어 내게 될 것이며, 이 논문은 이를 진화적 우주 생성이라 부른다.\n마지막으로, 바로 그 일어남이 무언가를 실제인 것으로 만들어 우리에게 정말로 지금이 있다는 가장 깊은 감각을 준다고 제안된다. 우리의 삶을 포함한 유한한 일어남들은 일어나고 있는 그 기저의 조직된 부분들이다. 구조는 경험이 어떠한지를 확정하지만, 그 경험이 실제로 겪어지게 하는 것은 기저의 일어남의 일부라는 점이며, 이 논문은 이처럼 실제로 겪어지고 있음을 의식의 실제성이라 부른다.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Korean translation of the English working paper, version 2.367 (DOI 10.5281/zenodo.22875288), made by AI systems under the author's direction. The English is authoritative where the two differ.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "ko",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-19",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "2.367",
+  "subjects": [
+   "일어남 이론",
+   "유한적 일어남 실제주의",
+   "수학적 내재 일어남",
+   "진화적 우주 생성",
+   "의식의 실제성",
+   "엄격 잠재주의",
+   "일어남",
+   "수학적 구조",
+   "세포 자동자",
+   "진화",
+   "과정 측도",
+   "블록 우주",
+   "의식",
+   "구조를 지닌 영값",
+   "무"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "occurrence-theory-pt-br": {
+  "doi": "10.5281/zenodo.23464169",
+  "titles": [
+   {
+    "title": "Algo está acontecendo: Teoria da Ocorrência. Atualismo Ocorrente Finitário, Ocorrência Matemática Intrínseca, Cosmogênese Evolutiva e Efetividade Consciente"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Este artigo pergunta o que poderia significar a realidade estar de fato acontecendo. Qualquer experiência consciente completa levanta duas perguntas. Como sua estrutura, incluindo a informação em um cérebro e um corpo, veio a estar ali? E o que torna essa estrutura efetiva, vivenciada agora, e não apenas descrita em algum lugar como sendo vivenciada?\nA teoria da ocorrência, proposta neste artigo, oferece uma resposta a cada uma, a partir de um único ponto de partida: algo está de fato acontecendo.\nO Atualismo Ocorrente Finitário, seu núcleo, toma como axioma que pelo menos um processo de base simplesmente ocorre, sem começo nem fim. Se tudo o que existe é matemático, a base é uma estrutura matemática (uma regra finita e seus estados), e seu acontecer é essa estrutura em execução para sempre, sem precisar de força motriz e sem encontrar resistência. Supondo que nada infinito jamais exista como um todo acabado, a existência da base não é um fato separado de seu acontecer; o artigo chama esse aspecto do núcleo de Ocorrência Matemática Intrínseca. A base tem um \"agora\", mas não tem relógio: a mudança procedural está ocorrendo sem fim. Um resultado matemático relacionado, mas independente, a nulidade estruturada, mostra que algo pode somar exatamente zero sem ser vazio. Sugere-se que isso possa contribuir em alguma medida para explicar por que existe alguma coisa.\nPropõe-se que uma estrutura mais rica emerja desse processo que ocorre. Propõe-se que a realidade seja uma pilha de níveis cada vez mais complexos, a começar por uma camada de base simples, cada um portado pela atividade abaixo dele; nosso universo seria um mundo entre muitos em um desses níveis superiores. Uma base em ocorrência sem fim poderia fornecer abundância quase infinita e mudança que nunca para: variação aleatória suficiente para que a seleção construa estruturas para cópia, memória e reparo. O que a seleção constrói acabaria então por produzir novos mundos, às cegas ou de forma planejada, o que o artigo chama de cosmogênese evolutiva.\nPor fim, propõe-se que esse mesmo ocorrer torne as coisas efetivas, dando-nos nossa sensação mais profunda de que realmente há um agora. Acontecimentos finitos, incluindo nossas vidas, são partes organizadas dessa base que ocorre. A estrutura determina como é uma experiência, mas ser parte da ocorrência da base é o que faz com que ela seja de fato vivenciada, o que este artigo chama de efetividade consciente.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Brazilian Portuguese translation of the English working paper, version 2.367 (DOI 10.5281/zenodo.22875288), made by AI systems under the author's direction. The English is authoritative where the two differ.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "pt",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-19",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "2.367",
+  "subjects": [
+   "teoria da ocorrência",
+   "atualismo ocorrente finitário",
+   "ocorrência matemática intrínseca",
+   "cosmogênese evolutiva",
+   "efetividade consciente",
+   "potencialismo estrito",
+   "ocorrência",
+   "estrutura matemática",
+   "autômatos celulares",
+   "evolução",
+   "medida de processos",
+   "universo em bloco",
+   "consciência",
+   "nulidade estruturada",
+   "nada"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "occurrence-theory-pt-pt": {
+  "doi": "10.5281/zenodo.23464171",
+  "titles": [
+   {
+    "title": "Algo está a acontecer: Teoria da Ocorrência. Atualismo Ocorrente Finitário, Ocorrência Matemática Intrínseca, Cosmogénese Evolutiva e Efetividade Consciente"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Este artigo pergunta o que poderia significar a realidade estar de facto a acontecer. Qualquer experiência consciente completa levanta duas perguntas. Como a sua estrutura, incluindo a informação num cérebro e num corpo, veio a estar ali? E o que torna essa estrutura efetiva, vivenciada agora, e não apenas descrita nalgum lugar como sendo vivenciada?\nA teoria da ocorrência, proposta neste artigo, oferece uma resposta a cada uma, a partir de um único ponto de partida: algo está de facto a acontecer.\nO Atualismo Ocorrente Finitário, o seu núcleo, toma como axioma que pelo menos um processo de base simplesmente ocorre, sem começo nem fim. Se tudo o que existe é matemático, a base é uma estrutura matemática (uma regra finita e os seus estados), e o seu acontecer é essa estrutura em execução para sempre, sem precisar de força motriz e sem encontrar resistência. Supondo que nada infinito jamais exista como um todo acabado, a existência da base não é um facto separado do seu acontecer; o artigo chama a esse aspeto do núcleo Ocorrência Matemática Intrínseca. A base tem um \"agora\", mas não tem relógio: a mudança procedimental está a ocorrer sem fim. Um resultado matemático relacionado, mas independente, a nulidade estruturada, mostra que algo pode somar exatamente zero sem ser vazio. Sugere-se que isso possa contribuir nalguma medida para explicar porque é que existe alguma coisa.\nPropõe-se que uma estrutura mais rica emerja desse processo que ocorre. Propõe-se que a realidade seja uma pilha de níveis cada vez mais complexos, a começar por uma camada de base simples, cada um portado pela atividade abaixo dele; o nosso universo seria um mundo entre muitos num desses níveis superiores. Uma base em ocorrência sem fim poderia fornecer abundância quase infinita e mudança que nunca para: variação aleatória suficiente para que a seleção construa estruturas para cópia, memória e reparação. O que a seleção constrói acabaria então por produzir novos mundos, às cegas ou de forma planeada, aquilo a que o artigo chama cosmogénese evolutiva.\nPor fim, propõe-se que esse mesmo ocorrer torne as coisas efetivas, dando-nos a nossa sensação mais profunda de que realmente há um agora. Acontecimentos finitos, incluindo as nossas vidas, são partes organizadas dessa base que ocorre. A estrutura determina como é uma experiência, mas ser parte da ocorrência da base é o que faz com que ela seja de facto vivenciada, aquilo a que este artigo chama efetividade consciente.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "European Portuguese translation of the English working paper, version 2.367 (DOI 10.5281/zenodo.22875288), made by AI systems under the author's direction. The English is authoritative where the two differ.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "pt",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-19",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "2.367",
+  "subjects": [
+   "teoria da ocorrência",
+   "atualismo ocorrente finitário",
+   "ocorrência matemática intrínseca",
+   "cosmogénese evolutiva",
+   "efetividade consciente",
+   "potencialismo estrito",
+   "ocorrência",
+   "estrutura matemática",
+   "autómatos celulares",
+   "evolução",
+   "medida de processos",
+   "universo em bloco",
+   "consciência",
+   "nulidade estruturada",
+   "nada"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
  }
 }

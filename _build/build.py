@@ -182,19 +182,26 @@ WORKS = [
                     "Intrinsic Occurrence, Evolutionary Cosmogenesis, and Conscious Actuality. Version 2.367. Zenodo, "
                     "13 October 2026.",
         }] + [
-            # The four translations of version 2.367, published by the owner on 15 October 2026, each its own record.
-            # The PDFs are the frozen copies in C:\MathUniPapers\repo\published\, checked against the records.
+            # The translations of version 2.367, each its own record: four published by the owner on 15 October 2026,
+            # six more on 19 October. The PDFs are the frozen copies in C:\MathUniPapers\repo\published\, checked
+            # against the records; the third field is the date of the copy now on the record (he replaced the
+            # Japanese PDF in place on 17 October and the Simplified Chinese on 19 October).
             {
                 "lang": lang, "key": "occurrence-theory-" + sub, "dir": sub,
                 "pdf_src": Path(r"C:\MathUniPapers\repo\published")
-                           / f"Something_is_happening_Occurrence_Theory_v2.367_{lang}_published_2026-10-15.pdf",
+                           / f"Something_is_happening_Occurrence_Theory_v2.367_{lang}_published_{filed}.pdf",
                 "pdf_name": "something-is-happening-occurrence-theory-" + sub + ".pdf",
-                "date": "2026-10-15",
-                "date_line": "Working paper, version 2.367. Translation published 15\u00a0October\u00a02026.",
+                "date": published,
+                "date_line": f"Working paper, version 2.367. Translation published {int(published[8:])}\u00a0October\u00a02026.",
                 "licence": ("CC BY-NC-ND 4.0", "https://creativecommons.org/licenses/by-nc-nd/4.0/"),
-                "cite": None, "version": "2.367", "cite_date": "15 October 2026",
+                "cite": None, "version": "2.367", "cite_date": f"{int(published[8:])} October 2026",
             }
-            for lang, sub in (("ja", "ja"), ("zh-Hans", "zh-hans"), ("ru", "ru"), ("es", "es"))
+            for lang, sub, published, filed in (
+                ("ja", "ja", "2026-10-15", "2026-10-17"), ("zh-Hans", "zh-hans", "2026-10-15", "2026-10-19"),
+                ("zh-Hant", "zh-hant", "2026-10-19", "2026-10-19"), ("ko", "ko", "2026-10-19", "2026-10-19"),
+                ("ru", "ru", "2026-10-15", "2026-10-15"), ("es", "es", "2026-10-15", "2026-10-15"),
+                ("fr", "fr", "2026-10-19", "2026-10-19"), ("de", "de", "2026-10-19", "2026-10-19"),
+                ("pt-BR", "pt-br", "2026-10-19", "2026-10-19"), ("pt-PT", "pt-pt", "2026-10-19", "2026-10-19"))
         ],
     },
     {
