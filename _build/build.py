@@ -41,15 +41,22 @@ SITE = {
 }
 
 # Home page introduction: the owner's own wording (his "Website text" doc, 2026-10-09), with spelling
-# and grammar corrected and each correction reported to him. Change only on his say-so.
+# and grammar corrected and each correction reported to him. Change only on his say-so. Revised by him on
+# 2026-10-19 ("consultant"; the career sentence extended; the consultancy paragraph added), lightly corrected.
 INTRO = [
-    "I'm a developer and specialist in applied AI. I'm also an independent researcher, futurist and "
-    "writer. I write about artificial intelligence, science and medicine, and sometimes issues of "
+    "I'm a developer and specialist in applied AI. I'm also an independent researcher, futurist, consultant "
+    "and writer. I write about artificial intelligence, science and medicine, and sometimes issues of "
     "philosophy and cosmology.",
     "I started my career in pharmaceuticals and biotechnology, eventually editing a national consumer "
-    "health and medical magazine.",
+    "health and medical magazine, later moving on to consultancy, writing, coaching and teaching, and finally "
+    "to working full time on development and AI, which has been a lifelong passion.",
     "Raised in the UK near Oxford, I graduated in Biology and Psychology from Oxford Brookes University "
     "and now live permanently in Japan.",
+    "I also consult independently as an AI specialist and futurist. If you would like advice as to how AI "
+    "will likely impact you or your business in the future and how you can mitigate risks and leverage the "
+    "technology, would like me to engineer, deploy and oversee systems for your business, or think I may be "
+    "able to help you in any other way, please contact me. There is, of course, no fee for the initial "
+    "consultation.",
 ]
 
 # A short note after the introduction, in smaller muted type (owner, 2026-10-09). Remove when stale.
@@ -86,7 +93,8 @@ SECTIONS = [
 ]
 
 # Tabs along the top of every page: the sections, then Contact.
-NAV = [(label, fname) for _sid, label, fname, _blurb in SECTIONS] + [("Contact", "contact.html")]
+# Home first (owner, 2026-10-19: "a Home tab to the left of AI"; the name in the header links home too).
+NAV = [("Home", "index.html")] + [(label, fname) for _sid, label, fname, _blurb in SECTIONS] + [("Contact", "contact.html")]
 
 # Extra lines under a section's description (HTML).
 SECTION_EXTRA = {
