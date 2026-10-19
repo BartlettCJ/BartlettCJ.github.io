@@ -52,9 +52,9 @@ INTRO = [
     "to working full time on development and AI, which has been a lifelong passion.",
     "I've been living in Japan for nearly 20 years, though I was raised in the UK near Oxford, where I also "
     "graduated in Biology and Psychology from Oxford Brookes University.",
-    "I also consult independently as an AI specialist and futurist. If you would like advice as to how AI "
+    "I consult independently as an AI specialist and futurist. If you would like advice as to how AI "
     "will likely impact you or your business in the future and how you can mitigate risks and leverage the "
-    "technology, would like me to engineer, deploy and oversee systems for your business, or think I may be "
+    "technology, would like me to engineer, deploy and maintain systems for your business, or think I may be "
     "able to help you in any other way, please contact me. There is, of course, no fee for the initial "
     "consultation.",
 ]
