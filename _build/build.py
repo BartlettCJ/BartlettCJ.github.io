@@ -225,9 +225,14 @@ WORKS = [
     },
 ]
 
+# Works in order of importance, which sets the order of cards on the home page and on every section page (owner,
+# 2026-10-19: "My top 4 important works are probably SiH, Prom1, Data in motion, ZWS, Courtly love and then the rest").
+# Courtly Love is a book, listed after the works on its section page. A new work goes in this list, at his say.
+IMPORTANCE = ["occurrence-theory", "prom1", "data-in-motion", "zero-without-stasis"]
+
 # Order of the cards under "Recent work" on the home page (owner, 2026-10-09: PROM1 first; 2026-10-14: the two papers
-# published that day go first, newest work first, for him to confirm).
-RECENT_ORDER = ["occurrence-theory", "zero-without-stasis", "prom1", "data-in-motion"]
+# published that day first; 2026-10-19: by importance, as above).
+RECENT_ORDER = IMPORTANCE
 
 # Books: listed on their section page only (no PDF hosted here; the books are on sale).
 BOOKS = [
@@ -499,7 +504,8 @@ def build():
             built.append(build_edition_page(work, ed))
 
     for sid, label, fname, blurb in SECTIONS:
-        cards = [work_card(w) for w in WORKS if w["section"] == sid]
+        cards = [work_card(w) for w in sorted((w for w in WORKS if w["section"] == sid),
+                                              key=lambda w: IMPORTANCE.index(w["id"]))]
         cards += [book_card(b) for b in BOOKS if b["section"] == sid]
         extra = f'<p class="lede">{SECTION_EXTRA[sid]}</p>\n' if sid in SECTION_EXTRA else ""
         lede = f'<p class="lede">{E(blurb)}</p>\n' if blurb else ""
