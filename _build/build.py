@@ -23,7 +23,11 @@ import json
 import shutil
 from pathlib import Path
 
+from PIL import Image  # Pillow: a figure's pixel size, for its width and height attributes
+
 ROOT = Path(__file__).resolve().parent.parent  # the site folder (repository root)
+# Page URL -> (image URL, title, caption) for each figure shown on a page, for the image sitemap.
+FIGURES = {}
 META = json.loads((Path(__file__).parent / "datacite_meta.json").read_text(encoding="utf-8"))
 
 SITE = {
@@ -154,6 +158,17 @@ WORKS = [
             {
                 "lang": lang, "key": key, "dir": sub, "pdf_src": src,
                 "pdf_name": "prom1-retinal-degeneration" + ("" if lang == "en" else "-" + sub) + ".pdf",
+                # Figure 1 in the edition's language, at the full resolution deposited on Zenodo, with the
+                # deposit's own figure description for its alt text (owner, 2026-10-25: "it's a good picture
+                # and it deserves to be on the web on it's own in each language"; "put the highest quality
+                # version we have and just fit it to the space - but let people get a high quality one").
+                "figure": {
+                    "src": src.with_name(src.stem + "_figure1.png"),
+                    "desc": src.with_name(src.stem + "_figure_description.txt"),
+                    # A name that says what the picture shows, for image search (owner, 2026-10-25).
+                    "name": "prom1-retinal-degeneration-disease-model-photoreceptor-rpe-diagram"
+                            + ("" if lang == "en" else "-" + sub) + ".png",
+                },
                 "date": "2026-09-21",
                 "date_line": "Working paper, version 1.90, 21\u00a0September\u00a02026.",
                 "licence": ("CC BY-NC 4.0", "https://creativecommons.org/licenses/by-nc/4.0/"),
@@ -429,6 +444,35 @@ def build_edition_page(work, ed):
         note = f'<p class="note" lang="en">{work["note_html"]}</p>'
     # An abstract's line breaks are its paragraphs (2026-10-14: the occurrence-theory record has five).
     abstract_html = "\n".join(f'<p class="abstract">{E(p)}</p>' for p in m["abstract"].split("\n") if p.strip())
+    figure_html = ""
+    if ed.get("figure"):
+        fig = ed["figure"]
+        shutil.copyfile(fig["src"], out_dir / fig["name"])
+        with Image.open(fig["src"]) as im:
+            fw, fh = im.size
+        # The description file: a three-line head (title, a note for screen-reader users, version and
+        # licence), then a one-paragraph summary, then the panel-by-panel description.
+        paras = [p.strip() for p in fig["desc"].read_text(encoding="utf-8-sig").replace("\r\n", "\n").split("\n\n")
+                 if p.strip()]
+        fig_title, summary, details = paras[0].split("\n")[0].strip(), " ".join(paras[1].split()), paras[2:]
+        fig_url = url + fig["name"]
+        figure_html = f"""
+<figure class="paper-figure">
+<a href="{E(fig['name'])}"><img src="{E(fig['name'])}" width="{fw}" height="{fh}" loading="lazy" decoding="async" alt="{E(summary)}"></a>
+<figcaption><strong>{gene_italic(fig_title)}</strong></figcaption>
+</figure>
+<details class="figure-description"><summary lang="en">Description of the figure</summary>
+{"".join(f"<p>{gene_italic(' '.join(p.split()))}</p>" for p in [summary] + details)}
+</details>
+<p class="figure-download" lang="en"><a href="{E(fig['name'])}" download data-goatcounter-click="figure-{work['id']}-{ed['lang']}">Download the figure</a> (PNG, {fw}&#8239;×&#8239;{fh} pixels, {E(ed['licence'][0])})</p>"""
+        ld["image"] = {"@type": "ImageObject", "contentUrl": fig_url, "url": fig_url, "name": fig_title,
+                       "caption": summary, "width": fw, "height": fh, "encodingFormat": "image/png",
+                       "inLanguage": ed["lang"], "license": ed["licence"][1]}
+        head = head.replace('<script type="application/ld+json">', f'<meta property="og:image" content="{E(fig_url)}">\n'
+                            f'<meta property="og:image:alt" content="{E(fig_title)}">\n<script type="application/ld+json">', 1)
+        head = head.rsplit('<script type="application/ld+json">', 1)[0] + \
+            f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'
+        FIGURES[url] = (fig_url, fig_title, summary)
     cite = edition_cite(work, ed, m)
     shown_title, shown_sub = shown_titles(work, m)
     doi_link = f'<a href="https://doi.org/{m["doi"]}">https://doi.org/{m["doi"]}</a>'
@@ -447,7 +491,7 @@ def build_edition_page(work, ed):
 <div class="paper-main">
 {note}
 <h2 lang="en">Abstract</h2>
-{abstract_html}
+{abstract_html}{figure_html}
 <h2 lang="en">How to cite</h2>
 <p class="cite">{gene_italic(cite)} {doi_link}</p>
 </div>
@@ -582,10 +626,15 @@ def build():
         page(f"Page not found | {SITE['name']}", '<h1>Page not found</h1><p><a href="/">Go to the home page</a>.</p>', 0),
         encoding="utf-8",
     )
-    sitemap = "".join(f"<url><loc>{E(u)}</loc></url>" for u in built)
+    # Image entries let search engines find each language's figure (owner, 2026-10-25).
+    sitemap = "".join(
+        f"<url><loc>{E(u)}</loc>"
+        + (f"<image:image><image:loc>{E(FIGURES[u][0])}</image:loc></image:image>" if u in FIGURES else "")
+        + "</url>" for u in built)
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
-        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sitemap}</urlset>\n',
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        f'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">{sitemap}</urlset>\n',
         encoding="utf-8",
     )
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE['url']}/sitemap.xml\n", encoding="utf-8")
