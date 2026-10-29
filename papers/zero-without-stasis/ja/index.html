@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>静止なきゼロ : 厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発 | Chris Bartlett</title>
+<meta name="description" content="ランダムな物質が大きく不規則な領域へと再編成され、一部は物質に富み、一部はほぼ空となる一方、正味の符号付き電荷は厳密にゼロに保たれ、微視的な各ステップを元に戻せる、単純な人工世界を見いだした。この結果は、全体の釣り合いを破ることも微視的情報を捨てることもなく、顕著な組織化がどのように進みうるかを示す。このモデルでは、その組織化の時期は初期占有率に強く依存し、その形態は局所反応に依存する。">
+<link rel="canonical" href="https://bartlettcj.github.io/papers/zero-without-stasis/ja/">
+<link rel="stylesheet" href="../../../css/site.css">
+<meta name="citation_title" content="静止なきゼロ : 厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発">
+<meta name="citation_author" content="Bartlett, Chris">
+<meta name="citation_publication_date" content="2026/10/17">
+<meta name="citation_pdf_url" content="https://bartlettcj.github.io/papers/zero-without-stasis/ja/zero-without-stasis-ja.pdf">
+<meta name="citation_abstract_html_url" content="https://bartlettcj.github.io/papers/zero-without-stasis/ja/">
+<meta name="citation_doi" content="10.5281/zenodo.23423842">
+<meta name="citation_language" content="ja">
+<meta name="citation_keywords" content="可逆セル・オートマトン">
+<meta name="citation_keywords" content="Margolusブロック・オートマトン">
+<meta name="citation_keywords" content="符号付き電荷の保存">
+<meta name="citation_keywords" content="粗大化">
+<meta name="citation_keywords" content="初通過">
+<meta name="citation_keywords" content="介入の診断">
+<link rel="alternate" hreflang="en" href="https://bartlettcj.github.io/papers/zero-without-stasis/">
+<link rel="alternate" hreflang="ja" href="https://bartlettcj.github.io/papers/zero-without-stasis/ja/">
+<link rel="alternate" hreflang="x-default" href="https://bartlettcj.github.io/papers/zero-without-stasis/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "静止なきゼロ : 厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発", "headline": "静止なきゼロ : 厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発", "inLanguage": "ja", "datePublished": "2026-10-17", "author": {"@type": "Person", "name": "Chris Bartlett", "sameAs": ["https://orcid.org/0009-0001-3323-0131", "https://substack.com/@asihopeium", "https://x.com/BartlettChrisJ", "https://www.linkedin.com/in/bartlettchris/", "https://github.com/BartlettCJ"]}, "identifier": "https://doi.org/10.5281/zenodo.23423842", "sameAs": "https://doi.org/10.5281/zenodo.23423842", "url": "https://bartlettcj.github.io/papers/zero-without-stasis/ja/", "encoding": {"@type": "MediaObject", "contentUrl": "https://bartlettcj.github.io/papers/zero-without-stasis/ja/zero-without-stasis-ja.pdf", "encodingFormat": "application/pdf"}, "license": "https://creativecommons.org/licenses/by/4.0/", "translationOfWork": {"@type": "ScholarlyArticle", "url": "https://bartlettcj.github.io/papers/zero-without-stasis/"}}</script>
+</head>
+<body>
+<a class="skip" href="#main" lang="en">Skip to content</a>
+<header class="site" lang="en">
+  <a class="brand" href="../../../index.html">Chris Bartlett</a>
+  <nav aria-label="Sections"><a href="../../../index.html">Home</a><a href="../../../ai.html">AI</a><a href="../../../science.html">Science</a><a href="../../../other.html">Other</a><a href="../../../contact.html">Contact</a></nav>
+</header>
+<main id="main">
+<article class="paper">
+<header class="paper-head">
+<p class="kind" lang="en">Working paper</p>
+<h1>静止なきゼロ</h1>
+<p class="subtitle">厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発</p>
+<p class="engtitle" lang="en">English title: Zero Without Stasis: Organisational Emergence in an Exactly Reversible Signed-Charge-Conserving Block Cellular Automaton</p>
+<p class="byline" lang="en">Chris Bartlett · <a href="https://orcid.org/0009-0001-3323-0131">ORCID 0009-0001-3323-0131</a></p>
+<p class="dateline" lang="en">Working paper, version 1.49. Translation published 17 October 2026.</p>
+</header>
+<div class="paper-body">
+<div class="paper-main">
+<p class="note" lang="en">The computational companion to <a href="/papers/occurrence-theory/"><i>Something is happening: Occurrence Theory</i></a>. The Zenodo record also holds the supplement and the code; the code is also on <a href="https://github.com/BartlettCJ/zws-reversible-coarsening">GitHub</a>.</p>
+<h2 lang="en">Abstract</h2>
+<p class="abstract">ランダムな物質が大きく不規則な領域へと再編成され、一部は物質に富み、一部はほぼ空となる一方、正味の符号付き電荷は厳密にゼロに保たれ、微視的な各ステップを元に戻せる、単純な人工世界を見いだした。この結果は、全体の釣り合いを破ることも微視的情報を捨てることもなく、顕著な組織化がどのように進みうるかを示す。このモデルでは、その組織化の時期は初期占有率に強く依存し、その形態は局所反応に依存する。</p>
+<h2 lang="en">How to cite</h2>
+<p class="cite">Bartlett C. 静止なきゼロ : 厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発. Version 1.49. Zenodo, 17 October 2026. <a href="https://doi.org/10.5281/zenodo.23423842">https://doi.org/10.5281/zenodo.23423842</a></p>
+</div>
+<aside class="paper-side" lang="en">
+<p class="actions"><a class="button" href="zero-without-stasis-ja.pdf" data-goatcounter-click="pdf-zero-without-stasis-ja" data-goatcounter-title="PDF: 静止なきゼロ : 厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発 (ja)">Read the PDF</a> <a class="button secondary" href="https://doi.org/10.5281/zenodo.23423842" data-goatcounter-click="zenodo-zero-without-stasis-ja" data-goatcounter-title="Zenodo: 静止なきゼロ : 厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発 (ja)">Zenodo record</a></p>
+<p class="licence">Licence: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+<section class="editions" lang="en"><h2>Read in</h2><ul class="langs"><li><a href="../../../papers/zero-without-stasis/" lang="en">English</a></li><li aria-current="page"><a href="../../../papers/zero-without-stasis/ja/" lang="ja">日本語</a></li></ul></section>
+</aside>
+</div>
+</article>
+</main>
+<footer class="site" lang="en">
+  <p><a href="https://orcid.org/0009-0001-3323-0131" rel="me">ORCID</a> · <a href="https://substack.com/@asihopeium" rel="me">Substack</a> · <a href="https://x.com/BartlettChrisJ" rel="me">X</a> · <a href="https://www.linkedin.com/in/bartlettchris/" rel="me">LinkedIn</a> · <a href="https://github.com/BartlettCJ" rel="me">GitHub</a></p>
+</footer>
+<script data-goatcounter="https://lczfxkzcq3qcjifb.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

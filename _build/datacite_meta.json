@@ -1795,6 +1795,79 @@
    }
   ]
  },
+ "zws-ja": {
+  "doi": "10.5281/zenodo.23423842",
+  "titles": [
+   {
+    "title": "静止なきゼロ : 厳密に可逆で符号付き電荷を保存するブロック・セル・オートマトンにおける組織構成の創発"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "ランダムな物質が大きく不規則な領域へと再編成され、一部は物質に富み、一部はほぼ空となる一方、正味の符号付き電荷は厳密にゼロに保たれ、微視的な各ステップを元に戻せる、単純な人工世界を見いだした。この結果は、全体の釣り合いを破ることも微視的情報を捨てることもなく、顕著な組織化がどのように進みうるかを示す。このモデルでは、その組織化の時期は初期占有率に強く依存し、その形態は局所反応に依存する。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Japanese translation of the English working paper, version 1.49 (DOI 10.5281/zenodo.22270456), made by AI systems under the author's direction. The English is authoritative where the two differ. Companion to 何かが起こっている : 生起理論 (Japanese translation, DOI 10.5281/zenodo.23373483; English, DOI 10.5281/zenodo.22875288).",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "ja",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-17",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.49",
+  "subjects": [
+   "可逆セル・オートマトン",
+   "Margolusブロック・オートマトン",
+   "符号付き電荷の保存",
+   "粗大化",
+   "初通過",
+   "介入の診断"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
  "occurrence-theory-ja": {
   "doi": "10.5281/zenodo.23373483",
   "titles": [
@@ -2626,6 +2699,10 @@
    {
     "description": "Can a finite system repeating on a single cycle reproduce, for a specified duration, the behaviour of another deterministic system, even when the visible behaviour appears irreversible?\nWe formulate this as a circular-sequence problem. Each visible state has a prescribed number of underlying occurrences, and at least a specified number must begin trajectories that follow the visible rule correctly for a given duration. These trajectories may overlap, but every underlying state must belong to one cycle.\nWe establish necessary and sufficient conditions for such a realisation and give a constructive method based on a compact integer certificate. We then show that existence can be decided in time polynomial in the binary size of the input, using at most n minimum-cost-flow computations for n visible states, without expanding the potentially enormous underlying cycle.\nThe result provides an exact resource-feasibility criterion for finite-duration effective dynamics within a recurrent reversible host. It establishes mathematical feasibility under specified conditions, without assuming that the required structures arise naturally.",
     "descriptionType": "Abstract"
+   },
+   {
+    "description": "Working paper, version 1.32. Motivated by Something is happening: Occurrence Theory (DOI 10.5281/zenodo.22875288). The title alludes to Tolkien's One Ring: here the ring is a single recurrent cycle of complete underlying states, and the theorem determines exactly when it can host a specified collection of finite trajectories within a fixed capacity.\nFiles: the paper (PDF) and its archive (ZIP), which holds the LaTeX source and figures, the reference implementation, an independent verification suite, three Lean files, the application demonstration and one script that reruns every check, with the results of that run. Paper, figures and documents: CC BY 4.0. Code: MIT. See LICENSE.txt in the archive.",
+    "descriptionType": "Other"
    }
   ],
   "language": "en",

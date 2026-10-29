@@ -232,7 +232,10 @@ WORKS = [
         "section": "science",
         "kind": "Working paper",
         "path": "papers/zero-without-stasis/",
-        "note_html": 'The computational companion to <a href="../occurrence-theory/"><i>Something is happening: Occurrence '
+        # The English title has no ". " or " : ", so only the Japanese title splits, as on its PDF's title page.
+        "split_title": True,
+        # Root-relative, because the Japanese page sits one folder deeper than the English page.
+        "note_html": 'The computational companion to <a href="/papers/occurrence-theory/"><i>Something is happening: Occurrence '
                      'Theory</i></a>. The Zenodo record also holds the supplement and the code; the code is also on '
                      '<a href="https://github.com/BartlettCJ/zws-reversible-coarsening">GitHub</a>.',
         "editions": [{
@@ -244,6 +247,17 @@ WORKS = [
             "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
             "cite": "Bartlett C. Zero Without Stasis: Organisational Emergence in an Exactly Reversible "
                     "Signed-Charge-Conserving Block Cellular Automaton. Version 1.49. Zenodo, 13 October 2026.",
+        }, {
+            # The Japanese translation, its own record (10.5281/zenodo.23423842), published by the owner on 17 October
+            # 2026 and added here on 29 October at his request. There is no frozen copy in repo\published; this build
+            # file matched the record's manuscript (md5 834c2649d0171c2ba7513a3b3a03e7c0) on 29 October.
+            "lang": "ja", "key": "zws-ja", "dir": "ja",
+            "pdf_src": Path(r"C:\MathUniPapers\repo\translations\ja\companion\build\Zero_Without_Stasis_companion_v1.49_ja.pdf"),
+            "pdf_name": "zero-without-stasis-ja.pdf",
+            "date": "2026-10-17",
+            "date_line": "Working paper, version 1.49. Translation published 17\u00a0October\u00a02026.",
+            "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+            "cite": None, "version": "1.49", "cite_date": "17 October 2026",
         }],
     },
     {
