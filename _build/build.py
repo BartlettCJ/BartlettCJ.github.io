@@ -206,7 +206,7 @@ WORKS = [
                     "13 October 2026.",
         }] + [
             # The translations of version 2.367, each its own record: four published by the owner on 15 October 2026,
-            # six more on 19 October. The PDFs are the frozen copies in C:\MathUniPapers\repo\published\, checked
+            # six more on 19 October, Italian on 29 October. The PDFs are the frozen copies in C:\MathUniPapers\repo\published\, checked
             # against the records; the third field is the date of the copy now on the record (he replaced the
             # Japanese PDF in place on 17 October and the Simplified Chinese on 19 October).
             {
@@ -224,6 +224,7 @@ WORKS = [
                 ("zh-Hant", "zh-hant", "2026-10-19", "2026-10-19"), ("ko", "ko", "2026-10-19", "2026-10-19"),
                 ("ru", "ru", "2026-10-15", "2026-10-15"), ("es", "es", "2026-10-15", "2026-10-15"),
                 ("fr", "fr", "2026-10-19", "2026-10-19"), ("de", "de", "2026-10-19", "2026-10-19"),
+                ("it", "it", "2026-10-29", "2026-10-29"),
                 ("pt-BR", "pt-br", "2026-10-19", "2026-10-19"), ("pt-PT", "pt-pt", "2026-10-19", "2026-10-19"))
         ],
     },

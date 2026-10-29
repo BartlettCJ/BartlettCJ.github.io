@@ -2278,6 +2278,88 @@
    }
   ]
  },
+ "occurrence-theory-it": {
+  "doi": "10.5281/zenodo.23766231",
+  "titles": [
+   {
+    "title": "Sta succedendo qualcosa: Teoria dell'accadere. Attualismo finitario dell'accadere, accadere matematico intrinseco, cosmogenesi evolutiva e attualità cosciente"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "Questo articolo si chiede che cosa potrebbe significare che la realtà stia davvero succedendo. Ogni esperienza cosciente completa solleva due domande. Come è venuta a esserci la sua struttura, comprese le informazioni in un cervello e in un corpo? E che cosa rende quella struttura attuale, vissuta ora, e non soltanto descritta da qualche parte come vissuta?\nLa teoria dell'accadere, proposta in questo articolo, offre una risposta a ciascuna, a partire da un unico punto: sta davvero succedendo qualcosa.\nL'Attualismo finitario dell'accadere, che ne costituisce il nucleo, assume come assioma che almeno un processo di base semplicemente accada, senza inizio né fine. Se tutto ciò che esiste è matematico, la base è una struttura matematica (una regola finita e i suoi stati), e il suo succedere consiste in quella struttura che resta in esecuzione per sempre, senza aver bisogno di alcuna forza motrice e senza incontrare alcuna resistenza. Supponendo che nulla di infinito esista mai come un tutto compiuto, l'esistenza della base non è un fatto separato dal suo succedere; l'articolo chiama questo aspetto del nucleo Accadere matematico intrinseco. La base ha un «adesso» ma nessun orologio: il cambiamento procedurale continua ad accadere senza fine. Un risultato matematico collegato ma indipendente, la nullità strutturata, mostra che qualcosa può dare una somma esattamente pari a zero senza essere vuoto. Si suggerisce che ciò possa contribuire in parte a spiegare perché mai ci sia qualcosa.\nSi propone che da questo processo che accade emerga una struttura più ricca. Si propone che la realtà sia una pila di livelli di complessità crescente, a partire da uno strato di base semplice, ciascuno sostenuto dall'attività sottostante; il nostro universo sarebbe un mondo fra molti a uno di quei livelli superiori. Una base il cui accadere non ha fine potrebbe fornire un'abbondanza quasi-infinita e un cambiamento che non si arresta mai: abbastanza variazione casuale perché la selezione costruisca strutture per la copia, la memoria e la riparazione. Ciò che la selezione costruisce arriverebbe poi, alla fine, a produrre nuovi mondi, alla cieca o per progetto, un processo che l'articolo chiama cosmogenesi evolutiva.\nInfine, si propone che sia questo stesso accadere a rendere le cose attuali, dandoci il nostro senso più profondo del fatto che ci sia davvero un adesso. Gli avvenimenti finiti, comprese le nostre vite, sono parti organizzate di quella base che accade. La struttura determina com'è un'esperienza, ma è il fatto di essere parte dell'accadere della base a far sì che venga davvero vissuta, cosa che questo articolo chiama attualità cosciente.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Italian translation of the English working paper, version 2.367 (DOI 10.5281/zenodo.22875288), made by AI systems under the author's direction. The English is authoritative where the two differ.",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "it",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-10-29",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-nc-nd-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "2.367",
+  "subjects": [
+   "teoria dell'accadere",
+   "attualismo finitario dell'accadere",
+   "accadere matematico intrinseco",
+   "cosmogenesi evolutiva",
+   "attualità cosciente",
+   "potenzialismo rigoroso",
+   "accadere",
+   "struttura matematica",
+   "automi cellulari",
+   "evoluzione",
+   "misura dei processi",
+   "universo a blocco",
+   "coscienza",
+   "nullità strutturata",
+   "nulla"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
  "occurrence-theory-fr": {
   "doi": "10.5281/zenodo.23464163",
   "titles": [
