@@ -479,7 +479,15 @@ def build_edition_page(work, ed):
         eng_title = f'<p class="engtitle" lang="en">English title: {gene_italic(translated)}</p>'
     note = f'<p class="note" lang="en">{E(work["note"])}</p>' if work.get("note") else ""
     if work.get("note_html"):  # written by hand, so HTML is allowed (2026-10-14)
-        note = f'<p class="note" lang="en">{work["note_html"]}</p>'
+        note_html = work["note_html"]
+        if ed["lang"] != "en":
+            # A link to another work opens that work's edition in this page's language, where there is one (owner,
+            # 2026-10-30: the Japanese Occurrence theory page's companion link should open the Japanese companion).
+            for other in WORKS:
+                same = next((o for o in other["editions"] if o["lang"] == ed["lang"] and o["dir"]), None)
+                if other is not work and same:
+                    note_html = note_html.replace(f'href="/{other["path"]}"', f'href="/{other["path"]}{same["dir"]}/"')
+        note = f'<p class="note" lang="en">{note_html}</p>'
     # An abstract's line breaks are its paragraphs (2026-10-14: the occurrence-theory record has five).
     abstract_html = "\n".join(f'<p class="abstract">{E(p)}</p>' for p in m["abstract"].split("\n") if p.strip())
     figure_html = ""
