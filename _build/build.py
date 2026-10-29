@@ -246,12 +246,31 @@ WORKS = [
                     "Signed-Charge-Conserving Block Cellular Automaton. Version 1.49. Zenodo, 13 October 2026.",
         }],
     },
+    {
+        "id": "one-ring",
+        "section": "science",
+        "kind": "Working paper",
+        "path": "papers/one-ring-to-host-it-all/",
+        "note_html": 'Motivated by <a href="/papers/occurrence-theory/"><i>Something is happening: Occurrence '
+                     'Theory</i></a>. The Zenodo record also holds the archive: the LaTeX source and figures, '
+                     'and the verification code (MIT licence).',
+        "editions": [{
+            "lang": "en", "key": "one-ring", "dir": "",
+            "pdf_src": Path(r"C:\SiHMath\output\One_Ring_to_Host_It_All_v1.32.pdf"),
+            "pdf_name": "one-ring-to-host-it-all.pdf",
+            "date": "2026-10-29",
+            "date_line": "Working paper, version 1.32, 29\u00a0October\u00a02026.",
+            "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+            "cite": "Bartlett C. One Ring to Host It All: Fixed-Capacity Circular Realizations of Finite Functional "
+                    "Trajectories. Version 1.32. Zenodo, 29 October 2026.",
+        }],
+    },
 ]
 
 # Works in order of importance, which sets the order of cards on the home page and on every section page (owner,
 # 2026-10-19: "My top 4 important works are probably SiH, Prom1, Data in motion, ZWS, Courtly love and then the rest").
 # Courtly Love is a book, listed after the works on its section page. A new work goes in this list, at his say.
-IMPORTANCE = ["occurrence-theory", "prom1", "data-in-motion", "zero-without-stasis"]
+IMPORTANCE = ["occurrence-theory", "prom1", "data-in-motion", "zero-without-stasis", "one-ring"]
 
 # Order of the cards under "Recent work" on the home page (owner, 2026-10-09: PROM1 first; 2026-10-14: the two papers
 # published that day first; 2026-10-19: by importance, as above).

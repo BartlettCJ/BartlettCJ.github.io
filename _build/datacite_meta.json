@@ -2616,7 +2616,7 @@
   ]
  },
  "one-ring": {
-  "doi": "10.5281/zenodo.23737171",
+  "doi": "10.5281/zenodo.23755207",
   "titles": [
    {
     "title": "One Ring to Host It All: Fixed-Capacity Circular Realizations of Finite Functional Trajectories"
@@ -2624,7 +2624,7 @@
   ],
   "descriptions": [
    {
-    "description": "Can a finite system that repeats on a single cycle reproduce, for a specified duration, the behaviour of another deterministic system, even when the visible behaviour appears irreversible?\nWe formulate this as a circular-sequence problem. Each visible state has a prescribed number of underlying occurrences, and at least a specified number must begin trajectories that follow the visible rule correctly for a given duration. These trajectories may overlap, but every underlying state must belong to one cycle.\nWe establish necessary and sufficient conditions for such a realization and give a constructive method based on a compact integer certificate. We then show that existence can be decided in time polynomial in the binary size of the input, using at most n minimum-cost-flow computations for n visible states, without expanding the potentially enormous underlying cycle.\nThe result provides an exact resource-feasibility criterion for finite-duration effective dynamics within a recurrent reversible host. It establishes mathematical feasibility under specified conditions, without assuming that the required structures arise naturally.",
+    "description": "Can a finite system repeating on a single cycle reproduce, for a specified duration, the behaviour of another deterministic system, even when the visible behaviour appears irreversible?\nWe formulate this as a circular-sequence problem. Each visible state has a prescribed number of underlying occurrences, and at least a specified number must begin trajectories that follow the visible rule correctly for a given duration. These trajectories may overlap, but every underlying state must belong to one cycle.\nWe establish necessary and sufficient conditions for such a realisation and give a constructive method based on a compact integer certificate. We then show that existence can be decided in time polynomial in the binary size of the input, using at most n minimum-cost-flow computations for n visible states, without expanding the potentially enormous underlying cycle.\nThe result provides an exact resource-feasibility criterion for finite-duration effective dynamics within a recurrent reversible host. It establishes mathematical feasibility under specified conditions, without assuming that the required structures arise naturally.",
     "descriptionType": "Abstract"
    }
   ],
@@ -2664,7 +2664,7 @@
    "resourceType": "Working paper",
    "resourceTypeGeneral": "Text"
   },
-  "version": "1.3",
+  "version": "1.32",
   "subjects": [
    "circular words",
    "functional graphs",
