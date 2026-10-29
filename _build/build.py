@@ -192,7 +192,11 @@ WORKS = [
                   "now? Occurrence theory is a new theory of reality that proposes an answer to both, from one "
                   "starting point: something is happening.",
         # Root-relative, because the translation pages sit one folder deeper than the English page.
-        "note_html": 'Its computational companion is <a href="/papers/zero-without-stasis/"><i>Zero Without Stasis</i></a>.',
+        # The second line (owner, 2026-10-30: "A later paper linked to the work is 'One Ring to Host It All'", "or
+        # something"; not "motivated by": "it's not very scientific").
+        "note_html": 'Its computational companion is <a href="/papers/zero-without-stasis/"><i>Zero Without Stasis</i></a>.'
+                     '<br>A later paper related to this work is <a href="/papers/one-ring-to-host-it-all/"><i>One Ring to '
+                     'Host It All</i></a>.',
         # Version 2.367 replaced the PDF on the same record (same DOI) on 15 October 2026; the record stays dated 13 October.
         "editions": [{
             "lang": "en", "key": "occurrence-theory", "dir": "",
