@@ -527,7 +527,7 @@ def build_edition_page(work, ed):
     doi_link = f'<a href="https://doi.org/{m["doi"]}">https://doi.org/{m["doi"]}</a>'
     philarchive = (f'<a class="button secondary" href="{E(ed["philarchive"])}" data-goatcounter-click="philarchive-'
                    f'{work["id"]}-{ed["lang"]}" data-goatcounter-title="PhilArchive: {E(m["title"])} ({ed["lang"]})">'
-                   f'Read on PhilArchive</a> ') if ed.get("philarchive") else ""
+                   f'PhilArchive</a> ') if ed.get("philarchive") else ""
     # Two columns on wide screens: the text on the left, the buttons, licence and languages on the
     # right. On a phone the right column comes first, so the PDF button is at the top.
     body = f"""<article class="paper">
