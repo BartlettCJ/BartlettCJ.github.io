@@ -208,6 +208,9 @@ WORKS = [
             "cite": "Bartlett C. Something is happening: Occurrence Theory. Finitary Occurrent Actualism, Mathematical "
                     "Intrinsic Occurrence, Evolutionary Cosmogenesis, and Conscious Actuality. Version 2.367. Zenodo, "
                     "13 October 2026.",
+            # The same PDF, uploaded by the owner to PhilArchive on 20 October 2026; its button sits above "Read the PDF"
+            # (owner, 2026-10-31). A plain link, not PhilPeople's widget, which loads their script on every visit.
+            "philarchive": "https://philarchive.org/rec/BARSIH-6",
         }] + [
             # The translations of version 2.367, each its own record: four published by the owner on 15 October 2026,
             # six more on 19 October, Italian on 29 October. The PDFs are the frozen copies in C:\MathUniPapers\repo\published\, checked
@@ -522,6 +525,9 @@ def build_edition_page(work, ed):
     cite = edition_cite(work, ed, m)
     shown_title, shown_sub = shown_titles(work, m)
     doi_link = f'<a href="https://doi.org/{m["doi"]}">https://doi.org/{m["doi"]}</a>'
+    philarchive = (f'<a class="button secondary" href="{E(ed["philarchive"])}" data-goatcounter-click="philarchive-'
+                   f'{work["id"]}-{ed["lang"]}" data-goatcounter-title="PhilArchive: {E(m["title"])} ({ed["lang"]})">'
+                   f'Read on PhilArchive</a> ') if ed.get("philarchive") else ""
     # Two columns on wide screens: the text on the left, the buttons, licence and languages on the
     # right. On a phone the right column comes first, so the PDF button is at the top.
     body = f"""<article class="paper">
@@ -542,7 +548,7 @@ def build_edition_page(work, ed):
 <p class="cite">{gene_italic(cite)} {doi_link}</p>
 </div>
 <aside class="paper-side" lang="en">
-<p class="actions"><a class="button" href="{E(ed['pdf_name'])}" data-goatcounter-click="pdf-{work['id']}-{ed['lang']}" data-goatcounter-title="PDF: {E(m['title'])} ({ed['lang']})">Read the PDF</a> <a class="button secondary" href="https://doi.org/{m['doi']}" data-goatcounter-click="zenodo-{work['id']}-{ed['lang']}" data-goatcounter-title="Zenodo: {E(m['title'])} ({ed['lang']})">Zenodo record</a></p>
+<p class="actions">{philarchive}<a class="button" href="{E(ed['pdf_name'])}" data-goatcounter-click="pdf-{work['id']}-{ed['lang']}" data-goatcounter-title="PDF: {E(m['title'])} ({ed['lang']})">Read the PDF</a> <a class="button secondary" href="https://doi.org/{m['doi']}" data-goatcounter-click="zenodo-{work['id']}-{ed['lang']}" data-goatcounter-title="Zenodo: {E(m['title'])} ({ed['lang']})">Zenodo record</a></p>
 <p class="licence">Licence: <a href="{ed['licence'][1]}">{E(ed['licence'][0])}</a></p>
 {others}
 </aside>
