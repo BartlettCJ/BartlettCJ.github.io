@@ -75,7 +75,7 @@ CONTACT_TEXT = [
 ]
 
 # Visitor counter (GoatCounter: no cookies, no personal data). Owner signed up 2026-10-11.
-# Every page loads it; "Read the PDF" and "Zenodo record" buttons are counted as clicks.
+# Every page loads it; the "PhilArchive", "Zenodo" and "Read the PDF" buttons are counted as clicks.
 # Empty string = no counter. Local previews are not counted (the script skips localhost).
 GOATCOUNTER = "https://lczfxkzcq3qcjifb.goatcounter.com/count"
 
@@ -529,7 +529,8 @@ def build_edition_page(work, ed):
                    f'{work["id"]}-{ed["lang"]}" data-goatcounter-title="PhilArchive: {E(m["title"])} ({ed["lang"]})">'
                    f'PhilArchive</a> ') if ed.get("philarchive") else ""
     # Two columns on wide screens: the text on the left, the buttons, licence and languages on the
-    # right. On a phone the right column comes first, so the PDF button is at the top.
+    # right. On a phone the right column comes first, so the buttons are at the top. Their order: PhilArchive (where
+    # there is one), Zenodo, then "Read the PDF" (owner, 2026-10-31).
     body = f"""<article class="paper">
 <header class="paper-head">
 <p class="kind" lang="en">{E(work['kind'])}</p>
@@ -548,7 +549,7 @@ def build_edition_page(work, ed):
 <p class="cite">{gene_italic(cite)} {doi_link}</p>
 </div>
 <aside class="paper-side" lang="en">
-<p class="actions">{philarchive}<a class="button" href="{E(ed['pdf_name'])}" data-goatcounter-click="pdf-{work['id']}-{ed['lang']}" data-goatcounter-title="PDF: {E(m['title'])} ({ed['lang']})">Read the PDF</a> <a class="button secondary" href="https://doi.org/{m['doi']}" data-goatcounter-click="zenodo-{work['id']}-{ed['lang']}" data-goatcounter-title="Zenodo: {E(m['title'])} ({ed['lang']})">Zenodo record</a></p>
+<p class="actions">{philarchive}<a class="button secondary" href="https://doi.org/{m['doi']}" data-goatcounter-click="zenodo-{work['id']}-{ed['lang']}" data-goatcounter-title="Zenodo: {E(m['title'])} ({ed['lang']})">Zenodo</a> <a class="button" href="{E(ed['pdf_name'])}" data-goatcounter-click="pdf-{work['id']}-{ed['lang']}" data-goatcounter-title="PDF: {E(m['title'])} ({ed['lang']})">Read the PDF</a></p>
 <p class="licence">Licence: <a href="{ed['licence'][1]}">{E(ed['licence'][0])}</a></p>
 {others}
 </aside>
