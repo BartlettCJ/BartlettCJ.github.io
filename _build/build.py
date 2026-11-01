@@ -261,6 +261,8 @@ WORKS = [
             "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
             "cite": "Bartlett C. Zero Without Stasis: Organisational Emergence in an Exactly Reversible "
                     "Signed-Charge-Conserving Block Cellular Automaton. Version 1.49. Zenodo, 13 October 2026.",
+            # The Occurrence theory paperback, which includes this paper (owner, 2026-11-01).
+            "amazon": "https://www.amazon.com/dp/B0HN56FK79",
         }, {
             # The Japanese translation, its own record (10.5281/zenodo.23423842), published by the owner on 17 October
             # 2026 and added here on 29 October at his request. There is no frozen copy in repo\published; this build
@@ -272,6 +274,8 @@ WORKS = [
             "date_line": "Working paper, version 1.49. Translation published 17\u00a0October\u00a02026.",
             "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
             "cite": None, "version": "1.49", "cite_date": "17 October 2026",
+            # The Japanese Occurrence theory paperback, which includes this paper (owner, 2026-11-01).
+            "amazon": "https://www.amazon.co.jp/dp/B0HNDTMTLN",
         }],
     },
     {
