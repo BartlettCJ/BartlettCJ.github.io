@@ -75,7 +75,7 @@ CONTACT_TEXT = [
 ]
 
 # Visitor counter (GoatCounter: no cookies, no personal data). Owner signed up 2026-10-11.
-# Every page loads it; the "PhilArchive", "Zenodo" and "Read the PDF" buttons are counted as clicks.
+# Every page loads it; the "PhilArchive", "Zenodo", "Read the PDF" and "Amazon" buttons are counted as clicks.
 # Empty string = no counter. Local previews are not counted (the script skips localhost).
 GOATCOUNTER = "https://lczfxkzcq3qcjifb.goatcounter.com/count"
 
@@ -211,6 +211,9 @@ WORKS = [
             # The same PDF, uploaded by the owner to PhilArchive on 20 October 2026; its button sits above "Read the PDF"
             # (owner, 2026-10-31). A plain link, not PhilPeople's widget, which loads their script on every visit.
             "philarchive": "https://philarchive.org/rec/BARSIH-6",
+            # The paperback (with the companion paper), ISBN 979-8-1625-9942-5, on its primary store; its button sits under
+            # "Read the PDF" (owner, 2026-11-01). Listing checked that day: ISBN-13 979-8162599425, by Chris Bartlett.
+            "amazon": "https://www.amazon.com/dp/B0HN56FK79",
         }] + [
             # The translations of version 2.367, each its own record: four published by the owner on 15 October 2026,
             # six more on 19 October, Italian on 29 October. The PDFs are the frozen copies in C:\MathUniPapers\repo\published\, checked
@@ -225,6 +228,9 @@ WORKS = [
                 "date_line": f"Working paper, version 2.367. Translation published {int(published[8:])}\u00a0October\u00a02026.",
                 "licence": ("CC BY-NC-ND 4.0", "https://creativecommons.org/licenses/by-nc-nd/4.0/"),
                 "cite": None, "version": "2.367", "cite_date": f"{int(published[8:])} October 2026",
+                # The Japanese paperback, ISBN 979-8-1629-5682-2, on Amazon.co.jp, its primary store (listing checked
+                # 2026-11-01: ISBN-13 979-8162956822). No other translation has a paperback.
+                "amazon": {"ja": "https://www.amazon.co.jp/dp/B0HNDTMTLN"}.get(lang),
             }
             for lang, sub, published, filed in (
                 ("ja", "ja", "2026-10-15", "2026-10-17"), ("zh-Hans", "zh-hans", "2026-10-15", "2026-10-19"),
@@ -528,9 +534,12 @@ def build_edition_page(work, ed):
     philarchive = (f'<a class="button secondary" href="{E(ed["philarchive"])}" data-goatcounter-click="philarchive-'
                    f'{work["id"]}-{ed["lang"]}" data-goatcounter-title="PhilArchive: {E(m["title"])} ({ed["lang"]})">'
                    f'PhilArchive</a> ') if ed.get("philarchive") else ""
+    amazon = (f' <a class="button secondary" href="{E(ed["amazon"])}" data-goatcounter-click="amazon-{work["id"]}-'
+              f'{ed["lang"]}" data-goatcounter-title="Amazon: {E(m["title"])} ({ed["lang"]})">Amazon</a>') \
+        if ed.get("amazon") else ""
     # Two columns on wide screens: the text on the left, the buttons, licence and languages on the
     # right. On a phone the right column comes first, so the buttons are at the top. Their order: PhilArchive (where
-    # there is one), Zenodo, then "Read the PDF" (owner, 2026-10-31).
+    # there is one), Zenodo, then "Read the PDF" (owner, 2026-10-31), then Amazon where there is a paperback (2026-11-01).
     body = f"""<article class="paper">
 <header class="paper-head">
 <p class="kind" lang="en">{E(work['kind'])}</p>
@@ -549,7 +558,7 @@ def build_edition_page(work, ed):
 <p class="cite">{gene_italic(cite)} {doi_link}</p>
 </div>
 <aside class="paper-side" lang="en">
-<p class="actions">{philarchive}<a class="button secondary" href="https://doi.org/{m['doi']}" data-goatcounter-click="zenodo-{work['id']}-{ed['lang']}" data-goatcounter-title="Zenodo: {E(m['title'])} ({ed['lang']})">Zenodo</a> <a class="button" href="{E(ed['pdf_name'])}" data-goatcounter-click="pdf-{work['id']}-{ed['lang']}" data-goatcounter-title="PDF: {E(m['title'])} ({ed['lang']})">Read the PDF</a></p>
+<p class="actions">{philarchive}<a class="button secondary" href="https://doi.org/{m['doi']}" data-goatcounter-click="zenodo-{work['id']}-{ed['lang']}" data-goatcounter-title="Zenodo: {E(m['title'])} ({ed['lang']})">Zenodo</a> <a class="button" href="{E(ed['pdf_name'])}" data-goatcounter-click="pdf-{work['id']}-{ed['lang']}" data-goatcounter-title="PDF: {E(m['title'])} ({ed['lang']})">Read the PDF</a>{amazon}</p>
 <p class="licence">Licence: <a href="{ed['licence'][1]}">{E(ed['licence'][0])}</a></p>
 {others}
 </aside>
