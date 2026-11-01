@@ -333,6 +333,43 @@ BOOKS = [
     },
 ]
 
+# Which Amazon store an "Amazon" button opens, from the time zone the visitor's browser reports (owner, 2026-11-01: "adjust
+# the amazon link to the country people coming to our webpage are from"). No lookup, no cookie, nothing sent anywhere. Every
+# store here lists both paperbacks under the same ASIN (the English one checked on all 14 stores, the Japanese on .com and
+# .co.jp, 2026-11-01); other EU countries get Amazon.de, and anywhere else Amazon.com. Without JavaScript the button keeps
+# the edition's own store.
+AMAZON_STORES = {
+    "co.jp": "Asia/Tokyo",
+    "co.uk": "Europe/London Europe/Belfast Europe/Guernsey Europe/Jersey Europe/Isle_of_Man Europe/Gibraltar",
+    "ie": "Europe/Dublin",
+    "de": "Europe/Berlin Europe/Busingen Europe/Vienna Europe/Zurich Europe/Vaduz Europe/Prague Europe/Bratislava "
+          "Europe/Budapest Europe/Ljubljana Europe/Zagreb Europe/Copenhagen Europe/Helsinki Europe/Mariehamn Europe/Oslo "
+          "Europe/Tallinn Europe/Riga Europe/Vilnius Europe/Athens Europe/Sofia Europe/Bucharest Asia/Nicosia "
+          "Europe/Nicosia Asia/Famagusta",
+    "fr": "Europe/Paris Europe/Monaco Europe/Luxembourg",
+    "com.be": "Europe/Brussels",
+    "nl": "Europe/Amsterdam",
+    "es": "Europe/Madrid Africa/Ceuta Atlantic/Canary Europe/Andorra Europe/Lisbon Atlantic/Madeira Atlantic/Azores",
+    "it": "Europe/Rome Europe/Vatican Europe/San_Marino Europe/Malta",
+    "pl": "Europe/Warsaw",
+    "se": "Europe/Stockholm",
+    "ca": "America/Toronto America/Montreal America/Vancouver America/Edmonton America/Winnipeg America/Halifax "
+          "America/St_Johns America/Regina America/Moncton America/Glace_Bay America/Goose_Bay America/Whitehorse "
+          "America/Dawson America/Dawson_Creek America/Fort_Nelson America/Creston America/Iqaluit America/Rankin_Inlet "
+          "America/Resolute America/Cambridge_Bay America/Inuvik America/Yellowknife America/Swift_Current "
+          "America/Atikokan America/Blanc-Sablon America/Nipigon America/Thunder_Bay America/Rainy_River "
+          "America/Pangnirtung",
+    "com.au": "Australia/Sydney Australia/Melbourne Australia/Brisbane Australia/Perth Australia/Adelaide "
+              "Australia/Darwin Australia/Hobart Australia/Canberra Australia/ACT Australia/NSW Australia/Lord_Howe "
+              "Australia/Broken_Hill Australia/Lindeman Australia/Eucla Australia/Currie Antarctica/Macquarie",
+}
+AMAZON_SCRIPT = (
+    "<script>(function () { var z; try { z = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch (e) { return; }"
+    f" var s = {json.dumps({z: s for s, zones in AMAZON_STORES.items() for z in zones.split()}, separators=(',', ':'))}"
+    "[z] || 'com'; document.querySelectorAll('a[data-asin]').forEach(function (a) {"
+    " a.href = 'https://www.amazon.' + s + '/dp/' + a.getAttribute('data-asin'); }); })();</script>"
+)
+
 E = html.escape
 
 
@@ -538,7 +575,8 @@ def build_edition_page(work, ed):
     philarchive = (f'<a class="button secondary" href="{E(ed["philarchive"])}" data-goatcounter-click="philarchive-'
                    f'{work["id"]}-{ed["lang"]}" data-goatcounter-title="PhilArchive: {E(m["title"])} ({ed["lang"]})">'
                    f'PhilArchive</a> ') if ed.get("philarchive") else ""
-    amazon = (f' <a class="button secondary" href="{E(ed["amazon"])}" data-goatcounter-click="amazon-{work["id"]}-'
+    amazon = (f' <a class="button secondary" href="{E(ed["amazon"])}" data-asin="{E(ed["amazon"].rsplit("/dp/", 1)[1])}"'
+              f' data-goatcounter-click="amazon-{work["id"]}-'
               f'{ed["lang"]}" data-goatcounter-title="Amazon: {E(m["title"])} ({ed["lang"]})">Amazon</a>') \
         if ed.get("amazon") else ""
     # Two columns on wide screens: the text on the left, the buttons, licence and languages on the
@@ -567,7 +605,7 @@ def build_edition_page(work, ed):
 {others}
 </aside>
 </div>
-</article>"""
+</article>{AMAZON_SCRIPT if amazon else ''}"""
     title = f"{m['title']} | {SITE['name']}"
     (out_dir / "index.html").write_text(
         page(title, body, depth, lang=ed["lang"], head_extra=head,
