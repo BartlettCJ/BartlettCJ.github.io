@@ -276,6 +276,17 @@ WORKS = [
             "cite": None, "version": "1.49", "cite_date": "17 October 2026",
             # The Japanese Occurrence theory paperback, which includes this paper (owner, 2026-11-01).
             "amazon": "https://www.amazon.co.jp/dp/B0HNDTMTLN",
+        }, {
+            # The Simplified Chinese translation, its own record (10.5281/zenodo.23875999), published by the owner on
+            # 2 November 2026 and added here the same day at his request. The PDF is the exact copy of the record's
+            # manuscript in C:\SiHMath\papers (md5 e812d767189a2d44d28bb405d19fbf77, checked against Zenodo).
+            "lang": "zh-Hans", "key": "zws-zh-hans", "dir": "zh-hans",
+            "pdf_src": Path(r"C:\SiHMath\papers\Zero_Without_Stasis\zh-Hans\companion_paper_v1.49_zh-Hans_manuscript.pdf"),
+            "pdf_name": "zero-without-stasis-zh-hans.pdf",
+            "date": "2026-11-02",
+            "date_line": "Working paper, version 1.49. Translation published 2\u00a0November\u00a02026.",
+            "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+            "cite": None, "version": "1.49", "cite_date": "2 November 2026",
         }],
     },
     {
@@ -283,6 +294,8 @@ WORKS = [
         "section": "science",
         "kind": "Working paper",
         "path": "papers/one-ring-to-host-it-all/",
+        # The English title has no ". " or " : ", so only the translations' titles split, as on their PDFs' title pages.
+        "split_title": True,
         "note_html": 'Motivated by <a href="/papers/occurrence-theory/"><i>Something is happening: Occurrence '
                      'Theory</i></a>. The Zenodo record also holds the archive: the LaTeX source and figures, '
                      'and the verification code (MIT licence).',
@@ -295,7 +308,22 @@ WORKS = [
             "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
             "cite": "Bartlett C. One Ring to Host It All: Fixed-Capacity Circular Realizations of Finite Functional "
                     "Trajectories. Version 1.32. Zenodo, 29 October 2026.",
-        }],
+        }] + [
+            # The Japanese and Simplified Chinese translations, each its own record (10.5281/zenodo.23874751 and
+            # 10.5281/zenodo.23876142), published by the owner on 2 November 2026 and added here the same day at his
+            # request. The PDFs are the exact copies of the records' files in C:\SiHMath\papers (md5 checked against
+            # Zenodo).
+            {
+                "lang": lang, "key": "one-ring-" + sub, "dir": sub,
+                "pdf_src": Path(r"C:\SiHMath\papers\One_Ring_to_Host_It_All") / lang / f"One_Ring_to_Host_It_All_v1.32_{lang}.pdf",
+                "pdf_name": "one-ring-to-host-it-all-" + sub + ".pdf",
+                "date": "2026-11-02",
+                "date_line": "Working paper, version 1.32. Translation published 2\u00a0November\u00a02026.",
+                "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+                "cite": None, "version": "1.32", "cite_date": "2 November 2026",
+            }
+            for lang, sub in (("ja", "ja"), ("zh-Hans", "zh-hans"))
+        ],
     },
 ]
 

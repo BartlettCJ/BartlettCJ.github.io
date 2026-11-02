@@ -2851,5 +2851,228 @@
     ]
    }
   ]
+ },
+ "one-ring-ja": {
+  "doi": "10.5281/zenodo.23874751",
+  "titles": [
+   {
+    "title": "すべてを宿す一つの輪 : 有限な関数軌道の固定容量円環実現"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "単一のサイクルを繰り返す有限系は、可視挙動が不可逆に見える場合にも、指定された期間にわたって、別の決定論的な系の挙動を再現できるだろうか。\nこれを巡回列の問題として定式化する。各可視状態には、根底の出現数が指定されており、そのうち少なくとも指定数は、与えられた期間にわたり可視規則に正しく従う軌道の始まりでなければならない。これらの軌道は重なり合ってもよいが、根底のすべての状態が一つのサイクルに属さなければならない。\nそのような実現の必要十分条件を確立し、コンパクトな整数証明書に基づく構成法を与える。さらに、潜在的に巨大な根底のサイクルを展開することなく、n個の可視状態について高々n回の最小費用流計算を用いて、存在を入力の2進サイズに関して多項式時間で決定できることを示す。\nこの結果は、回帰的で可逆なホストの内部の有限期間の実効的力学について、厳密な資源実行可能性の基準を与える。必要な構造が自然に生じると仮定することなく、指定された条件のもとでの数学的な実行可能性を確立する。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Japanese translation of the English working paper One Ring to Host It All: Fixed-Capacity Circular Realizations of Finite Functional Trajectories, version 1.32 (DOI 10.5281/zenodo.23755207), made by AI systems under the author's direction. The English is authoritative where the two differ. The paper's archive (LaTeX source and figures, reference implementation, verification suite, Lean files) is on the English record.\nRelated to Something is happening: Occurrence Theory (English, DOI 10.5281/zenodo.22875288; Japanese translation 何かが起こっている : 生起理論, DOI 10.5281/zenodo.23373483) and its computational companion Zero Without Stasis (English, DOI 10.5281/zenodo.22270456; Japanese translation 静止なきゼロ, DOI 10.5281/zenodo.23423842).",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "ja",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-11-02",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.32",
+  "subjects": [
+   "巡回文字列",
+   "関数グラフ",
+   "文字の重複度",
+   "整数証明書",
+   "完全単模性",
+   "最小費用流",
+   "多項式時間アルゴリズム",
+   "可逆力学"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "one-ring-zh-hans": {
+  "doi": "10.5281/zenodo.23876142",
+  "titles": [
+   {
+    "title": "一圈承载一切 : 有限函数轨迹的固定容量圆周实现"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "一个沿单个循环重复的有限系统,能否在规定的持续时间内再现另一个确定性系统的行为,即使可见行为显得不可逆?\n我们将其表述为循环序列问题。每个可见状态具有规定的底层出现次数,其中至少规定数量必须是轨迹的开端,这些轨迹在给定持续时间内正确遵循可见规则。这些轨迹可以重叠,但每个底层状态必须属于同一个循环。\n我们确立此类实现的充分必要条件,并给出基于紧凑整数证书的构造方法。随后证明,对于n个可见状态,至多进行n次最小费用流计算,即可在关于输入二进制规模的多项式时间内判定存在性,而无需展开可能极其庞大的底层循环。\n结果为重现的可逆宿主内部、有限持续时间的有效动力学提供精确的资源可行性判据。它确立规定条件下的数学可行性,而不假定所需结构会自然产生。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Simplified Chinese translation of the English working paper One Ring to Host It All: Fixed-Capacity Circular Realizations of Finite Functional Trajectories, version 1.32 (DOI 10.5281/zenodo.23755207), made by AI systems under the author's direction. The English is authoritative where the two differ. The paper's archive (LaTeX source and figures, reference implementation, verification suite, Lean files) is on the English record.\nRelated to Something is happening: Occurrence Theory (English, DOI 10.5281/zenodo.22875288; Simplified Chinese translation 有事正在发生 : 发生理论, DOI 10.5281/zenodo.23373487) and its computational companion Zero Without Stasis (English, DOI 10.5281/zenodo.22270456; Simplified Chinese translation 零而不静止, DOI 10.5281/zenodo.23875999).",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "zh",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-11-02",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.32",
+  "subjects": [
+   "循环词",
+   "函数图",
+   "字母重数",
+   "整数证书",
+   "全单模性",
+   "最小费用流",
+   "多项式时间算法",
+   "可逆动力学"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "zws-zh-hans": {
+  "doi": "10.5281/zenodo.23875999",
+  "titles": [
+   {
+    "title": "零而不静止 : 一个精确可逆且保持有符号荷守恒的块元胞自动机中的组织涌现"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "我们发现了一个简单的人工世界:其中的随机物质重新组织成大而不规则的区域,有些富含物质,有些几乎为空,而净有符号荷始终精确为零,每一步微观变化都可以撤销。这一结果展示了显著的组织如何能够在不打破全局平衡、不丢弃微观信息的情况下发展起来;在此模型中,组织形成的时机强烈依赖于初始占据率,其形态则依赖于局部反应。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Simplified Chinese translation of the English working paper, version 1.49 (DOI 10.5281/zenodo.22270456), made by AI systems under the author's direction. The English is authoritative where the two differ. Companion to 有事正在发生 : 发生理论 (Simplified Chinese translation, DOI 10.5281/zenodo.23373487; English, DOI 10.5281/zenodo.22875288).",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "zh",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-11-02",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.49",
+  "subjects": [
+   "可逆元胞自动机",
+   "Margolus 块自动机",
+   "有符号荷守恒",
+   "粗化",
+   "首达",
+   "干预诊断"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
  }
 }
