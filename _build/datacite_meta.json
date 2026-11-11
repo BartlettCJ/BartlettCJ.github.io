@@ -3074,5 +3074,85 @@
     ]
    }
   ]
+ },
+ "return-of-the-ring": {
+  "doi": "10.5281/zenodo.24121981",
+  "titles": [
+   {
+    "title": "Return of the Ring: Whole-Number Certificates for Every Endpoint Total"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "One Ring to Host It All decides when a single repeating cycle of underlying states can carry a given visible process for a given time. Its test is a certificate: two short lists of whole numbers satisfying four families of linear inequalities. That paper left one implication open. If the inequalities can be satisfied by real numbers, can they be satisfied by whole numbers?\nWe prove that they can, for every finite map, every duration and all integer data. The proof gives more. Set the fourth family aside and call the first three the core. In one connected part of the visible rule, take any one set of endpoint counts and add them up. The totals reached by whole-number solutions of the core are exactly the whole numbers between the smallest and the largest total reached by real solutions. So one lower limit, upper limit or exact value for that total can be met in whole numbers whenever it can be met at all, and whole-number limits on individual entries are kept. The fourth family is a lower limit of this kind, which settles the open implication. For endpoints so far out on a branch that the step after their window is still off the cycle, the largest real total is already a whole number.\nExact examples show where these statements stop: totals taken across two separate parts, weighted totals, totals of continuing counts along a tree, and two limits on two different totals can each fail. One consequence for the earlier paper is that existence of a host is decided by a direct check and one linear-programming feasibility test.",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Working paper, version 1.0. Companion to One Ring to Host It All (DOI 10.5281/zenodo.23755207), motivated by Something is happening: Occurrence Theory (DOI 10.5281/zenodo.22875288).\nFiles: the paper (PDF), and an archive with its LaTeX source, the programs that check its constructions and examples with their recorded outputs, and a Lean 4 project that proves Theorem 1.1 for natural-number data. Text and data: CC BY 4.0. Code: MIT.\nAuthor's website: bartlettcj.github.io",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "en",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-11-11",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "MIT License",
+    "rightsUri": "https://opensource.org/licenses/MIT",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "mit",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.0",
+  "subjects": [
+   "functional graphs",
+   "integer certificates",
+   "integer rounding",
+   "network flows",
+   "circular words",
+   "aggregate constraints"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
  }
 }

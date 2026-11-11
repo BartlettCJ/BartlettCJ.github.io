@@ -296,9 +296,11 @@ WORKS = [
         "path": "papers/one-ring-to-host-it-all/",
         # The English title has no ". " or " : ", so only the translations' titles split, as on their PDFs' title pages.
         "split_title": True,
+        # The second line added on 11 November 2026 with the companion's page.
         "note_html": 'Motivated by <a href="/papers/occurrence-theory/"><i>Something is happening: Occurrence '
                      'Theory</i></a>. The Zenodo record also holds the archive: the LaTeX source and figures, '
-                     'and the verification code (MIT licence).',
+                     'and the verification code (MIT licence).'
+                     '<br>Its companion is <a href="/papers/return-of-the-ring/"><i>Return of the Ring</i></a>.',
         "editions": [{
             "lang": "en", "key": "one-ring", "dir": "",
             "pdf_src": Path(r"C:\SiHMath\output\One_Ring_to_Host_It_All_v1.32.pdf"),
@@ -325,12 +327,33 @@ WORKS = [
             for lang, sub in (("ja", "ja"), ("zh-Hans", "zh-hans"))
         ],
     },
+    # Published on Zenodo by the owner on 11 November 2026 (10.5281/zenodo.24121981) and added here the same day at
+    # his request. The PDF is the record's own file (md5 4adcad2b7bc61a5a0e667da316a965c8, checked against Zenodo).
+    {
+        "id": "return-of-the-ring",
+        "section": "science",
+        "kind": "Working paper",
+        "path": "papers/return-of-the-ring/",
+        "note_html": 'Companion to <a href="/papers/one-ring-to-host-it-all/"><i>One Ring to Host It All</i></a>. '
+                     'The Zenodo record also holds the archive: the LaTeX source, the checking programs with their '
+                     'recorded outputs, and a Lean 4 project for the first theorem (code under the MIT licence).',
+        "editions": [{
+            "lang": "en", "key": "return-of-the-ring", "dir": "",
+            "pdf_src": Path(r"C:\SiHMath\output\Return_of_the_Ring_v1.0.pdf"),
+            "pdf_name": "return-of-the-ring.pdf",
+            "date": "2026-11-11",
+            "date_line": "Working paper, version 1.0, 11\u00a0November\u00a02026.",
+            "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+            "cite": "Bartlett C. Return of the Ring: Whole-Number Certificates for Every Endpoint Total. "
+                    "Version 1.0. Zenodo, 11 November 2026.",
+        }],
+    },
 ]
 
 # Works in order of importance, which sets the order of cards on the home page and on every section page (owner,
 # 2026-10-19: "My top 4 important works are probably SiH, Prom1, Data in motion, ZWS, Courtly love and then the rest").
 # Courtly Love is a book, listed after the works on its section page. A new work goes in this list, at his say.
-IMPORTANCE = ["occurrence-theory", "prom1", "data-in-motion", "zero-without-stasis", "one-ring"]
+IMPORTANCE = ["occurrence-theory", "prom1", "data-in-motion", "zero-without-stasis", "one-ring", "return-of-the-ring"]
 
 # Order of the cards under "Recent work" on the home page (owner, 2026-10-09: PROM1 first; 2026-10-14: the two papers
 # published that day first; 2026-10-19: by importance, as above).
