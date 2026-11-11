@@ -328,7 +328,8 @@ WORKS = [
         ],
     },
     # Published on Zenodo by the owner on 11 November 2026 (10.5281/zenodo.24121981) and added here the same day at
-    # his request. The PDF is the record's own file (md5 4adcad2b7bc61a5a0e667da316a965c8, checked against Zenodo).
+    # his request. Version 1.01 replaced the record's files on 12 November 2026; the PDF is the record's own file
+    # (md5 38ce8adb9c765b1ef0a1c03830ad1580, checked against Zenodo).
     {
         "id": "return-of-the-ring",
         "section": "science",
@@ -339,13 +340,13 @@ WORKS = [
                      'recorded outputs, and a Lean 4 project for the first theorem (code under the MIT licence).',
         "editions": [{
             "lang": "en", "key": "return-of-the-ring", "dir": "",
-            "pdf_src": Path(r"C:\SiHMath\output\Return_of_the_Ring_v1.0.pdf"),
+            "pdf_src": Path(r"C:\SiHMath\output\Return_of_the_Ring_v1.01.pdf"),
             "pdf_name": "return-of-the-ring.pdf",
             "date": "2026-11-11",
-            "date_line": "Working paper, version 1.0, 11\u00a0November\u00a02026.",
+            "date_line": "Working paper, version 1.01, 11\u00a0November\u00a02026.",
             "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
             "cite": "Bartlett C. Return of the Ring: Whole-Number Certificates for Every Endpoint Total. "
-                    "Version 1.0. Zenodo, 11 November 2026.",
+                    "Version 1.01. Zenodo, 11 November 2026.",
         }],
     },
 ]
