@@ -335,6 +335,8 @@ WORKS = [
         "section": "science",
         "kind": "Working paper",
         "path": "papers/return-of-the-ring/",
+        # As for One Ring: the English title has no " : ", so only the translations' titles split.
+        "split_title": True,
         "note_html": 'Companion to <a href="/papers/one-ring-to-host-it-all/"><i>One Ring to Host It All</i></a>. '
                      'The Zenodo record also holds the archive: the LaTeX source, the checking programs with their '
                      'recorded outputs, and a Lean 4 project for the first theorem (code under the MIT licence).',
@@ -347,7 +349,22 @@ WORKS = [
             "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
             "cite": "Bartlett C. Return of the Ring: Whole-Number Certificates for Every Endpoint Total. "
                     "Version 1.01. Zenodo, 11 November 2026.",
-        }],
+        }] + [
+            # The Japanese and Simplified Chinese translations, each its own record (10.5281/zenodo.24195709 and
+            # 10.5281/zenodo.24195717), published by the owner on 13 November 2026 and added here the same day at his
+            # request. The PDFs are the records' own files (md5 70fecb4df0699e1a971b85aa4313c49b and
+            # cfca2a82bece121c55f891b3f9f80983, as uploaded and checked by Zenodo).
+            {
+                "lang": lang, "key": "return-of-the-ring-" + sub, "dir": sub,
+                "pdf_src": Path(r"C:\SiHMath\output") / f"Return_of_the_Ring_v1.01_{lang}.pdf",
+                "pdf_name": "return-of-the-ring-" + sub + ".pdf",
+                "date": "2026-11-13",
+                "date_line": "Working paper, version 1.01. Translation published 13\u00a0November\u00a02026.",
+                "licence": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+                "cite": None, "version": "1.01", "cite_date": "13 November 2026",
+            }
+            for lang, sub in (("ja", "ja"), ("zh-Hans", "zh-hans"))
+        ],
     },
 ]
 

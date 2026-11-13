@@ -3154,5 +3154,151 @@
     ]
    }
   ]
+ },
+ "return-of-the-ring-ja": {
+  "doi": "10.5281/zenodo.24195709",
+  "titles": [
+   {
+    "title": "輪の帰還 : あらゆる終点総数に対する整数証明書"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "先行論文『すべてを宿す一つの輪』は、根底の状態からなる、繰り返す一つのサイクルが、与えられた可視過程を与えられた時間にわたって担える条件の判定法を与える。その判定法は証明書である。すなわち、4つの線形不等式族を満たす、整数からなる2つの短いリストである。先行論文は、一つの含意を未解決のまま残した。不等式を実数で満たせるなら、整数でも満たせるだろうか。\n本論文は、あらゆる有限写像、あらゆる期間、すべての整数データに対して、それが可能であることを証明する。先行論文のすべての場合を含む自然数データについては、この含意はLean 4証明支援系でも証明されており、形式証明は英語原文のアーカイブに収められている。本論文はさらに多くを証明する。第4の不等式族を外し、最初の3つを「コア」と呼ぶ。可視規則の一つの連結部分で、終点数の集合をどれでも一つ取り、その数を足し合わせる。コアの整数解が達成する総数は、実数解が達成する最小総数と最大総数の間の整数と、過不足なく一致する。したがって、その総数に対する一つの下限、上限、または指定値を満たすことができるなら、整数で満たすこともでき、各項に対する整数の限界値も保たれる。第4の不等式族はこの種の下限であり、これによって未解決の含意が解決する。枝の奥にあり、そのウィンドウの次のステップでも閉路の外にある終点については、実数による最大総数がすでに整数である。\n厳密な例によって、これらの主張の成り立つ範囲の境界を示す。2つの別々の部分をまたぐ総数、重み付き総和、木に沿った継続数の総数、および2つの異なる総数に対する2つの限界条件は、それぞれ失敗しうる。先行論文への一つの帰結は、ホストの存在を、直接の確認と1回の線形計画の実行可能性判定によって決定できることである。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Japanese translation of the English working paper Return of the Ring: Whole-Number Certificates for Every Endpoint Total, version 1.01 (DOI 10.5281/zenodo.24121981), made by AI systems under the author's direction. The English is authoritative where the two differ. The paper's archive (LaTeX source, the programs that check its constructions and examples, and the Lean 4 project) is on the English record.\nCompanion to One Ring to Host It All (English, DOI 10.5281/zenodo.23755207; Japanese translation すべてを宿す一つの輪, DOI 10.5281/zenodo.23874751), motivated by Something is happening: Occurrence Theory (DOI 10.5281/zenodo.22875288).\nAuthor's website: bartlettcj.github.io",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "ja",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-11-13",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.01",
+  "subjects": [
+   "関数グラフ",
+   "整数証明書",
+   "整数丸め",
+   "ネットワーク流",
+   "巡回文字列",
+   "集約制約"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
+ },
+ "return-of-the-ring-zh-hans": {
+  "doi": "10.5281/zenodo.24195717",
+  "titles": [
+   {
+    "title": "圈之归来 : 每一个终点总数的整数证书"
+   }
+  ],
+  "descriptions": [
+   {
+    "description": "前作《一圈承载一切》给出了一项检验,用来判定底层状态的单个重复循环何时能在给定时间内承载一个给定的可见过程。这项检验是一份证书:两个简短的整数列表,满足四族线性不等式。前作留下了一条悬而未决的蕴涵。如果这些不等式能由实数满足,那么它们能否由整数满足?\n我们证明,对于每个有限映射、每个持续时间以及所有整数数据,答案都是肯定的。对于涵盖前作每一种情形的自然数数据,该蕴涵还在Lean 4证明助手中得到了证明,形式化证明位于英文原文的存档中。本文证明的结果还不止于此。暂且放下第四族不等式,将前三族称为\"核心\"。在可见规则的一个连通部分中,任选一组终点数并将它们相加。核心的整数解所达到的总数,恰好是实数解所达到的最小总数与最大总数之间的全部整数。因此,只要这个总数的一个下限、上限或确定值能够得到满足,就能够用整数满足,同时保留各个条目的整数界。第四族不等式就是这样一个下限,这就解决了那条悬而未决的蕴涵。对于在分支上位置足够深、以至于其窗口之后的一步仍未到达圈的终点,最大的实数总数本身已经是整数。\n精确例子展示了这些陈述的边界:跨越两个分离部分取得的总数、加权总数、沿树的继续数总和,以及两个不同总数上的两个限制,都可能失败。对前作而言,一个推论是:宿主的存在性可以通过一项直接检查和一次线性规划可行性检验来判定。",
+    "descriptionType": "Abstract"
+   },
+   {
+    "description": "Simplified Chinese translation of the English working paper Return of the Ring: Whole-Number Certificates for Every Endpoint Total, version 1.01 (DOI 10.5281/zenodo.24121981), made by AI systems under the author's direction. The English is authoritative where the two differ. The paper's archive (LaTeX source, the programs that check its constructions and examples, and the Lean 4 project) is on the English record.\nCompanion to One Ring to Host It All (English, DOI 10.5281/zenodo.23755207; Simplified Chinese translation 一圈承载一切, DOI 10.5281/zenodo.23876142), motivated by Something is happening: Occurrence Theory (DOI 10.5281/zenodo.22875288).\nAuthor's website: bartlettcj.github.io",
+    "descriptionType": "Other"
+   }
+  ],
+  "language": "zh",
+  "publicationYear": 2026,
+  "dates": [
+   {
+    "date": "2026-11-13",
+    "dateType": "Issued"
+   }
+  ],
+  "rights": [
+   {
+    "rights": "Creative Commons Attribution 4.0 International",
+    "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "schemeUri": "https://spdx.org/licenses/",
+    "rightsIdentifier": "cc-by-4.0",
+    "rightsIdentifierScheme": "SPDX"
+   },
+   {
+    "rights": "© 2026 Chris Bartlett",
+    "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+   }
+  ],
+  "types": {
+   "ris": "RPRT",
+   "bibtex": "article",
+   "citeproc": "article-journal",
+   "schemaOrg": "ScholarlyArticle",
+   "resourceType": "Working paper",
+   "resourceTypeGeneral": "Text"
+  },
+  "version": "1.01",
+  "subjects": [
+   "函数图",
+   "整数证书",
+   "整数取整",
+   "网络流",
+   "循环词",
+   "聚合约束"
+  ],
+  "creators": [
+   {
+    "name": "Bartlett, Chris",
+    "nameType": "Personal",
+    "givenName": "Chris",
+    "familyName": "Bartlett",
+    "affiliation": [
+     "Independent Researcher"
+    ],
+    "nameIdentifiers": [
+     {
+      "nameIdentifier": "0009-0001-3323-0131",
+      "nameIdentifierScheme": "ORCID"
+     }
+    ]
+   }
+  ]
  }
 }

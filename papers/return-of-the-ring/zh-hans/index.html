@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>圈之归来 : 每一个终点总数的整数证书 | Chris Bartlett</title>
+<meta name="description" content="前作《一圈承载一切》给出了一项检验,用来判定底层状态的单个重复循环何时能在给定时间内承载一个给定的可见过程。这项检验是一份证书:两个简短的整数列表,满足四族线性不等式。前作留下了一条悬而未决的蕴涵。如果这些不等式能由实数满足,那么它们能否由整数满足? 我们证明,对于每个有限映射、每个持续时间以及所有整数数据,答案都是肯定的。对于涵盖前作每一种情形的自然数数据,该蕴涵还在Lean 4证明助手中得到了证明,形式化证明位于英文原文的存档中。本文证明的结果还不止于此。暂且放下第四族不等式,将前三族称为&quot;核心&quot;。在可见规则的一个连通部分中,任选一组终点数并将它们相加。核心的整数解所达到的总数,恰好是实数">
+<link rel="canonical" href="https://bartlettcj.github.io/papers/return-of-the-ring/zh-hans/">
+<link rel="stylesheet" href="../../../css/site.css">
+<meta name="citation_title" content="圈之归来 : 每一个终点总数的整数证书">
+<meta name="citation_author" content="Bartlett, Chris">
+<meta name="citation_publication_date" content="2026/11/13">
+<meta name="citation_pdf_url" content="https://bartlettcj.github.io/papers/return-of-the-ring/zh-hans/return-of-the-ring-zh-hans.pdf">
+<meta name="citation_abstract_html_url" content="https://bartlettcj.github.io/papers/return-of-the-ring/zh-hans/">
+<meta name="citation_doi" content="10.5281/zenodo.24195717">
+<meta name="citation_language" content="zh-Hans">
+<meta name="citation_keywords" content="函数图">
+<meta name="citation_keywords" content="整数证书">
+<meta name="citation_keywords" content="整数取整">
+<meta name="citation_keywords" content="网络流">
+<meta name="citation_keywords" content="循环词">
+<meta name="citation_keywords" content="聚合约束">
+<link rel="alternate" hreflang="en" href="https://bartlettcj.github.io/papers/return-of-the-ring/">
+<link rel="alternate" hreflang="ja" href="https://bartlettcj.github.io/papers/return-of-the-ring/ja/">
+<link rel="alternate" hreflang="zh-Hans" href="https://bartlettcj.github.io/papers/return-of-the-ring/zh-hans/">
+<link rel="alternate" hreflang="x-default" href="https://bartlettcj.github.io/papers/return-of-the-ring/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "圈之归来 : 每一个终点总数的整数证书", "headline": "圈之归来 : 每一个终点总数的整数证书", "inLanguage": "zh-Hans", "datePublished": "2026-11-13", "author": {"@type": "Person", "name": "Chris Bartlett", "sameAs": ["https://orcid.org/0009-0001-3323-0131", "https://substack.com/@asihopeium", "https://x.com/BartlettChrisJ", "https://www.linkedin.com/in/bartlettchris/", "https://github.com/BartlettCJ"]}, "identifier": "https://doi.org/10.5281/zenodo.24195717", "sameAs": "https://doi.org/10.5281/zenodo.24195717", "url": "https://bartlettcj.github.io/papers/return-of-the-ring/zh-hans/", "encoding": {"@type": "MediaObject", "contentUrl": "https://bartlettcj.github.io/papers/return-of-the-ring/zh-hans/return-of-the-ring-zh-hans.pdf", "encodingFormat": "application/pdf"}, "license": "https://creativecommons.org/licenses/by/4.0/", "translationOfWork": {"@type": "ScholarlyArticle", "url": "https://bartlettcj.github.io/papers/return-of-the-ring/"}}</script>
+</head>
+<body>
+<a class="skip" href="#main" lang="en">Skip to content</a>
+<header class="site" lang="en">
+  <a class="brand" href="../../../index.html">Chris Bartlett</a>
+  <nav aria-label="Sections"><a href="../../../index.html">Home</a><a href="../../../ai.html">AI</a><a href="../../../science.html">Science</a><a href="../../../other.html">Other</a><a href="../../../contact.html">Contact</a></nav>
+</header>
+<main id="main">
+<article class="paper">
+<header class="paper-head">
+<p class="kind" lang="en">Working paper</p>
+<h1>圈之归来</h1>
+<p class="subtitle">每一个终点总数的整数证书</p>
+<p class="engtitle" lang="en">English title: Return of the Ring: Whole-Number Certificates for Every Endpoint Total</p>
+<p class="byline" lang="en">Chris Bartlett · <a href="https://orcid.org/0009-0001-3323-0131">ORCID 0009-0001-3323-0131</a></p>
+<p class="dateline" lang="en">Working paper, version 1.01. Translation published 13 November 2026.</p>
+</header>
+<div class="paper-body">
+<div class="paper-main">
+<p class="note" lang="en">Companion to <a href="/papers/one-ring-to-host-it-all/zh-hans/"><i>One Ring to Host It All</i></a>. The Zenodo record also holds the archive: the LaTeX source, the checking programs with their recorded outputs, and a Lean 4 project for the first theorem (code under the MIT licence).</p>
+<h2 lang="en">Abstract</h2>
+<p class="abstract">前作《一圈承载一切》给出了一项检验,用来判定底层状态的单个重复循环何时能在给定时间内承载一个给定的可见过程。这项检验是一份证书:两个简短的整数列表,满足四族线性不等式。前作留下了一条悬而未决的蕴涵。如果这些不等式能由实数满足,那么它们能否由整数满足?</p>
+<p class="abstract">我们证明,对于每个有限映射、每个持续时间以及所有整数数据,答案都是肯定的。对于涵盖前作每一种情形的自然数数据,该蕴涵还在Lean 4证明助手中得到了证明,形式化证明位于英文原文的存档中。本文证明的结果还不止于此。暂且放下第四族不等式,将前三族称为&quot;核心&quot;。在可见规则的一个连通部分中,任选一组终点数并将它们相加。核心的整数解所达到的总数,恰好是实数解所达到的最小总数与最大总数之间的全部整数。因此,只要这个总数的一个下限、上限或确定值能够得到满足,就能够用整数满足,同时保留各个条目的整数界。第四族不等式就是这样一个下限,这就解决了那条悬而未决的蕴涵。对于在分支上位置足够深、以至于其窗口之后的一步仍未到达圈的终点,最大的实数总数本身已经是整数。</p>
+<p class="abstract">精确例子展示了这些陈述的边界:跨越两个分离部分取得的总数、加权总数、沿树的继续数总和,以及两个不同总数上的两个限制,都可能失败。对前作而言,一个推论是:宿主的存在性可以通过一项直接检查和一次线性规划可行性检验来判定。</p>
+<h2 lang="en">How to cite</h2>
+<p class="cite">Bartlett C. 圈之归来 : 每一个终点总数的整数证书. Version 1.01. Zenodo, 13 November 2026. <a href="https://doi.org/10.5281/zenodo.24195717">https://doi.org/10.5281/zenodo.24195717</a></p>
+</div>
+<aside class="paper-side" lang="en">
+<p class="actions"><a class="button secondary" href="https://doi.org/10.5281/zenodo.24195717" data-goatcounter-click="zenodo-return-of-the-ring-zh-Hans" data-goatcounter-title="Zenodo: 圈之归来 : 每一个终点总数的整数证书 (zh-Hans)">Zenodo</a> <a class="button" href="return-of-the-ring-zh-hans.pdf" data-goatcounter-click="pdf-return-of-the-ring-zh-Hans" data-goatcounter-title="PDF: 圈之归来 : 每一个终点总数的整数证书 (zh-Hans)">Read the PDF</a></p>
+<p class="licence">Licence: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+<section class="editions" lang="en"><h2>Read in</h2><ul class="langs"><li><a href="../../../papers/return-of-the-ring/" lang="en">English</a></li><li><a href="../../../papers/return-of-the-ring/ja/" lang="ja">日本語</a></li><li aria-current="page"><a href="../../../papers/return-of-the-ring/zh-hans/" lang="zh-Hans">简体中文</a></li></ul></section>
+</aside>
+</div>
+</article>
+</main>
+<footer class="site" lang="en">
+  <p><a href="https://orcid.org/0009-0001-3323-0131" rel="me">ORCID</a> · <a href="https://substack.com/@asihopeium" rel="me">Substack</a> · <a href="https://x.com/BartlettChrisJ" rel="me">X</a> · <a href="https://www.linkedin.com/in/bartlettchris/" rel="me">LinkedIn</a> · <a href="https://github.com/BartlettCJ" rel="me">GitHub</a></p>
+</footer>
+<script data-goatcounter="https://lczfxkzcq3qcjifb.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

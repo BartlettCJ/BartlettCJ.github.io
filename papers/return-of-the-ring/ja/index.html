@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>輪の帰還 : あらゆる終点総数に対する整数証明書 | Chris Bartlett</title>
+<meta name="description" content="先行論文『すべてを宿す一つの輪』は、根底の状態からなる、繰り返す一つのサイクルが、与えられた可視過程を与えられた時間にわたって担える条件の判定法を与える。その判定法は証明書である。すなわち、4つの線形不等式族を満たす、整数からなる2つの短いリストである。先行論文は、一つの含意を未解決のまま残した。不等式を実数で満たせるなら、整数でも満たせるだろうか。 本論文は、あらゆる有限写像、あらゆる期間、すべての整数データに対して、それが可能であることを証明する。先行論文のすべての場合を含む自然数データについては、この含意はLean 4証明支援系でも証明されており、形式証明は英語原文のアーカイブに収められ">
+<link rel="canonical" href="https://bartlettcj.github.io/papers/return-of-the-ring/ja/">
+<link rel="stylesheet" href="../../../css/site.css">
+<meta name="citation_title" content="輪の帰還 : あらゆる終点総数に対する整数証明書">
+<meta name="citation_author" content="Bartlett, Chris">
+<meta name="citation_publication_date" content="2026/11/13">
+<meta name="citation_pdf_url" content="https://bartlettcj.github.io/papers/return-of-the-ring/ja/return-of-the-ring-ja.pdf">
+<meta name="citation_abstract_html_url" content="https://bartlettcj.github.io/papers/return-of-the-ring/ja/">
+<meta name="citation_doi" content="10.5281/zenodo.24195709">
+<meta name="citation_language" content="ja">
+<meta name="citation_keywords" content="関数グラフ">
+<meta name="citation_keywords" content="整数証明書">
+<meta name="citation_keywords" content="整数丸め">
+<meta name="citation_keywords" content="ネットワーク流">
+<meta name="citation_keywords" content="巡回文字列">
+<meta name="citation_keywords" content="集約制約">
+<link rel="alternate" hreflang="en" href="https://bartlettcj.github.io/papers/return-of-the-ring/">
+<link rel="alternate" hreflang="ja" href="https://bartlettcj.github.io/papers/return-of-the-ring/ja/">
+<link rel="alternate" hreflang="zh-Hans" href="https://bartlettcj.github.io/papers/return-of-the-ring/zh-hans/">
+<link rel="alternate" hreflang="x-default" href="https://bartlettcj.github.io/papers/return-of-the-ring/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "輪の帰還 : あらゆる終点総数に対する整数証明書", "headline": "輪の帰還 : あらゆる終点総数に対する整数証明書", "inLanguage": "ja", "datePublished": "2026-11-13", "author": {"@type": "Person", "name": "Chris Bartlett", "sameAs": ["https://orcid.org/0009-0001-3323-0131", "https://substack.com/@asihopeium", "https://x.com/BartlettChrisJ", "https://www.linkedin.com/in/bartlettchris/", "https://github.com/BartlettCJ"]}, "identifier": "https://doi.org/10.5281/zenodo.24195709", "sameAs": "https://doi.org/10.5281/zenodo.24195709", "url": "https://bartlettcj.github.io/papers/return-of-the-ring/ja/", "encoding": {"@type": "MediaObject", "contentUrl": "https://bartlettcj.github.io/papers/return-of-the-ring/ja/return-of-the-ring-ja.pdf", "encodingFormat": "application/pdf"}, "license": "https://creativecommons.org/licenses/by/4.0/", "translationOfWork": {"@type": "ScholarlyArticle", "url": "https://bartlettcj.github.io/papers/return-of-the-ring/"}}</script>
+</head>
+<body>
+<a class="skip" href="#main" lang="en">Skip to content</a>
+<header class="site" lang="en">
+  <a class="brand" href="../../../index.html">Chris Bartlett</a>
+  <nav aria-label="Sections"><a href="../../../index.html">Home</a><a href="../../../ai.html">AI</a><a href="../../../science.html">Science</a><a href="../../../other.html">Other</a><a href="../../../contact.html">Contact</a></nav>
+</header>
+<main id="main">
+<article class="paper">
+<header class="paper-head">
+<p class="kind" lang="en">Working paper</p>
+<h1>輪の帰還</h1>
+<p class="subtitle">あらゆる終点総数に対する整数証明書</p>
+<p class="engtitle" lang="en">English title: Return of the Ring: Whole-Number Certificates for Every Endpoint Total</p>
+<p class="byline" lang="en">Chris Bartlett · <a href="https://orcid.org/0009-0001-3323-0131">ORCID 0009-0001-3323-0131</a></p>
+<p class="dateline" lang="en">Working paper, version 1.01. Translation published 13 November 2026.</p>
+</header>
+<div class="paper-body">
+<div class="paper-main">
+<p class="note" lang="en">Companion to <a href="/papers/one-ring-to-host-it-all/ja/"><i>One Ring to Host It All</i></a>. The Zenodo record also holds the archive: the LaTeX source, the checking programs with their recorded outputs, and a Lean 4 project for the first theorem (code under the MIT licence).</p>
+<h2 lang="en">Abstract</h2>
+<p class="abstract">先行論文『すべてを宿す一つの輪』は、根底の状態からなる、繰り返す一つのサイクルが、与えられた可視過程を与えられた時間にわたって担える条件の判定法を与える。その判定法は証明書である。すなわち、4つの線形不等式族を満たす、整数からなる2つの短いリストである。先行論文は、一つの含意を未解決のまま残した。不等式を実数で満たせるなら、整数でも満たせるだろうか。</p>
+<p class="abstract">本論文は、あらゆる有限写像、あらゆる期間、すべての整数データに対して、それが可能であることを証明する。先行論文のすべての場合を含む自然数データについては、この含意はLean 4証明支援系でも証明されており、形式証明は英語原文のアーカイブに収められている。本論文はさらに多くを証明する。第4の不等式族を外し、最初の3つを「コア」と呼ぶ。可視規則の一つの連結部分で、終点数の集合をどれでも一つ取り、その数を足し合わせる。コアの整数解が達成する総数は、実数解が達成する最小総数と最大総数の間の整数と、過不足なく一致する。したがって、その総数に対する一つの下限、上限、または指定値を満たすことができるなら、整数で満たすこともでき、各項に対する整数の限界値も保たれる。第4の不等式族はこの種の下限であり、これによって未解決の含意が解決する。枝の奥にあり、そのウィンドウの次のステップでも閉路の外にある終点については、実数による最大総数がすでに整数である。</p>
+<p class="abstract">厳密な例によって、これらの主張の成り立つ範囲の境界を示す。2つの別々の部分をまたぐ総数、重み付き総和、木に沿った継続数の総数、および2つの異なる総数に対する2つの限界条件は、それぞれ失敗しうる。先行論文への一つの帰結は、ホストの存在を、直接の確認と1回の線形計画の実行可能性判定によって決定できることである。</p>
+<h2 lang="en">How to cite</h2>
+<p class="cite">Bartlett C. 輪の帰還 : あらゆる終点総数に対する整数証明書. Version 1.01. Zenodo, 13 November 2026. <a href="https://doi.org/10.5281/zenodo.24195709">https://doi.org/10.5281/zenodo.24195709</a></p>
+</div>
+<aside class="paper-side" lang="en">
+<p class="actions"><a class="button secondary" href="https://doi.org/10.5281/zenodo.24195709" data-goatcounter-click="zenodo-return-of-the-ring-ja" data-goatcounter-title="Zenodo: 輪の帰還 : あらゆる終点総数に対する整数証明書 (ja)">Zenodo</a> <a class="button" href="return-of-the-ring-ja.pdf" data-goatcounter-click="pdf-return-of-the-ring-ja" data-goatcounter-title="PDF: 輪の帰還 : あらゆる終点総数に対する整数証明書 (ja)">Read the PDF</a></p>
+<p class="licence">Licence: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+<section class="editions" lang="en"><h2>Read in</h2><ul class="langs"><li><a href="../../../papers/return-of-the-ring/" lang="en">English</a></li><li aria-current="page"><a href="../../../papers/return-of-the-ring/ja/" lang="ja">日本語</a></li><li><a href="../../../papers/return-of-the-ring/zh-hans/" lang="zh-Hans">简体中文</a></li></ul></section>
+</aside>
+</div>
+</article>
+</main>
+<footer class="site" lang="en">
+  <p><a href="https://orcid.org/0009-0001-3323-0131" rel="me">ORCID</a> · <a href="https://substack.com/@asihopeium" rel="me">Substack</a> · <a href="https://x.com/BartlettChrisJ" rel="me">X</a> · <a href="https://www.linkedin.com/in/bartlettchris/" rel="me">LinkedIn</a> · <a href="https://github.com/BartlettCJ" rel="me">GitHub</a></p>
+</footer>
+<script data-goatcounter="https://lczfxkzcq3qcjifb.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
